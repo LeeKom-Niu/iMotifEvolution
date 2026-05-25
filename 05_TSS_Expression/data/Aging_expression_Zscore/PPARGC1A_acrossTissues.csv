@@ -1,0 +1,2398 @@
+﻿"Age (years)","Series 1 (y)","Series 1 (value)"
+20,"Heart - Left Ventricle",2.45463291344478
+20,"Skin - Not Sun Exposed (Suprapubic)",2.85006892517086
+20,"Brain - Substantia nigra",0.846736664471417
+20,"Brain - Nucleus accumbens (basal ganglia)",1.66574589618715
+20,"Brain - Frontal Cortex (BA9)",0.762816011274052
+20,"Artery - Tibial",0.900385119643113
+20,"Esophagus - Gastroesophageal Junction",1.2673920717699
+20,"Brain - Caudate (basal ganglia)",
+20,"Muscle - Skeletal",3.06964774555868
+20,"Spleen",
+20,"Brain - Anterior cingulate cortex (BA24)",2.00557183115449
+20,"Nerve - Tibial",2.21019059763122
+20,"Cells - Cultured fibroblasts",-1.20846927948337
+20,"Colon - Sigmoid",-0.567606022706118
+20,"Lung",
+20,"Esophagus - Muscularis",-0.312555009140225
+20,"Pituitary",0.673772869565921
+20,"Brain - Spinal cord (cervical c-1)",
+20,"Heart - Atrial Appendage",-2.81938712829996
+20,"Brain - Hypothalamus",-2.67313158802371
+20,"Testis",-2.7009599257036
+20,"Minor Salivary Gland",
+20,"Thyroid",-2.81345584612696
+20,"Adipose - Subcutaneous",
+20,"Adrenal Gland",
+20,"Small Intestine - Terminal Ileum",
+20,"Brain - Cortex",-2.25686459221401
+20,"Liver",
+20,"Brain - Hippocampus",-2.16079070275637
+20,"Breast - Mammary Tissue",
+20,"Esophagus - Mucosa",-2.490882593624
+20,"Brain - Amygdala",-2.64157565483053
+20,"Pancreas",
+20,"Prostate",
+20,"Artery - Coronary",0.256957127293992
+20,"Colon - Transverse",
+20,"Artery - Aorta",
+20,"Brain - Putamen (basal ganglia)",1.3748756150735
+20,"Brain - Cerebellar Hemisphere",2.28673289991412
+20,"Brain - Cerebellum",2.33351945155836
+20,"Kidney - Cortex",
+20,"Skin - Sun Exposed (Lower leg)",
+20,"Stomach",
+20,"Vagina",
+20,"Adipose - Visceral (Omentum)",
+20,"Ovary",
+20,"Uterus",
+21,"Heart - Left Ventricle",2.20332105513902
+21,"Skin - Not Sun Exposed (Suprapubic)",2.51031825538279
+21,"Brain - Substantia nigra",0.980246215490774
+21,"Brain - Nucleus accumbens (basal ganglia)",1.65570812129525
+21,"Brain - Frontal Cortex (BA9)",0.845164412057263
+21,"Artery - Tibial",0.976843013483769
+21,"Esophagus - Gastroesophageal Junction",1.25836180000885
+21,"Brain - Caudate (basal ganglia)",
+21,"Muscle - Skeletal",2.71649871791556
+21,"Spleen",1.72454647585526
+21,"Brain - Anterior cingulate cortex (BA24)",1.89189885233005
+21,"Nerve - Tibial",2.03073087506133
+21,"Cells - Cultured fibroblasts",-1.03326384553276
+21,"Colon - Sigmoid",-0.42259553094
+21,"Lung",-1.20706519318746
+21,"Esophagus - Muscularis",-0.048523412058077
+21,"Pituitary",0.75418070262788
+21,"Brain - Spinal cord (cervical c-1)",
+21,"Heart - Atrial Appendage",-2.4878156296137
+21,"Brain - Hypothalamus",-2.27412939116177
+21,"Testis",-2.30066106444546
+21,"Minor Salivary Gland",-2.3443786459278
+21,"Thyroid",-2.55104921460674
+21,"Adipose - Subcutaneous",-2.75610836065545
+21,"Adrenal Gland",-2.32875672372788
+21,"Small Intestine - Terminal Ileum",-2.29153543729443
+21,"Brain - Cortex",-2.07592273878182
+21,"Liver",-2.38756428223083
+21,"Brain - Hippocampus",-1.94557165801005
+21,"Breast - Mammary Tissue",-2.13553513738905
+21,"Esophagus - Mucosa",-2.19445347978628
+21,"Brain - Amygdala",-2.30891249670473
+21,"Pancreas",-2.99652586579816
+21,"Prostate",-0.863472705524406
+21,"Artery - Coronary",0.0410629576643431
+21,"Colon - Transverse",-1.29256273294778
+21,"Artery - Aorta",2.16872266362431
+21,"Brain - Putamen (basal ganglia)",1.2250829231685
+21,"Brain - Cerebellar Hemisphere",2.07906327833554
+21,"Brain - Cerebellum",2.0209706602946
+21,"Kidney - Cortex",
+21,"Skin - Sun Exposed (Lower leg)",1.97019692196395
+21,"Stomach",-0.0913159508003502
+21,"Vagina",-2.36821323353686
+21,"Adipose - Visceral (Omentum)",0.859369463483019
+21,"Ovary",-1.31485622200831
+21,"Uterus",-1.05719671028527
+22,"Heart - Left Ventricle",1.96606683128049
+22,"Skin - Not Sun Exposed (Suprapubic)",2.18915159318015
+22,"Brain - Substantia nigra",1.08522673292737
+22,"Brain - Nucleus accumbens (basal ganglia)",1.63689751571182
+22,"Brain - Frontal Cortex (BA9)",0.917421696485152
+22,"Artery - Tibial",1.04394966565069
+22,"Esophagus - Gastroesophageal Junction",1.24718133333456
+22,"Brain - Caudate (basal ganglia)",1.49196401409126
+22,"Muscle - Skeletal",2.38371289388058
+22,"Spleen",1.61421805892111
+22,"Brain - Anterior cingulate cortex (BA24)",1.77551270483062
+22,"Nerve - Tibial",1.85876754737872
+22,"Cells - Cultured fibroblasts",-0.859289519865119
+22,"Colon - Sigmoid",-0.283755408559411
+22,"Lung",-0.837545284471484
+22,"Esophagus - Muscularis",0.195430433722975
+22,"Pituitary",0.824387757826562
+22,"Brain - Spinal cord (cervical c-1)",0.298614677242027
+22,"Heart - Atrial Appendage",-2.16782683651475
+22,"Brain - Hypothalamus",-1.89709063136904
+22,"Testis",-1.92126296157432
+22,"Minor Salivary Gland",-2.12859759045713
+22,"Thyroid",-2.29901329042962
+22,"Adipose - Subcutaneous",-2.49760499063132
+22,"Adrenal Gland",-2.15608841613888
+22,"Small Intestine - Terminal Ileum",-2.13875174079598
+22,"Brain - Cortex",-1.90472393204835
+22,"Liver",-2.22983052136349
+22,"Brain - Hippocampus",-1.75154182572204
+22,"Breast - Mammary Tissue",-2.02531535348101
+22,"Esophagus - Mucosa",-1.91532337831611
+22,"Brain - Amygdala",-2.00405964766017
+22,"Pancreas",-2.60948143392492
+22,"Prostate",-0.701793473706769
+22,"Artery - Coronary",-0.157250935441795
+22,"Colon - Transverse",-1.23282609404018
+22,"Artery - Aorta",1.75681281359273
+22,"Brain - Putamen (basal ganglia)",1.07185558523024
+22,"Brain - Cerebellar Hemisphere",1.87458743207942
+22,"Brain - Cerebellum",1.72568125670313
+22,"Kidney - Cortex",
+22,"Skin - Sun Exposed (Lower leg)",1.77348496759295
+22,"Stomach",-0.182181304369428
+22,"Vagina",-2.00001847936458
+22,"Adipose - Visceral (Omentum)",0.671492394442194
+22,"Ovary",-1.26648408306812
+22,"Uterus",-1.01264000950954
+23,"Heart - Left Ventricle",1.74257423337776
+23,"Skin - Not Sun Exposed (Suprapubic)",1.88640968852441
+23,"Brain - Substantia nigra",1.16337543931597
+23,"Brain - Nucleus accumbens (basal ganglia)",1.60958816333064
+23,"Brain - Frontal Cortex (BA9)",0.979778577141167
+23,"Artery - Tibial",1.10187962522443
+23,"Esophagus - Gastroesophageal Junction",1.23372677388311
+23,"Brain - Caudate (basal ganglia)",1.43740043834352
+23,"Muscle - Skeletal",2.07092811747548
+23,"Spleen",1.5038258985941
+23,"Brain - Anterior cingulate cortex (BA24)",1.65701780198991
+23,"Nerve - Tibial",1.69420455928602
+23,"Cells - Cultured fibroblasts",-0.687272489962811
+23,"Colon - Sigmoid",-0.151206943151676
+23,"Lung",-0.497484070817179
+23,"Esophagus - Muscularis",0.41916269500863
+23,"Pituitary",0.884670131796846
+23,"Brain - Spinal cord (cervical c-1)",0.34557882612557
+23,"Heart - Atrial Appendage",-1.85982331761885
+23,"Brain - Hypothalamus",-1.5418430953363
+23,"Testis",-1.56265672723821
+23,"Minor Salivary Gland",-1.92229503689229
+23,"Thyroid",-2.05728161318114
+23,"Adipose - Subcutaneous",-2.25080230803854
+23,"Adrenal Gland",-1.99048263815666
+23,"Small Intestine - Terminal Ileum",-1.98892437151317
+23,"Brain - Cortex",-1.7429213684712
+23,"Liver",-2.07613936032069
+23,"Brain - Hippocampus",-1.57736457629158
+23,"Breast - Mammary Tissue",-1.91440483062937
+23,"Esophagus - Mucosa",-1.65332488056448
+23,"Brain - Amygdala",-1.7255501107686
+23,"Pancreas",-2.24514491014877
+23,"Prostate",-0.557777154066003
+23,"Artery - Coronary",-0.338100530073831
+23,"Colon - Transverse",-1.17652095212359
+23,"Artery - Aorta",1.36776757294822
+23,"Brain - Putamen (basal ganglia)",0.916148547702029
+23,"Brain - Cerebellar Hemisphere",1.67375303064651
+23,"Brain - Cerebellum",1.44728476871346
+23,"Kidney - Cortex",
+23,"Skin - Sun Exposed (Lower leg)",1.58098847536065
+23,"Stomach",-0.262824855042247
+23,"Vagina",-1.65846471919724
+23,"Adipose - Visceral (Omentum)",0.492111077039515
+23,"Ovary",-1.21982017370301
+23,"Uterus",-0.969403450858813
+24,"Heart - Left Ventricle",1.53254725293937
+24,"Skin - Not Sun Exposed (Suprapubic)",1.60193329137707
+24,"Brain - Substantia nigra",1.21638955719134
+24,"Brain - Nucleus accumbens (basal ganglia)",1.57405414804549
+24,"Brain - Frontal Cortex (BA9)",1.0324257666088
+24,"Artery - Tibial",1.15080744128551
+24,"Esophagus - Gastroesophageal Junction",1.21787422379061
+24,"Brain - Caudate (basal ganglia)",1.37857686533938
+24,"Muscle - Skeletal",1.77778223272198
+24,"Spleen",1.39354824268356
+24,"Brain - Anterior cingulate cortex (BA24)",1.53701855714163
+24,"Nerve - Tibial",1.53694585548586
+24,"Cells - Cultured fibroblasts",-0.517938943308218
+24,"Colon - Sigmoid",-0.0250714223040851
+24,"Lung",-0.186423706961636
+24,"Esophagus - Muscularis",0.622529538604441
+24,"Pituitary",0.935303921173572
+24,"Brain - Spinal cord (cervical c-1)",0.380146382459445
+24,"Heart - Atrial Appendage",-1.56420764154175
+24,"Brain - Hypothalamus",-1.20821456975432
+24,"Testis",-1.2247334715851
+24,"Minor Salivary Gland",-1.72534320078325
+24,"Thyroid",-1.8257877224468
+24,"Adipose - Subcutaneous",-2.01556443452531
+24,"Adrenal Gland",-1.83164688974085
+24,"Small Intestine - Terminal Ileum",-1.84230535077143
+24,"Brain - Cortex",-1.59016824450796
+24,"Liver",-1.92586593954929
+24,"Brain - Hippocampus",-1.42170328011794
+24,"Breast - Mammary Tissue",-1.80278284888607
+24,"Esophagus - Mucosa",-1.40829057788237
+24,"Brain - Amygdala",-1.47191688910182
+24,"Pancreas",-1.9031634328474
+24,"Prostate",-0.430953452590186
+24,"Artery - Coronary",-0.501601804281168
+24,"Colon - Transverse",-1.12324172159375
+24,"Artery - Aorta",1.00174214885294
+24,"Brain - Putamen (basal ganglia)",0.758916757027275
+24,"Brain - Cerebellar Hemisphere",1.47700774353772
+24,"Brain - Cerebellum",1.18541472425523
+24,"Kidney - Cortex",
+24,"Skin - Sun Exposed (Lower leg)",1.39299643820982
+24,"Stomach",-0.333338116083838
+24,"Vagina",-1.34298663687137
+24,"Adipose - Visceral (Omentum)",0.32135083760885
+24,"Ovary",-1.1748304140184
+24,"Uterus",-0.927453867023409
+25,"Heart - Left Ventricle",1.33568988147384
+25,"Skin - Not Sun Exposed (Suprapubic)",1.33556315169961
+25,"Brain - Substantia nigra",1.24596630908827
+25,"Brain - Nucleus accumbens (basal ganglia)",1.5305695537502
+25,"Brain - Frontal Cortex (BA9)",1.07555397747153
+25,"Artery - Tibial",1.19090766291445
+25,"Esophagus - Gastroesophageal Junction",1.19949978519313
+25,"Brain - Caudate (basal ganglia)",1.31552200130537
+25,"Muscle - Skeletal",1.50391308364179
+25,"Spleen",1.28356333899882
+25,"Brain - Anterior cingulate cortex (BA24)",1.41611938361947
+25,"Nerve - Tibial",1.38689538068083
+25,"Cells - Cultured fibroblasts",-0.352015067383723
+25,"Colon - Sigmoid",0.0945298663960353
+25,"Lung",0.0960936523580396
+25,"Esophagus - Muscularis",0.805387131316005
+25,"Pituitary",0.976565222591639
+25,"Brain - Spinal cord (cervical c-1)",0.403267529012175
+25,"Heart - Atrial Appendage",-1.2813823768992
+25,"Brain - Hypothalamus",-0.89603284131391
+25,"Testis",-0.907384304763072
+25,"Minor Salivary Gland",-1.53761429767998
+25,"Thyroid",-1.60446515781213
+25,"Adipose - Subcutaneous",-1.7917554917398
+25,"Adrenal Gland",-1.67928867085109
+25,"Small Intestine - Terminal Ileum",-1.69914669989625
+25,"Brain - Cortex",-1.44611775661622
+25,"Liver",-1.77838539949612
+25,"Brain - Hippocampus",-1.28322130760034
+25,"Breast - Mammary Tissue",-1.69042868830303
+25,"Esophagus - Mucosa",-1.18005306162074
+25,"Brain - Amygdala",-1.24169298573155
+25,"Pancreas",-1.5831841403985
+25,"Prostate",-0.320852075267374
+25,"Artery - Coronary",-0.647870736113213
+25,"Colon - Transverse",-1.07258281684635
+25,"Artery - Aorta",0.658891748469052
+25,"Brain - Putamen (basal ganglia)",0.60111515964928
+25,"Brain - Cerebellar Hemisphere",1.2847992402538
+25,"Brain - Cerebellum",0.939704651257895
+25,"Kidney - Cortex",
+25,"Skin - Sun Exposed (Lower leg)",1.20979784908318
+25,"Stomach",-0.393812600759303
+25,"Vagina",-1.05301891622352
+25,"Adipose - Visceral (Omentum)",0.159337002484048
+25,"Ovary",-1.13148072411973
+25,"Uterus",-0.88675809069367
+26,"Heart - Left Ventricle",1.15170611048975
+26,"Skin - Not Sun Exposed (Suprapubic)",1.08714001945352
+26,"Brain - Substantia nigra",1.25380291754154
+26,"Brain - Nucleus accumbens (basal ganglia)",1.47940846433854
+26,"Brain - Frontal Cortex (BA9)",1.10935392231283
+26,"Artery - Tibial",1.22235483919179
+26,"Esophagus - Gastroesophageal Junction",1.17847956022679
+26,"Brain - Caudate (basal ganglia)",1.24826455246804
+26,"Muscle - Skeletal",1.24895851425664
+26,"Spleen",1.17404943534919
+26,"Brain - Anterior cingulate cortex (BA24)",1.29492469475713
+26,"Nerve - Tibial",1.24395707957358
+26,"Cells - Cultured fibroblasts",-0.190227049671708
+26,"Colon - Sigmoid",0.207475635361407
+26,"Lung",0.35052585240477
+26,"Esophagus - Muscularis",0.967591639948937
+26,"Pituitary",1.00873013268587
+26,"Brain - Spinal cord (cervical c-1)",0.4158924485523
+26,"Heart - Atrial Appendage",-1.01175009230695
+26,"Brain - Hypothalamus",-0.605125696705832
+26,"Testis",-0.6105003369201
+26,"Minor Salivary Gland",-1.35898054313245
+26,"Thyroid",-1.39324745886261
+26,"Adipose - Subcutaneous",-1.57923960133018
+26,"Adrenal Gland",-1.533115481447
+26,"Small Intestine - Terminal Ileum",-1.55970044021307
+26,"Brain - Cortex",-1.31042310125355
+26,"Liver",-1.63307288060807
+26,"Brain - Hippocampus",-1.16058202913805
+26,"Breast - Mammary Tissue",-1.57732162893216
+26,"Esophagus - Mucosa",-0.96844492313059
+26,"Brain - Amygdala",-1.03341140372957
+26,"Pancreas",-1.28485417117977
+26,"Prostate",-0.227002728085627
+26,"Artery - Coronary",-0.777023303619381
+26,"Colon - Transverse",-1.0241386522771
+26,"Artery - Aorta",0.339371578958702
+26,"Brain - Putamen (basal ganglia)",0.443698702011473
+26,"Brain - Cerebellar Hemisphere",1.09757519029563
+26,"Brain - Cerebellum",0.709788077651092
+26,"Kidney - Cortex",
+26,"Skin - Sun Exposed (Lower leg)",1.03168170092345
+26,"Stomach",-0.444339822333625
+26,"Vagina",-0.78799624109022
+26,"Adipose - Visceral (Omentum)",0.00619489799903239
+26,"Ovary",-1.08973702411243
+26,"Uterus",-0.847282954559924
+27,"Heart - Left Ventricle",0.980299931495629
+27,"Skin - Not Sun Exposed (Suprapubic)",0.856504644600296
+27,"Brain - Substantia nigra",1.2415966050859
+27,"Brain - Nucleus accumbens (basal ganglia)",1.42084496370432
+27,"Brain - Frontal Cortex (BA9)",1.13401631371618
+27,"Artery - Tibial",1.24532351919806
+27,"Esophagus - Gastroesophageal Junction",1.15468965102767
+27,"Brain - Caudate (basal ganglia)",1.17683322505394
+27,"Muscle - Skeletal",1.01255636858826
+27,"Spleen",1.065184779544
+27,"Brain - Anterior cingulate cortex (BA24)",1.17403890388834
+27,"Nerve - Tibial",1.10803489686673
+27,"Cells - Cultured fibroblasts",-0.0333010776545461
+27,"Colon - Sigmoid",0.313644597004704
+27,"Lung",0.577330738441445
+27,"Esophagus - Muscularis",1.10899923130885
+27,"Pituitary",1.03207474809118
+27,"Brain - Spinal cord (cervical c-1)",0.418971323848356
+27,"Heart - Atrial Appendage",-0.755713356380749
+27,"Brain - Hypothalamus",-0.335320922620884
+27,"Testis",-0.333972678204185
+27,"Minor Salivary Gland",-1.18931415269062
+27,"Thyroid",-1.19206816518379
+27,"Adipose - Subcutaneous",-1.37788088494466
+27,"Adrenal Gland",-1.39283482148822
+27,"Small Intestine - Terminal Ileum",-1.42421859304737
+27,"Brain - Cortex",-1.18273747487755
+27,"Liver",-1.48930352333199
+27,"Brain - Hippocampus",-1.05244881513028
+27,"Breast - Mammary Tissue",-1.46344095082541
+27,"Esophagus - Mucosa",-0.773298753762888
+27,"Brain - Amygdala",-0.845605146167625
+27,"Pancreas",-1.00782066356889
+27,"Prostate",-0.148935117033012
+27,"Artery - Coronary",-0.88917548484907
+27,"Colon - Transverse",-0.977503642281705
+27,"Artery - Aorta",0.0433368474840454
+27,"Brain - Putamen (basal ganglia)",0.287622330557184
+27,"Brain - Cerebellar Hemisphere",0.915783263164024
+27,"Brain - Cerebellum",0.495298531364354
+27,"Kidney - Cortex",0.931437847256593
+27,"Skin - Sun Exposed (Lower leg)",0.85893698667335
+27,"Stomach",-0.485011294071861
+27,"Vagina",-0.547353295308028
+27,"Adipose - Visceral (Omentum)",-0.13795014951238
+27,"Ovary",-1.04956523410193
+27,"Uterus",-0.808995291312509
+28,"Heart - Left Ventricle",0.821175336000046
+28,"Skin - Not Sun Exposed (Suprapubic)",0.643497777101404
+28,"Brain - Substantia nigra",1.21104459425616
+28,"Brain - Nucleus accumbens (basal ganglia)",1.35515313574132
+28,"Brain - Frontal Cortex (BA9)",1.14973186426508
+28,"Artery - Tibial",1.25998825201378
+28,"Esophagus - Gastroesophageal Junction",1.12800615973185
+28,"Brain - Caudate (basal ganglia)",1.10125672528962
+28,"Muscle - Skeletal",0.794344490658349
+28,"Spleen",0.957147619392585
+28,"Brain - Anterior cingulate cortex (BA24)",1.05406642434678
+28,"Nerve - Tibial",0.979032777262883
+28,"Cells - Cultured fibroblasts",0.118036661185374
+28,"Colon - Sigmoid",0.412915463738622
+28,"Lung",0.776966155730987
+28,"Esophagus - Muscularis",1.22946607220133
+28,"Pituitary",1.04687516544239
+28,"Brain - Spinal cord (cervical c-1)",0.413454337668865
+28,"Heart - Atrial Appendage",-0.51367473773633
+28,"Brain - Hypothalamus",-0.0864463057498302
+28,"Testis",-0.077692438763364
+28,"Minor Salivary Gland",-1.02848734190447
+28,"Thyroid",-1.00086081636119
+28,"Adipose - Subcutaneous",-1.18754346423138
+28,"Adrenal Gland",-1.25815419093437
+28,"Small Intestine - Terminal Ileum",-1.29295317972461
+28,"Brain - Cortex",-1.06271407394582
+28,"Liver",-1.3464524681147
+28,"Brain - Hippocampus",-0.957485035976335
+28,"Breast - Mammary Tissue",-1.34876593403469
+28,"Esophagus - Mucosa",-0.594447144868613
+28,"Brain - Amygdala",-0.676807216117488
+28,"Pancreas",-0.751730755943562
+28,"Prostate",-0.0861789480976003
+28,"Artery - Coronary",-0.98444325785169
+28,"Colon - Transverse",-0.93227220125585
+28,"Artery - Aorta",-0.229057238792762
+28,"Brain - Putamen (basal ganglia)",0.133840991729763
+28,"Brain - Cerebellar Hemisphere",0.739871128359773
+28,"Brain - Cerebellum",0.295869540327212
+28,"Kidney - Cortex",0.662578222101321
+28,"Skin - Sun Exposed (Lower leg)",0.691852699275638
+28,"Stomach",-0.515918529239059
+28,"Vagina",-0.330524762713483
+28,"Adipose - Visceral (Omentum)",-0.272972813716279
+28,"Ovary",-1.01093127419366
+28,"Uterus",-0.77186193364176
+29,"Heart - Left Ventricle",0.674036315511508
+29,"Skin - Not Sun Exposed (Suprapubic)",0.447960166918344
+29,"Brain - Substantia nigra",1.16384410758705
+29,"Brain - Nucleus accumbens (basal ganglia)",1.28260706434336
+29,"Brain - Frontal Cortex (BA9)",1.15669128654296
+29,"Artery - Tibial",1.26652358671949
+29,"Esophagus - Gastroesophageal Junction",1.09830518847545
+29,"Brain - Caudate (basal ganglia)",1.02156375940161
+29,"Muscle - Skeletal",0.593960724488641
+29,"Spleen",0.850116202704264
+29,"Brain - Anterior cingulate cortex (BA24)",0.935611669466173
+29,"Nerve - Tibial",0.856854665464673
+29,"Cells - Cultured fibroblasts",0.263059979365678
+29,"Colon - Sigmoid",0.505166947975837
+29,"Lung",0.949889949536286
+29,"Esophagus - Muscularis",1.32884832943198
+29,"Pituitary",1.05340748137438
+29,"Brain - Spinal cord (cervical c-1)",0.400291672782368
+29,"Heart - Atrial Appendage",-0.286036804989464
+29,"Brain - Hypothalamus",0.141670367216526
+29,"Testis",0.158449271254376
+29,"Minor Salivary Gland",-0.876372326323948
+29,"Thyroid",-0.819558951980291
+29,"Adipose - Subcutaneous",-1.00809146083856
+29,"Adrenal Gland",-1.12878108974507
+29,"Small Intestine - Terminal Ileum",-1.16555657890178
+29,"Brain - Cortex",-0.950006094915928
+29,"Liver",-1.20389485540308
+29,"Brain - Hippocampus",-0.874354062075438
+29,"Breast - Mammary Tissue",-1.23327585861193
+29,"Esophagus - Mucosa",-0.431722687798744
+29,"Brain - Amygdala",-0.525550616650907
+29,"Pancreas",-0.516231586681474
+29,"Prostate",-0.038263927267448
+29,"Artery - Coronary",-1.06294260067664
+29,"Colon - Transverse",-0.888038743595261
+29,"Artery - Aorta",-0.477655472709564
+29,"Brain - Putamen (basal ganglia)",-0.0166903680274185
+29,"Brain - Cerebellar Hemisphere",0.57028645538373
+29,"Brain - Cerebellum",0.11113463246928
+29,"Kidney - Cortex",0.412338762108063
+29,"Skin - Sun Exposed (Lower leg)",0.530717831673021
+29,"Stomach",-0.537153041100285
+29,"Vagina",-0.136945327143117
+29,"Adipose - Visceral (Omentum)",-0.398747768278804
+29,"Ovary",-0.973801064493043
+29,"Uterus",-0.732642154915261
+30,"Heart - Left Ventricle",0.538586861538572
+30,"Skin - Not Sun Exposed (Suprapubic)",0.269732564012604
+30,"Brain - Substantia nigra",1.10169236761338
+30,"Brain - Nucleus accumbens (basal ganglia)",1.20348083340423
+30,"Brain - Frontal Cortex (BA9)",1.15508529313334
+30,"Artery - Tibial",1.26510407239571
+30,"Esophagus - Gastroesophageal Junction",1.06546283939453
+30,"Brain - Caudate (basal ganglia)",0.937783033616477
+30,"Muscle - Skeletal",0.411042914100862
+30,"Spleen",0.744268777288366
+30,"Brain - Anterior cingulate cortex (BA24)",0.819279052580234
+30,"Nerve - Tibial",0.741404506174716
+30,"Cells - Cultured fibroblasts",0.401042689403983
+30,"Colon - Sigmoid",0.590277762129068
+30,"Lung",1.09655996512025
+30,"Esophagus - Muscularis",1.40246131922053
+30,"Pituitary",1.05194779252201
+30,"Brain - Spinal cord (cervical c-1)",0.380433511957409
+30,"Heart - Atrial Appendage",-0.0732021267558849
+30,"Brain - Hypothalamus",0.34920130958742
+30,"Testis",0.374561341700987
+30,"Minor Salivary Gland",-0.732841321499037
+30,"Thyroid",-0.648096111626623
+30,"Adipose - Subcutaneous",-0.839388996414343
+30,"Adrenal Gland",-1.00442301787996
+30,"Small Intestine - Terminal Ileum",-1.0414814991952
+30,"Brain - Cortex",-0.844266734245505
+30,"Liver",-1.06100582564397
+30,"Brain - Hippocampus",-0.801719263826819
+30,"Breast - Mammary Tissue",-1.11695000460904
+30,"Esophagus - Mucosa",-0.284957973904255
+30,"Brain - Amygdala",-0.39036835083964
+30,"Pancreas",-0.300970294160323
+30,"Prostate",-0.00471976053062124
+30,"Artery - Coronary",-1.12478949137334
+30,"Colon - Transverse",-0.84439768369564
+30,"Artery - Aorta",-0.702302647104209
+30,"Brain - Putamen (basal ganglia)",-0.163016802270973
+30,"Brain - Cerebellar Hemisphere",0.407476913736715
+30,"Brain - Cerebellum",-0.0592726642799281
+30,"Kidney - Cortex",0.180515705639861
+30,"Skin - Sun Exposed (Lower leg)",0.375821376808219
+30,"Stomach",-0.548806342920569
+30,"Vagina",0.0339503275665153
+30,"Adipose - Visceral (Omentum)",-0.515149686866086
+30,"Ovary",-0.938140525105519
+30,"Uterus",-0.689115650763439
+31,"Heart - Left Ventricle",0.414530965589816
+31,"Skin - Not Sun Exposed (Suprapubic)",0.108655718345667
+31,"Brain - Substantia nigra",1.02628659686992
+31,"Brain - Nucleus accumbens (basal ganglia)",1.11804852681772
+31,"Brain - Frontal Cortex (BA9)",1.14510459661969
+31,"Artery - Tibial",1.25590425812298
+31,"Esophagus - Gastroesophageal Junction",1.02935521462521
+31,"Brain - Caudate (basal ganglia)",0.849943254160723
+31,"Muscle - Skeletal",0.245228903516709
+31,"Spleen",0.639783590954213
+31,"Brain - Anterior cingulate cortex (BA24)",0.70567298702264
+31,"Nerve - Tibial",0.632586244095629
+31,"Cells - Cultured fibroblasts",0.531258603817907
+31,"Colon - Sigmoid",0.668126618610992
+31,"Lung",1.21743404774579
+31,"Esophagus - Muscularis",1.44715502942725
+31,"Pituitary",1.04277219552017
+31,"Brain - Spinal cord (cervical c-1)",0.354830037962508
+31,"Heart - Atrial Appendage",0.124426728348655
+31,"Brain - Hypothalamus",0.536318734672056
+31,"Testis",0.570752662428493
+31,"Minor Salivary Gland",-0.597766542979697
+31,"Thyroid",-0.486405834885714
+31,"Adipose - Subcutaneous",-0.681300192606931
+31,"Adrenal Gland",-0.884787475298656
+31,"Small Intestine - Terminal Ileum",-0.92068045686935
+31,"Brain - Cortex",-0.745149188392085
+31,"Liver",-0.917160519284237
+31,"Brain - Hippocampus",-0.738244011629736
+31,"Breast - Mammary Tissue",-0.999767652077967
+31,"Esophagus - Mucosa",-0.153985594536119
+31,"Brain - Amygdala",-0.269793421755455
+31,"Pancreas",-0.105594016757796
+31,"Prostate",-0.00631612778276475
+31,"Artery - Coronary",-1.17009990799119
+31,"Colon - Transverse",-0.800943435952673
+31,"Artery - Aorta",-0.902843554814544
+31,"Brain - Putamen (basal ganglia)",-0.304183364557591
+31,"Brain - Cerebellar Hemisphere",0.251890172919567
+31,"Brain - Cerebellum",-0.21571882199082
+31,"Kidney - Cortex",-0.0330947089402451
+31,"Skin - Sun Exposed (Lower leg)",0.227452327623985
+31,"Stomach",-0.539412053418586
+31,"Vagina",0.182727517578883
+31,"Adipose - Visceral (Omentum)",-0.622053243144244
+31,"Ovary",-0.906149979938456
+31,"Uterus",-0.642779887270892
+32,"Heart - Left Ventricle",0.301572619173775
+32,"Skin - Not Sun Exposed (Suprapubic)",-0.0354296201209785
+32,"Brain - Substantia nigra",0.939324017891428
+32,"Brain - Nucleus accumbens (basal ganglia)",1.02658422847762
+32,"Brain - Frontal Cortex (BA9)",1.12693990958547
+32,"Artery - Tibial",1.23909869298182
+32,"Esophagus - Gastroesophageal Junction",0.989858416303573
+32,"Brain - Caudate (basal ganglia)",0.75807312726093
+32,"Muscle - Skeletal",0.096156536757936
+32,"Spleen",0.536838891511134
+32,"Brain - Anterior cingulate cortex (BA24)",0.595397886127119
+32,"Nerve - Tibial",0.530303823930048
+32,"Cells - Cultured fibroblasts",0.652981535125072
+32,"Colon - Sigmoid",0.744629103294069
+32,"Lung",1.3129700426758
+32,"Esophagus - Muscularis",1.46508763431847
+32,"Pituitary",1.02615678700369
+32,"Brain - Spinal cord (cervical c-1)",0.324431433566203
+32,"Heart - Atrial Appendage",0.306447191708419
+32,"Brain - Hypothalamus",0.70319485577965
+32,"Testis",0.747132123288859
+32,"Minor Salivary Gland",-0.471020206315896
+32,"Thyroid",-0.334421661343048
+32,"Adipose - Subcutaneous",-0.533689171064502
+32,"Adrenal Gland",-0.769581961960796
+32,"Small Intestine - Terminal Ileum",-0.803105968188693
+32,"Brain - Cortex",-0.652306653813288
+32,"Liver",-0.771734076770716
+32,"Brain - Hippocampus",-0.682591675883459
+32,"Breast - Mammary Tissue",-0.881708081070619
+32,"Esophagus - Mucosa",-0.0445228772644848
+32,"Brain - Amygdala",-0.16235883247011
+32,"Pancreas",0.0702501071484163
+32,"Prostate",-0.0580641178769537
+32,"Artery - Coronary",-1.1989898285796
+32,"Colon - Transverse",-0.764167186233892
+32,"Artery - Aorta",-1.07912298867841
+32,"Brain - Putamen (basal ganglia)",-0.439235108443877
+32,"Brain - Cerebellar Hemisphere",0.103973902433105
+32,"Brain - Cerebellum",-0.358570312733863
+32,"Kidney - Cortex",-0.228696243269198
+32,"Skin - Sun Exposed (Lower leg)",0.0858996770630376
+32,"Stomach",-0.502007178341058
+32,"Vagina",0.297105446536181
+32,"Adipose - Visceral (Omentum)",-0.719333110779419
+32,"Ovary",-0.879200508404518
+32,"Uterus",-0.595132330522204
+33,"Heart - Left Ventricle",0.199415813798945
+33,"Skin - Not Sun Exposed (Suprapubic)",-0.162682701425857
+33,"Brain - Substantia nigra",0.842501853212691
+33,"Brain - Nucleus accumbens (basal ganglia)",0.929362022277743
+33,"Brain - Frontal Cortex (BA9)",1.10078194461418
+33,"Artery - Tibial",1.21486192605276
+33,"Esophagus - Gastroesophageal Junction",0.946848546565699
+33,"Brain - Caudate (basal ganglia)",0.662201359143615
+33,"Muscle - Skeletal",-0.0365363421537695
+33,"Spleen",0.431375128857872
+33,"Brain - Anterior cingulate cortex (BA24)",0.489058163227363
+33,"Nerve - Tibial",0.434461190380578
+33,"Cells - Cultured fibroblasts",0.765485295843098
+33,"Colon - Sigmoid",0.824102690663903
+33,"Lung",1.38362579517321
+33,"Esophagus - Muscularis",1.45841730816062
+33,"Pituitary",1.00237766360745
+33,"Brain - Spinal cord (cervical c-1)",0.290187881537031
+33,"Heart - Atrial Appendage",0.472456694707643
+33,"Brain - Hypothalamus",0.850001886219433
+33,"Testis",0.900551810038582
+33,"Minor Salivary Gland",-0.3524745270576
+33,"Thyroid",-0.192077130584177
+33,"Adipose - Subcutaneous",-0.396420053435224
+33,"Adrenal Gland",-0.65851397782601
+33,"Small Intestine - Terminal Ileum",-0.688710549417708
+33,"Brain - Cortex",-0.565392326966711
+33,"Liver",-0.624101638550275
+33,"Brain - Hippocampus",-0.633425626987211
+33,"Breast - Mammary Tissue",-0.756041113906409
+33,"Esophagus - Mucosa",0.0393979731264274
+33,"Brain - Amygdala",-0.0665975860553533
+33,"Pancreas",0.226914939180617
+33,"Prostate",-0.150855550237408
+33,"Artery - Coronary",-1.21157523118797
+33,"Colon - Transverse",-0.738960612585265
+33,"Artery - Aorta",-1.23098574153366
+33,"Brain - Putamen (basal ganglia)",-0.567217087486469
+33,"Brain - Cerebellar Hemisphere",-0.0358242282218866
+33,"Brain - Cerebellum",-0.488193608579502
+33,"Kidney - Cortex",-0.406492658983958
+33,"Skin - Sun Exposed (Lower leg)",-0.048547581931882
+33,"Stomach",-0.443438311495033
+33,"Vagina",0.367684402335846
+33,"Adipose - Visceral (Omentum)",-0.806863963437722
+33,"Ovary",-0.856014163867067
+33,"Uterus",-0.547670446601976
+34,"Heart - Left Ventricle",0.10776454097395
+34,"Skin - Not Sun Exposed (Suprapubic)",-0.273262775607464
+34,"Brain - Substantia nigra",0.737517325368492
+34,"Brain - Nucleus accumbens (basal ganglia)",0.826655992111872
+34,"Brain - Frontal Cortex (BA9)",1.06682141428929
+34,"Artery - Tibial",1.1756243559739
+34,"Esophagus - Gastroesophageal Junction",0.900201707547707
+34,"Brain - Caudate (basal ganglia)",0.56235665603535
+34,"Muscle - Skeletal",-0.153211889196659
+34,"Spleen",0.32099506956046
+34,"Brain - Anterior cingulate cortex (BA24)",0.38725823165708
+34,"Nerve - Tibial",0.34514411767716
+34,"Cells - Cultured fibroblasts",0.868043698489602
+34,"Colon - Sigmoid",0.904028926052948
+34,"Lung",1.42985915050091
+34,"Esophagus - Muscularis",1.42930222521999
+34,"Pituitary",0.97171092196633
+34,"Brain - Spinal cord (cervical c-1)",0.253049564643523
+34,"Heart - Atrial Appendage",0.622052668730597
+34,"Brain - Hypothalamus",0.9769120393006
+34,"Testis",1.02848748022196
+34,"Minor Salivary Gland",-0.24042239109898
+34,"Thyroid",-0.0593057821945852
+34,"Adipose - Subcutaneous",-0.269356961367291
+34,"Adrenal Gland",-0.554006520794742
+34,"Small Intestine - Terminal Ileum",-0.577446716820864
+34,"Brain - Cortex",-0.484059404309925
+34,"Liver",-0.473638345069758
+34,"Brain - Hippocampus",-0.589409235340239
+34,"Breast - Mammary Tissue",-0.618176375372067
+34,"Esophagus - Mucosa",0.100472049464527
+34,"Brain - Amygdala",0.0189573144170432
+34,"Pancreas",0.353612032877401
+34,"Prostate",-0.275582244288289
+34,"Artery - Coronary",-1.20797209386571
+34,"Colon - Transverse",-0.722518867670246
+34,"Artery - Aorta",-1.35827660621813
+34,"Brain - Putamen (basal ganglia)",-0.68717435524204
+34,"Brain - Cerebellar Hemisphere",-0.167056549544533
+34,"Brain - Cerebellum",-0.604955181598166
+34,"Kidney - Cortex",-0.566687717721478
+34,"Skin - Sun Exposed (Lower leg)",-0.175600456418075
+34,"Stomach",-0.370552046687583
+34,"Vagina",0.399351327524161
+34,"Adipose - Visceral (Omentum)",-0.884520474785302
+34,"Ovary",-0.835312999689465
+34,"Uterus",-0.501891701594786
+35,"Heart - Left Ventricle",0.0263227922072879
+35,"Skin - Not Sun Exposed (Suprapubic)",-0.355257950961466
+35,"Brain - Substantia nigra",0.626067656893586
+35,"Brain - Nucleus accumbens (basal ganglia)",0.718740221873813
+35,"Brain - Frontal Cortex (BA9)",1.02524903119428
+35,"Artery - Tibial",1.11521337858672
+35,"Esophagus - Gastroesophageal Junction",0.848050863413866
+35,"Brain - Caudate (basal ganglia)",0.45856772416266
+35,"Muscle - Skeletal",-0.244425901870404
+35,"Spleen",0.208370436429159
+35,"Brain - Anterior cingulate cortex (BA24)",0.290602504749981
+35,"Nerve - Tibial",0.262153175158975
+35,"Cells - Cultured fibroblasts",0.959930555582206
+35,"Colon - Sigmoid",0.981889354793663
+35,"Lung",1.45212795392179
+35,"Esophagus - Muscularis",1.37990055976308
+35,"Pituitary",0.934432658715171
+35,"Brain - Spinal cord (cervical c-1)",0.213966665654207
+35,"Heart - Atrial Appendage",0.7548325451615
+35,"Brain - Hypothalamus",1.0840975283324
+35,"Testis",1.13198353137275
+35,"Minor Salivary Gland",-0.13406024149379
+35,"Thyroid",0.0627017962008233
+35,"Adipose - Subcutaneous",-0.156686049768842
+35,"Adrenal Gland",-0.458408790833482
+35,"Small Intestine - Terminal Ileum",-0.469266986662639
+35,"Brain - Cortex",-0.407961082300538
+35,"Liver",-0.319719336776033
+35,"Brain - Hippocampus",-0.549205871341808
+35,"Breast - Mammary Tissue",-0.471302849220529
+35,"Esophagus - Mucosa",0.141394444577722
+35,"Brain - Amygdala",0.0957728658753261
+35,"Pancreas",0.44273889850549
+35,"Prostate",-0.423136019453833
+35,"Artery - Coronary",-1.18829639466223
+35,"Colon - Transverse",-0.712037104152169
+35,"Artery - Aorta",-1.4512609109746
+35,"Brain - Putamen (basal ganglia)",-0.798151965267159
+35,"Brain - Cerebellar Hemisphere",-0.289275392034015
+35,"Brain - Cerebellum",-0.7092215038603
+35,"Kidney - Cortex",-0.709485181118707
+35,"Skin - Sun Exposed (Lower leg)",-0.301234532357022
+35,"Stomach",-0.290194977725805
+35,"Vagina",0.396993164647415
+35,"Adipose - Visceral (Omentum)",-0.953030032200973
+35,"Ovary",-0.815819069235077
+35,"Uterus",-0.459293561585242
+36,"Heart - Left Ventricle",-0.0452054409924859
+36,"Skin - Not Sun Exposed (Suprapubic)",-0.400442477326616
+36,"Brain - Substantia nigra",0.509850070322767
+36,"Brain - Nucleus accumbens (basal ganglia)",0.605888795457359
+36,"Brain - Frontal Cortex (BA9)",0.976255507912616
+36,"Artery - Tibial",1.03589903877678
+36,"Esophagus - Gastroesophageal Junction",0.788877247802262
+36,"Brain - Caudate (basal ganglia)",0.350863269752095
+36,"Muscle - Skeletal",-0.303417618355429
+36,"Spleen",0.0961729522742256
+36,"Brain - Anterior cingulate cortex (BA24)",0.199695395839775
+36,"Nerve - Tibial",0.184964500192522
+36,"Cells - Cultured fibroblasts",1.05072755716656
+36,"Colon - Sigmoid",1.05516552221849
+36,"Lung",1.45089005069879
+36,"Esophagus - Muscularis",1.31237048605616
+36,"Pituitary",0.890818970488851
+36,"Brain - Spinal cord (cervical c-1)",0.17388936733764
+36,"Heart - Atrial Appendage",0.870393755384638
+36,"Brain - Hypothalamus",1.17173056662402
+36,"Testis",1.21208436102467
+36,"Minor Salivary Gland",-0.0346156295313467
+36,"Thyroid",0.172808167448533
+36,"Adipose - Subcutaneous",-0.0613952108888179
+36,"Adrenal Gland",-0.371317591000952
+36,"Small Intestine - Terminal Ileum",-0.364123875207498
+36,"Brain - Cortex",-0.336750557396121
+36,"Liver",-0.161719754115927
+36,"Brain - Hippocampus",-0.511478905391168
+36,"Breast - Mammary Tissue",-0.318609519204718
+36,"Esophagus - Mucosa",0.164860251293905
+36,"Brain - Amygdala",0.165316065247742
+36,"Pancreas",0.499427332779416
+36,"Prostate",-0.584408695158222
+36,"Artery - Coronary",-1.15266411162694
+36,"Colon - Transverse",-0.704710474694488
+36,"Artery - Aorta",-1.50304650549269
+36,"Brain - Putamen (basal ganglia)",-0.899194971118525
+36,"Brain - Cerebellar Hemisphere",-0.402033086189529
+36,"Brain - Cerebellum",-0.801359047436332
+36,"Kidney - Cortex",-0.835088810812604
+36,"Skin - Sun Exposed (Lower leg)",-0.430352875221695
+36,"Stomach",-0.209213698416749
+36,"Vagina",0.365496856251898
+36,"Adipose - Visceral (Omentum)",-1.01282668881882
+36,"Ovary",-0.796254425867264
+36,"Uterus",-0.421373492657921
+37,"Heart - Left Ventricle",-0.10711616711683
+37,"Skin - Not Sun Exposed (Suprapubic)",-0.414504817056095
+37,"Brain - Substantia nigra",0.390561788190792
+37,"Brain - Nucleus accumbens (basal ganglia)",0.488375796756308
+37,"Brain - Frontal Cortex (BA9)",0.92003155702779
+37,"Artery - Tibial",0.939951381429686
+37,"Esophagus - Gastroesophageal Junction",0.723079367059691
+37,"Brain - Caudate (basal ganglia)",0.239271999030183
+37,"Muscle - Skeletal",-0.334574355651166
+37,"Spleen",-0.0129256600940825
+37,"Brain - Anterior cingulate cortex (BA24)",0.115141318260144
+37,"Nerve - Tibial",0.113054230144287
+37,"Cells - Cultured fibroblasts",1.14640388370456
+37,"Colon - Sigmoid",1.12133897365987
+37,"Lung",1.42660328609479
+37,"Esophagus - Muscularis",1.22887017836568
+37,"Pituitary",0.841145953922233
+37,"Brain - Spinal cord (cervical c-1)",0.133767852462327
+37,"Heart - Atrial Appendage",0.968333730784255
+37,"Brain - Hypothalamus",1.23998336748469
+37,"Testis",1.26983436671148
+37,"Minor Salivary Gland",0.0566838934990109
+37,"Thyroid",0.271159517669956
+37,"Adipose - Subcutaneous",0.0184488276134053
+37,"Adrenal Gland",-0.292329724355833
+37,"Small Intestine - Terminal Ileum",-0.261969898719925
+37,"Brain - Cortex",-0.270081026054259
+37,"Liver",0.000985262463688762
+37,"Brain - Hippocampus",-0.474891707887539
+37,"Breast - Mammary Tissue",-0.163285369077571
+37,"Esophagus - Mucosa",0.17356456244101
+37,"Brain - Amygdala",0.229053909462532
+37,"Pancreas",0.528809132413691
+37,"Prostate",-0.750292090825666
+37,"Artery - Coronary",-1.10119122280923
+37,"Colon - Transverse",-0.697734131960588
+37,"Artery - Aorta",-1.51774196478054
+37,"Brain - Putamen (basal ganglia)",-0.98934842635276
+37,"Brain - Cerebellar Hemisphere",-0.504881962510238
+37,"Brain - Cerebellum",-0.881734284396709
+37,"Kidney - Cortex",-0.943702368440117
+37,"Skin - Sun Exposed (Lower leg)",-0.561057711336649
+37,"Stomach",-0.134454802567494
+37,"Vagina",0.309749344883908
+37,"Adipose - Visceral (Omentum)",-1.06334511693794
+37,"Ovary",-0.77534112294939
+37,"Uterus",-0.389628960897431
+38,"Heart - Left Ventricle",-0.159705394657179
+38,"Skin - Not Sun Exposed (Suprapubic)",-0.403133432503071
+38,"Brain - Substantia nigra",0.269900033032459
+38,"Brain - Nucleus accumbens (basal ganglia)",0.366475309664451
+38,"Brain - Frontal Cortex (BA9)",0.856767891123278
+38,"Artery - Tibial",0.829640451430975
+38,"Esophagus - Gastroesophageal Junction",0.651055727532927
+38,"Brain - Caudate (basal ganglia)",0.123822618223483
+38,"Muscle - Skeletal",-0.342283430757021
+38,"Spleen",-0.116253677865504
+38,"Brain - Anterior cingulate cortex (BA24)",0.0375446853448362
+38,"Nerve - Tibial",0.0458985023807753
+38,"Cells - Cultured fibroblasts",1.24081458333822
+38,"Colon - Sigmoid",1.17789125445027
+38,"Lung",1.3797255053727
+38,"Esophagus - Muscularis",1.13155781095797
+38,"Pituitary",0.785689705650178
+38,"Brain - Spinal cord (cervical c-1)",0.0945523037968266
+38,"Heart - Atrial Appendage",1.04824990274459
+38,"Brain - Hypothalamus",1.28902814422362
+38,"Testis",1.30627794596692
+38,"Minor Salivary Gland",0.138610776307944
+38,"Thyroid",0.357902032986606
+38,"Adipose - Subcutaneous",0.0847793380784599
+38,"Adrenal Gland",-0.221041993956846
+38,"Small Intestine - Terminal Ileum",-0.162757573464377
+38,"Brain - Cortex",-0.20760568473256
+38,"Liver",0.169020572515959
+38,"Brain - Hippocampus",-0.438107649230194
+38,"Breast - Mammary Tissue",-0.00851938259200379
+38,"Esophagus - Mucosa",0.170202470846929
+38,"Brain - Amygdala",0.288453395447923
+38,"Pancreas",0.536016094122827
+38,"Prostate",-0.911678025880363
+38,"Artery - Coronary",-1.03399370625852
+38,"Colon - Transverse",-0.688303228613872
+38,"Artery - Aorta",-1.49945586384626
+38,"Brain - Putamen (basal ganglia)",-1.06765738452651
+38,"Brain - Cerebellar Hemisphere",-0.597374351495304
+38,"Brain - Cerebellum",-0.950713686811917
+38,"Kidney - Cortex",-1.0355296156382
+38,"Skin - Sun Exposed (Lower leg)",-0.691451267026321
+38,"Stomach",-0.072764883985111
+38,"Vagina",0.234637573089729
+38,"Adipose - Visceral (Omentum)",-1.10401998885734
+38,"Ovary",-0.751801213844818
+38,"Uterus",-0.365557432388347
+39,"Heart - Left Ventricle",-0.203269132105015
+39,"Skin - Not Sun Exposed (Suprapubic)",-0.372016786020729
+39,"Brain - Substantia nigra",0.149562027382518
+39,"Brain - Nucleus accumbens (basal ganglia)",0.240461418075589
+39,"Brain - Frontal Cortex (BA9)",0.786655222782559
+39,"Artery - Tibial",0.707236293666256
+39,"Esophagus - Gastroesophageal Junction",0.573204835568753
+39,"Brain - Caudate (basal ganglia)",0.00454383355854572
+39,"Muscle - Skeletal",-0.330932160672428
+39,"Spleen",-0.211139378229781
+39,"Brain - Anterior cingulate cortex (BA24)",-0.0324900895724978
+39,"Nerve - Tibial",-0.0170265457315098
+39,"Cells - Cultured fibroblasts",1.32781470420953
+39,"Colon - Sigmoid",1.22230390992212
+39,"Lung",1.31071455379543
+39,"Esophagus - Muscularis",1.02259155809942
+39,"Pituitary",0.724726322307556
+39,"Brain - Spinal cord (cervical c-1)",0.0571929041096609
+39,"Heart - Atrial Appendage",1.10973970264991
+39,"Brain - Hypothalamus",1.31903711015004
+39,"Testis",1.3224594963247
+39,"Minor Salivary Gland",0.209937467606134
+39,"Thyroid",0.433181899519914
+39,"Adipose - Subcutaneous",0.139529592846966
+39,"Adrenal Gland",-0.157051202862679
+39,"Small Intestine - Terminal Ileum",-0.0716945484705235
+39,"Brain - Cortex",-0.148977729888619
+39,"Liver",0.343011035594043
+39,"Brain - Hippocampus",-0.399790099818373
+39,"Breast - Mammary Tissue",0.142499456499041
+39,"Esophagus - Mucosa",0.157469069339565
+39,"Brain - Amygdala",0.344981520132167
+39,"Pancreas",0.52618001462135
+39,"Prostate",-1.05945831974651
+39,"Artery - Coronary",-0.950206896775298
+39,"Colon - Transverse",-0.673612917317744
+39,"Artery - Aorta",-1.45229677769799
+39,"Brain - Putamen (basal ganglia)",-1.13316689919638
+39,"Brain - Cerebellar Hemisphere",-0.679062583643924
+39,"Brain - Cerebellum",-1.00866372675232
+39,"Kidney - Cortex",-1.11077431404381
+39,"Skin - Sun Exposed (Lower leg)",-0.819635768615256
+39,"Stomach",-0.0309905364766682
+39,"Vagina",0.145048483415649
+39,"Adipose - Visceral (Omentum)",-1.13428597687609
+39,"Ovary",-0.724356751916911
+39,"Uterus",-0.371830573634476
+40,"Heart - Left Ventricle",-0.238103387951758
+40,"Skin - Not Sun Exposed (Suprapubic)",-0.326843339962226
+40,"Brain - Substantia nigra",0.0312449937757585
+40,"Brain - Nucleus accumbens (basal ganglia)",0.110608205883523
+40,"Brain - Frontal Cortex (BA9)",0.709884264589112
+40,"Artery - Tibial",0.575008953021089
+40,"Esophagus - Gastroesophageal Junction",0.489925197513971
+40,"Brain - Caudate (basal ganglia)",-0.118535648738092
+40,"Muscle - Skeletal",-0.304907862396793
+40,"Spleen",-0.294911038376655
+40,"Brain - Anterior cingulate cortex (BA24)",-0.0943585931581079
+40,"Nerve - Tibial",-0.0762447768260871
+40,"Cells - Cultured fibroblasts",1.4012592944605
+40,"Colon - Sigmoid",1.25205848540788
+40,"Lung",1.19689849761264
+40,"Esophagus - Muscularis",0.904129594056364
+40,"Pituitary",0.65853190052923
+40,"Brain - Spinal cord (cervical c-1)",0.0226398361693612
+40,"Heart - Atrial Appendage",1.15240056188446
+40,"Brain - Hypothalamus",1.33018247857316
+40,"Testis",1.3194234153186
+40,"Minor Salivary Gland",0.26943641610424
+40,"Thyroid",0.497145303391402
+40,"Adipose - Subcutaneous",0.184632864259563
+40,"Adrenal Gland",-0.0999541541320604
+40,"Small Intestine - Terminal Ileum",0.00687256079304047
+40,"Brain - Cortex",-0.0938503579799956
+40,"Liver",0.523581511251076
+40,"Brain - Hippocampus",-0.358602430051327
+40,"Breast - Mammary Tissue",0.286582164442639
+40,"Esophagus - Mucosa",0.138059450746829
+40,"Brain - Amygdala",0.400105280443513
+40,"Pancreas",0.504432690623773
+40,"Prostate",-1.18452479184831
+40,"Artery - Coronary",-0.850597976885237
+40,"Colon - Transverse",-0.650858350735619
+40,"Artery - Aorta",-1.38037328134385
+40,"Brain - Putamen (basal ganglia)",-1.18492202391904
+40,"Brain - Cerebellar Hemisphere",-0.74949898945526
+40,"Brain - Cerebellum",-1.05595087628841
+40,"Kidney - Cortex",-1.1696402252939
+40,"Skin - Sun Exposed (Lower leg)",-0.943713442427923
+40,"Stomach",-0.0159783538492263
+40,"Vagina",0.0458690184079651
+40,"Adipose - Visceral (Omentum)",-1.15357775329321
+40,"Ovary",-0.691729790529032
+40,"Uterus",-0.419586662031978
+41,"Heart - Left Ventricle",-0.264504170688897
+41,"Skin - Not Sun Exposed (Suprapubic)",-0.273301556680743
+41,"Brain - Substantia nigra",-0.0833538452530451
+41,"Brain - Nucleus accumbens (basal ganglia)",-0.02281024301796
+41,"Brain - Frontal Cortex (BA9)",0.626645729126414
+41,"Artery - Tibial",0.435228474381068
+41,"Esophagus - Gastroesophageal Junction",0.401615319715345
+41,"Brain - Caudate (basal ganglia)",-0.245387122439891
+41,"Muscle - Skeletal",-0.268597852929548
+41,"Spleen",-0.364896935495869
+41,"Brain - Anterior cingulate cortex (BA24)",-0.147456412078304
+41,"Nerve - Tibial",-0.13228005353645
+41,"Cells - Cultured fibroblasts",1.45500340223313
+41,"Colon - Sigmoid",1.26463652624
+41,"Lung",1.02407049091428
+41,"Esophagus - Muscularis",0.778330093095239
+41,"Pituitary",0.587382536950054
+41,"Brain - Spinal cord (cervical c-1)",-0.00815671725553184
+41,"Heart - Atrial Appendage",1.17582991183248
+41,"Brain - Hypothalamus",1.32263646280219
+41,"Testis",1.29821410048232
+41,"Minor Salivary Gland",0.31588007051294
+41,"Thyroid",0.549938430722492
+41,"Adipose - Subcutaneous",0.222022424656877
+41,"Adrenal Gland",-0.0493476508236624
+41,"Small Intestine - Terminal Ileum",0.0742827884034465
+41,"Brain - Cortex",-0.0418767654643109
+41,"Liver",0.677614133577799
+41,"Brain - Hippocampus",-0.313208010328298
+41,"Breast - Mammary Tissue",0.420539757485865
+41,"Esophagus - Mucosa",0.114668707896633
+41,"Brain - Amygdala",0.45529167331018
+41,"Pancreas",0.475905918844604
+41,"Prostate",-1.27776926160997
+41,"Artery - Coronary",-0.737730696225531
+41,"Colon - Transverse",-0.617234681530871
+41,"Artery - Aorta",-1.28779394979196
+41,"Brain - Putamen (basal ganglia)",-1.22196781225115
+41,"Brain - Cerebellar Hemisphere",-0.808235899428475
+41,"Brain - Cerebellum",-1.0929416074906
+41,"Kidney - Cortex",-1.2119791940477
+41,"Skin - Sun Exposed (Lower leg)",-1.06178651478882
+41,"Stomach",-0.0345749299098827
+41,"Vagina",-0.0580138793870441
+41,"Adipose - Visceral (Omentum)",-1.16132999040778
+41,"Ovary",-0.652642383044544
+41,"Uterus",-0.493023080003982
+42,"Heart - Left Ventricle",-0.27834654009727
+42,"Skin - Not Sun Exposed (Suprapubic)",-0.217079898529458
+42,"Brain - Substantia nigra",-0.192537267169129
+42,"Brain - Nucleus accumbens (basal ganglia)",-0.159519844735058
+42,"Brain - Frontal Cortex (BA9)",0.537130328977935
+42,"Artery - Tibial",0.290164902631749
+42,"Esophagus - Gastroesophageal Junction",0.30867370851967
+42,"Brain - Caudate (basal ganglia)",-0.375981881320303
+42,"Muscle - Skeletal",-0.226389449270108
+42,"Spleen",-0.418425346777163
+42,"Brain - Anterior cingulate cortex (BA24)",-0.191179132999377
+42,"Nerve - Tibial",-0.185656238496109
+42,"Cells - Cultured fibroblasts",1.48290207566942
+42,"Colon - Sigmoid",1.25751957775094
+42,"Lung",0.80538601072367
+42,"Esophagus - Muscularis",0.632521109029185
+42,"Pituitary",0.511554328204913
+42,"Brain - Spinal cord (cervical c-1)",-0.0342465733964823
+42,"Heart - Atrial Appendage",1.17962518387824
+42,"Brain - Hypothalamus",1.29657127614636
+42,"Testis",1.25987594934963
+42,"Minor Salivary Gland",0.348040879542897
+42,"Thyroid",0.591707467634672
+42,"Adipose - Subcutaneous",0.253631546379532
+42,"Adrenal Gland",-0.00482849599621712
+42,"Small Intestine - Terminal Ileum",0.131875168437828
+42,"Brain - Cortex",0.00728985120086415
+42,"Liver",0.776226668389201
+42,"Brain - Hippocampus",-0.262270211048551
+42,"Breast - Mammary Tissue",0.541183251875787
+42,"Esophagus - Mucosa",0.089991933616873
+42,"Brain - Amygdala",0.512007695660429
+42,"Pancreas",0.445731495998375
+42,"Prostate",-1.33008354845568
+42,"Artery - Coronary",-0.614168804433344
+42,"Colon - Transverse",-0.563440280015988
+42,"Artery - Aorta",-1.17866735805045
+42,"Brain - Putamen (basal ganglia)",-1.24334931774929
+42,"Brain - Cerebellar Hemisphere",-0.854825644062801
+42,"Brain - Cerebellum",-1.1200023924294
+42,"Kidney - Cortex",-1.23673038111506
+42,"Skin - Sun Exposed (Lower leg)",-1.17195721202249
+42,"Stomach",-0.118917404774961
+42,"Vagina",-0.161713267423076
+42,"Adipose - Visceral (Omentum)",-1.15697736051884
+42,"Ovary",-0.60581658282681
+42,"Uterus",-0.576337209973611
+43,"Heart - Left Ventricle",-0.277136274854677
+43,"Skin - Not Sun Exposed (Suprapubic)",-0.163866827861544
+43,"Brain - Substantia nigra",-0.294608049437704
+43,"Brain - Nucleus accumbens (basal ganglia)",-0.29924651537397
+43,"Brain - Frontal Cortex (BA9)",0.441528776727173
+43,"Artery - Tibial",0.142088282658725
+43,"Esophagus - Gastroesophageal Junction",0.211498870273732
+43,"Brain - Caudate (basal ganglia)",-0.51029121915279
+43,"Muscle - Skeletal",-0.182669968417906
+43,"Spleen",-0.452824549410278
+43,"Brain - Anterior cingulate cortex (BA24)",-0.224922342587625
+43,"Nerve - Tibial",-0.236897194338558
+43,"Cells - Cultured fibroblasts",1.47881036291137
+43,"Colon - Sigmoid",1.22818918527313
+43,"Lung",0.554000534064109
+43,"Esophagus - Muscularis",0.461247584274471
+43,"Pituitary",0.431323370928653
+43,"Brain - Spinal cord (cervical c-1)",-0.0546795494849589
+43,"Heart - Atrial Appendage",1.16338380940598
+43,"Brain - Hypothalamus",1.25215913191488
+43,"Testis",1.20545335945427
+43,"Minor Salivary Gland",0.347873087229961
+43,"Thyroid",0.622598600249406
+43,"Adipose - Subcutaneous",0.281393501768159
+43,"Adrenal Gland",0.0340065072915903
+43,"Small Intestine - Terminal Ileum",0.180988734973315
+43,"Brain - Cortex",0.0539962955579088
+43,"Liver",0.826397422824804
+43,"Brain - Hippocampus",-0.204452402611312
+43,"Breast - Mammary Tissue",0.645323663859476
+43,"Esophagus - Mucosa",0.0667242207354618
+43,"Brain - Amygdala",0.571720344422493
+43,"Pancreas",0.419041218799592
+43,"Prostate",-1.33235947180965
+43,"Artery - Coronary",-0.482476051145877
+43,"Colon - Transverse",-0.483650097809269
+43,"Artery - Aorta",-1.05710208112745
+43,"Brain - Putamen (basal ganglia)",-1.24811159397014
+43,"Brain - Cerebellar Hemisphere",-0.888820553857348
+43,"Brain - Cerebellum",-1.13749970317517
+43,"Kidney - Cortex",-1.24272852235889
+43,"Skin - Sun Exposed (Lower leg)",-1.27232776045341
+43,"Stomach",-0.276942895964466
+43,"Vagina",-0.287091523516126
+43,"Adipose - Visceral (Omentum)",-1.13995453592545
+43,"Ovary",-0.543010344440592
+43,"Uterus",-0.653726434364
+44,"Heart - Left Ventricle",-0.26361546179795
+44,"Skin - Not Sun Exposed (Suprapubic)",-0.119350807030167
+44,"Brain - Substantia nigra",-0.387868969524009
+44,"Brain - Nucleus accumbens (basal ganglia)",-0.441716171040915
+44,"Brain - Frontal Cortex (BA9)",0.340031784957586
+44,"Artery - Tibial",-0.00673134065243792
+44,"Esophagus - Gastroesophageal Junction",0.11048931132431
+44,"Brain - Caudate (basal ganglia)",-0.648286429710813
+44,"Muscle - Skeletal",-0.141826727372348
+44,"Spleen",-0.473090269907295
+44,"Brain - Anterior cingulate cortex (BA24)",-0.248081627509361
+44,"Nerve - Tibial",-0.286526783697315
+44,"Cells - Cultured fibroblasts",1.43658331210098
+44,"Colon - Sigmoid",1.17412689413902
+44,"Lung",0.283069537958935
+44,"Esophagus - Muscularis",0.2774930260022
+44,"Pituitary",0.346965761756152
+44,"Brain - Spinal cord (cervical c-1)",-0.0685054627524303
+44,"Heart - Atrial Appendage",1.12670321979998
+44,"Brain - Hypothalamus",1.18957224341696
+44,"Testis",1.13599072832994
+44,"Minor Salivary Gland",0.307538161607476
+44,"Thyroid",0.642758014688176
+44,"Adipose - Subcutaneous",0.307241563163392
+44,"Adrenal Gland",0.0886918703154135
+44,"Small Intestine - Terminal Ileum",0.222962522087027
+44,"Brain - Cortex",0.098589371149301
+44,"Liver",0.835104704024126
+44,"Brain - Hippocampus",-0.138417955415847
+44,"Breast - Mammary Tissue",0.729772009684002
+44,"Esophagus - Mucosa",0.0289327645401635
+44,"Brain - Amygdala",0.635896616524606
+44,"Pancreas",0.400966883962781
+44,"Prostate",-1.21923535122655
+44,"Artery - Coronary",-0.345216186000301
+44,"Colon - Transverse",-0.380274159532862
+44,"Artery - Aorta",-0.927206694031076
+44,"Brain - Putamen (basal ganglia)",-1.23529969447034
+44,"Brain - Cerebellar Hemisphere",-0.90977295931133
+44,"Brain - Cerebellum",-1.14580001179839
+44,"Kidney - Cortex",-1.22880835364203
+44,"Skin - Sun Exposed (Lower leg)",-1.36100038640606
+44,"Stomach",-0.479197963390904
+44,"Vagina",-0.445555697662791
+44,"Adipose - Visceral (Omentum)",-1.10969618892662
+44,"Ovary",-0.460579709897414
+44,"Uterus",-0.709388135598283
+45,"Heart - Left Ventricle",-0.240526187763917
+45,"Skin - Not Sun Exposed (Suprapubic)",-0.0892202983885069
+45,"Brain - Substantia nigra",-0.470622804893258
+45,"Brain - Nucleus accumbens (basal ganglia)",-0.58665472784208
+45,"Brain - Frontal Cortex (BA9)",0.232830066252653
+45,"Artery - Tibial",-0.154023922416158
+45,"Esophagus - Gastroesophageal Junction",0.00604353801819411
+45,"Brain - Caudate (basal ganglia)",-0.7899388067678
+45,"Muscle - Skeletal",-0.108247043132882
+45,"Spleen",-0.482163871796156
+45,"Brain - Anterior cingulate cortex (BA24)",-0.260052574430842
+45,"Nerve - Tibial",-0.335068869205874
+45,"Cells - Cultured fibroblasts",1.35007597138026
+45,"Colon - Sigmoid",1.04924653389829
+45,"Lung",0.00574849943146272
+45,"Esophagus - Muscularis",0.0942409413834353
+45,"Pituitary",0.25875759732228
+45,"Brain - Spinal cord (cervical c-1)",-0.0747741304303697
+45,"Heart - Atrial Appendage",1.05858371598585
+45,"Brain - Hypothalamus",1.10898282396183
+45,"Testis",1.05253245351042
+45,"Minor Salivary Gland",0.241119387382373
+45,"Thyroid",0.652331897072435
+45,"Adipose - Subcutaneous",0.333109002905848
+45,"Adrenal Gland",0.173371187416307
+45,"Small Intestine - Terminal Ileum",0.259135563856106
+45,"Brain - Cortex",0.141415881517383
+45,"Liver",0.809326819126689
+45,"Brain - Hippocampus",-0.0628302398613902
+45,"Breast - Mammary Tissue",0.807162001281358
+45,"Esophagus - Mucosa",-0.0295746878357024
+45,"Brain - Amygdala",0.706003508895028
+45,"Pancreas",0.404077725499993
+45,"Prostate",-0.966972931964169
+45,"Artery - Coronary",-0.204952958633809
+45,"Colon - Transverse",-0.25572248980889
+45,"Artery - Aorta",-0.793089771769462
+45,"Brain - Putamen (basal ganglia)",-1.2039586728065
+45,"Brain - Cerebellar Hemisphere",-0.917235190923909
+45,"Brain - Cerebellum",-1.14526979036951
+45,"Kidney - Cortex",-1.1938046108274
+45,"Skin - Sun Exposed (Lower leg)",-1.43607731620497
+45,"Stomach",-0.696229166966781
+45,"Vagina",-0.616535855587703
+45,"Adipose - Visceral (Omentum)",-1.06563699182144
+45,"Ovary",-0.364143863730772
+45,"Uterus",-0.727519696099587
+46,"Heart - Left Ventricle",-0.210610539589413
+46,"Skin - Not Sun Exposed (Suprapubic)",-0.0791637642897381
+46,"Brain - Substantia nigra",-0.541172333010676
+46,"Brain - Nucleus accumbens (basal ganglia)",-0.733788101883677
+46,"Brain - Frontal Cortex (BA9)",0.120114333195873
+46,"Artery - Tibial",-0.313221183060449
+46,"Esophagus - Gastroesophageal Junction",-0.13693800125859
+46,"Brain - Caudate (basal ganglia)",-0.935219644097248
+46,"Muscle - Skeletal",-0.0863182326989004
+46,"Spleen",-0.474292087790377
+46,"Brain - Anterior cingulate cortex (BA24)",-0.260230770018389
+46,"Nerve - Tibial",-0.40558728451335
+46,"Cells - Cultured fibroblasts",1.2131433888912
+46,"Colon - Sigmoid",0.833832535437036
+46,"Lung",-0.264807104495001
+46,"Esophagus - Muscularis",-0.0755251624107812
+46,"Pituitary",0.166974974261876
+46,"Brain - Spinal cord (cervical c-1)",-0.0725353697502275
+46,"Heart - Atrial Appendage",0.957294788909075
+46,"Brain - Hypothalamus",1.0105630868587
+46,"Testis",0.949722789714503
+46,"Minor Salivary Gland",0.162700049261568
+46,"Thyroid",0.651466433523646
+46,"Adipose - Subcutaneous",0.360929093336162
+46,"Adrenal Gland",0.277361280133665
+46,"Small Intestine - Terminal Ileum",0.290846894357673
+46,"Brain - Cortex",0.182822630204584
+46,"Liver",0.756042075272021
+46,"Brain - Hippocampus",0.0236473736528088
+46,"Breast - Mammary Tissue",0.887517697071178
+46,"Esophagus - Mucosa",-0.0914922157958628
+46,"Brain - Amygdala",0.783508018461987
+46,"Pancreas",0.431976216514342
+46,"Prostate",-0.628899172001262
+46,"Artery - Coronary",-0.0642501186835676
+46,"Colon - Transverse",-0.112405113259512
+46,"Artery - Aorta",-0.65885988935073
+46,"Brain - Putamen (basal ganglia)",-1.15313358253527
+46,"Brain - Cerebellar Hemisphere",-0.910759579194248
+46,"Brain - Cerebellum",-1.13627551095895
+46,"Kidney - Cortex",-1.13655202977787
+46,"Skin - Sun Exposed (Lower leg)",-1.49566077617463
+46,"Stomach",-0.898583066604651
+46,"Vagina",-0.779462063015482
+46,"Adipose - Visceral (Omentum)",-1.00721161690894
+46,"Ovary",-0.259321990474168
+46,"Uterus",-0.719904934150272
+47,"Heart - Left Ventricle",-0.176610604111264
+47,"Skin - Not Sun Exposed (Suprapubic)",-0.100820006030713
+47,"Brain - Substantia nigra",-0.597820331341495
+47,"Brain - Nucleus accumbens (basal ganglia)",-0.882842209271906
+47,"Brain - Frontal Cortex (BA9)",0.0020752983707041
+47,"Artery - Tibial",-0.488488844690882
+47,"Esophagus - Gastroesophageal Junction",-0.323826792626278
+47,"Brain - Caudate (basal ganglia)",-1.08410023547258
+47,"Muscle - Skeletal",-0.0955837751690792
+47,"Spleen",-0.443721650603486
+47,"Brain - Anterior cingulate cortex (BA24)",-0.250065101181114
+47,"Nerve - Tibial",-0.506569736443599
+47,"Cells - Cultured fibroblasts",0.967236901542481
+47,"Colon - Sigmoid",0.564922346092362
+47,"Lung",-0.515441796797114
+47,"Esophagus - Muscularis",-0.218821778209387
+47,"Pituitary",0.0718939892098391
+47,"Brain - Spinal cord (cervical c-1)",-0.0608389979434675
+47,"Heart - Atrial Appendage",0.836337654983662
+47,"Brain - Hypothalamus",0.894485245416796
+47,"Testis",0.828068998963076
+47,"Minor Salivary Gland",0.0863634319519823
+47,"Thyroid",0.63503191371148
+47,"Adipose - Subcutaneous",0.401188841974627
+47,"Adrenal Gland",0.389978970006887
+47,"Small Intestine - Terminal Ileum",0.318442257933144
+47,"Brain - Cortex",0.223156420753344
+47,"Liver",0.682228779599626
+47,"Brain - Hippocampus",0.122351514727486
+47,"Breast - Mammary Tissue",0.96373563303201
+47,"Esophagus - Mucosa",-0.139513898744054
+47,"Brain - Amygdala",0.869877142153721
+47,"Pancreas",0.476344012356957
+47,"Prostate",-0.258341029316632
+47,"Artery - Coronary",0.0743285842132257
+47,"Colon - Transverse",0.0472679454931181
+47,"Artery - Aorta",-0.459521229054796
+47,"Brain - Putamen (basal ganglia)",-1.0818694772133
+47,"Brain - Cerebellar Hemisphere",-0.889898454621526
+47,"Brain - Cerebellum",-1.11918364563715
+47,"Kidney - Cortex",-1.05588534635633
+47,"Skin - Sun Exposed (Lower leg)",-1.53867094273969
+47,"Stomach",-1.05680622221701
+47,"Vagina",-0.913764385670754
+47,"Adipose - Visceral (Omentum)",-0.896102128534617
+47,"Ovary",-0.151733274661101
+47,"Uterus",-0.706000443535632
+48,"Heart - Left Ventricle",-0.141268468166311
+48,"Skin - Not Sun Exposed (Suprapubic)",-0.153577449765895
+48,"Brain - Substantia nigra",-0.638869577350944
+48,"Brain - Nucleus accumbens (basal ganglia)",-1.00171852379601
+48,"Brain - Frontal Cortex (BA9)",-0.121096325639365
+48,"Artery - Tibial",-0.663657864938187
+48,"Esophagus - Gastroesophageal Junction",-0.509632231497497
+48,"Brain - Caudate (basal ganglia)",-1.20778268973112
+48,"Muscle - Skeletal",-0.142151973789848
+48,"Spleen",-0.384699292949005
+48,"Brain - Anterior cingulate cortex (BA24)",-0.233862619901913
+48,"Nerve - Tibial",-0.616675897392199
+48,"Cells - Cultured fibroblasts",0.613497027961166
+48,"Colon - Sigmoid",0.279553413201405
+48,"Lung",-0.733000100451578
+48,"Esophagus - Muscularis",-0.322665398841278
+48,"Pituitary",-0.0262092611990044
+48,"Brain - Spinal cord (cervical c-1)",-0.0387348322415678
+48,"Heart - Atrial Appendage",0.70921353062365
+48,"Brain - Hypothalamus",0.760921512945318
+48,"Testis",0.697409989743012
+48,"Minor Salivary Gland",0.0261928201605417
+48,"Thyroid",0.602943484359278
+48,"Adipose - Subcutaneous",0.456402279364111
+48,"Adrenal Gland",0.500541078575376
+48,"Small Intestine - Terminal Ileum",0.346168304368599
+48,"Brain - Cortex",0.288066064160291
+48,"Liver",0.594865239249041
+48,"Brain - Hippocampus",0.234618812963413
+48,"Breast - Mammary Tissue",1.02871234514242
+48,"Esophagus - Mucosa",-0.156333816083997
+48,"Brain - Amygdala",0.949371811798763
+48,"Pancreas",0.528862768378954
+48,"Prostate",0.0913745381109326
+48,"Artery - Coronary",0.208219400419393
+48,"Colon - Transverse",0.220886661826874
+48,"Artery - Aorta",-0.172803684591834
+48,"Brain - Putamen (basal ganglia)",-0.989211410397242
+48,"Brain - Cerebellar Hemisphere",-0.849203098112375
+48,"Brain - Cerebellum",-1.07603989901364
+48,"Kidney - Cortex",-0.95063929642565
+48,"Skin - Sun Exposed (Lower leg)",-1.55964846717411
+48,"Stomach",-1.1414451937164
+48,"Vagina",-0.998872889278153
+48,"Adipose - Visceral (Omentum)",-0.717378704272969
+48,"Ovary",-0.04699690082507
+48,"Uterus",-0.681512769933194
+49,"Heart - Left Ventricle",-0.107326218591375
+49,"Skin - Not Sun Exposed (Suprapubic)",-0.224748995134851
+49,"Brain - Substantia nigra",-0.63797323179831
+49,"Brain - Nucleus accumbens (basal ganglia)",-1.06537623972988
+49,"Brain - Frontal Cortex (BA9)",-0.249209826250866
+49,"Artery - Tibial",-0.822559201433091
+49,"Esophagus - Gastroesophageal Junction",-0.649363713284865
+49,"Brain - Caudate (basal ganglia)",-1.28055799087365
+49,"Muscle - Skeletal",-0.210257381782283
+49,"Spleen",-0.29971787984637
+49,"Brain - Anterior cingulate cortex (BA24)",-0.215306160457674
+49,"Nerve - Tibial",-0.714565439754745
+49,"Cells - Cultured fibroblasts",0.235312588866845
+49,"Colon - Sigmoid",0.0147631841012796
+49,"Lung",-0.953981619582151
+49,"Esophagus - Muscularis",-0.433989032175889
+49,"Pituitary",-0.178889884678175
+49,"Brain - Spinal cord (cervical c-1)",-0.00527268987599242
+49,"Heart - Atrial Appendage",0.589423632243054
+49,"Brain - Hypothalamus",0.610044102753498
+49,"Testis",0.567584670541174
+49,"Minor Salivary Gland",-0.0037285014058472
+49,"Thyroid",0.562914617169114
+49,"Adipose - Subcutaneous",0.516543212379134
+49,"Adrenal Gland",0.598364427378507
+49,"Small Intestine - Terminal Ileum",0.381215425908137
+49,"Brain - Cortex",0.39297283350136
+49,"Liver",0.524407641936703
+49,"Brain - Hippocampus",0.39233225198063
+49,"Breast - Mammary Tissue",1.07534436938095
+49,"Esophagus - Mucosa",-0.124646047219451
+49,"Brain - Amygdala",1.00470758684365
+49,"Pancreas",0.581214139931452
+49,"Prostate",0.366920572302637
+49,"Artery - Coronary",0.35238294417206
+49,"Colon - Transverse",0.45799297739013
+49,"Artery - Aorta",0.133095601884636
+49,"Brain - Putamen (basal ganglia)",-0.874204435643691
+49,"Brain - Cerebellar Hemisphere",-0.78491189936625
+49,"Brain - Cerebellum",-0.988522746426567
+49,"Kidney - Cortex",-0.81964861584873
+49,"Skin - Sun Exposed (Lower leg)",-1.55012628807624
+49,"Stomach",-1.23314658296113
+49,"Vagina",-1.03476409273142
+49,"Adipose - Visceral (Omentum)",-0.505558186266406
+49,"Ovary",0.078216716752364
+49,"Uterus",-0.642148459020484
+50,"Heart - Left Ventricle",-0.0256932600248014
+50,"Skin - Not Sun Exposed (Suprapubic)",-0.301647541777146
+50,"Brain - Substantia nigra",-0.580644711905925
+50,"Brain - Nucleus accumbens (basal ganglia)",-1.08412785390669
+50,"Brain - Frontal Cortex (BA9)",-0.396941679609276
+50,"Artery - Tibial",-0.94902381180634
+50,"Esophagus - Gastroesophageal Junction",-0.774066577467691
+50,"Brain - Caudate (basal ganglia)",-1.30703074541882
+50,"Muscle - Skeletal",-0.284134552367461
+50,"Spleen",-0.207629368450849
+50,"Brain - Anterior cingulate cortex (BA24)",-0.198078557125282
+50,"Nerve - Tibial",-0.778898035926812
+50,"Cells - Cultured fibroblasts",-0.0839275950208939
+50,"Colon - Sigmoid",-0.192410893870921
+50,"Lung",-1.19411004839124
+50,"Esophagus - Muscularis",-0.58853993163519
+50,"Pituitary",-0.412567600111061
+50,"Brain - Spinal cord (cervical c-1)",0.0000425850968368822
+50,"Heart - Atrial Appendage",0.49046917625585
+50,"Brain - Hypothalamus",0.422820304462368
+50,"Testis",0.448431949844425
+50,"Minor Salivary Gland",-0.00118835078772812
+50,"Thyroid",0.522658783843047
+50,"Adipose - Subcutaneous",0.571585447894211
+50,"Adrenal Gland",0.723128786505615
+50,"Small Intestine - Terminal Ileum",0.430774014795885
+50,"Brain - Cortex",0.522882225437941
+50,"Liver",0.484041985167069
+50,"Brain - Hippocampus",0.606731745123049
+50,"Breast - Mammary Tissue",1.09652824172614
+50,"Esophagus - Mucosa",-0.0559277700666656
+50,"Brain - Amygdala",1.03503340564368
+50,"Pancreas",0.635089062991839
+50,"Prostate",0.693668214186319
+50,"Artery - Coronary",0.515158734218085
+50,"Colon - Transverse",0.759937050420474
+50,"Artery - Aorta",0.389979488221094
+50,"Brain - Putamen (basal ganglia)",-0.683015549377829
+50,"Brain - Cerebellar Hemisphere",-0.699107852071449
+50,"Brain - Cerebellum",-0.856447816039426
+50,"Kidney - Cortex",-0.661748040488438
+50,"Skin - Sun Exposed (Lower leg)",-1.5016373440445
+50,"Stomach",-1.36149087977342
+50,"Vagina",-1.03388735816193
+50,"Adipose - Visceral (Omentum)",-0.295157416657471
+50,"Ovary",0.231901865327032
+50,"Uterus",-0.600353334063294
+51,"Heart - Left Ventricle",0.116014335011869
+51,"Skin - Not Sun Exposed (Suprapubic)",-0.371585989332362
+51,"Brain - Substantia nigra",-0.482977179833499
+51,"Brain - Nucleus accumbens (basal ganglia)",-1.06828586315959
+51,"Brain - Frontal Cortex (BA9)",-0.569275615806203
+51,"Artery - Tibial",-0.997004081374849
+51,"Esophagus - Gastroesophageal Junction",-0.918437427196328
+51,"Brain - Caudate (basal ganglia)",-1.29180555988527
+51,"Muscle - Skeletal",-0.348018038766426
+51,"Spleen",-0.127219129679718
+51,"Brain - Anterior cingulate cortex (BA24)",-0.185862644181677
+51,"Nerve - Tibial",-0.808629661544759
+51,"Cells - Cultured fibroblasts",-0.323406445693576
+51,"Colon - Sigmoid",-0.528580621777746
+51,"Lung",-1.40906604497353
+51,"Esophagus - Muscularis",-0.756555958376972
+51,"Pituitary",-0.689263227617508
+51,"Brain - Spinal cord (cervical c-1)",-0.0476228163622427
+51,"Heart - Atrial Appendage",0.481305033734736
+51,"Brain - Hypothalamus",0.196610538269582
+51,"Testis",0.307876463623536
+51,"Minor Salivary Gland",0.0200065778950034
+51,"Thyroid",0.48988945608317
+51,"Adipose - Subcutaneous",0.611502792783851
+51,"Adrenal Gland",0.888789377116399
+51,"Small Intestine - Terminal Ileum",0.511980796116216
+51,"Brain - Cortex",0.662799736631386
+51,"Liver",0.45484129076171
+51,"Brain - Hippocampus",0.848189316577273
+51,"Breast - Mammary Tissue",1.0926543913781
+51,"Esophagus - Mucosa",0.0281033778964278
+51,"Brain - Amygdala",1.03949820655414
+51,"Pancreas",0.690881507466203
+51,"Prostate",1.14465976090533
+51,"Artery - Coronary",0.684051377684872
+51,"Colon - Transverse",1.05202118117958
+51,"Artery - Aorta",0.646023375319507
+51,"Brain - Putamen (basal ganglia)",-0.388188318759221
+51,"Brain - Cerebellar Hemisphere",-0.59387394991629
+51,"Brain - Cerebellum",-0.679630736015651
+51,"Kidney - Cortex",-0.48782531139302
+51,"Skin - Sun Exposed (Lower leg)",-1.40571457367724
+51,"Stomach",-1.42042547601157
+51,"Vagina",-0.994382016150752
+51,"Adipose - Visceral (Omentum)",-0.12069323758861
+51,"Ovary",0.385436412671521
+51,"Uterus",-0.556118265615806
+52,"Heart - Left Ventricle",0.259994477857011
+52,"Skin - Not Sun Exposed (Suprapubic)",-0.461730924784659
+52,"Brain - Substantia nigra",-0.361063797740759
+52,"Brain - Nucleus accumbens (basal ganglia)",-1.02816276432177
+52,"Brain - Frontal Cortex (BA9)",-0.751481803177262
+52,"Artery - Tibial",-0.965019478859322
+52,"Esophagus - Gastroesophageal Junction",-1.04296255338997
+52,"Brain - Caudate (basal ganglia)",-1.23948704079165
+52,"Muscle - Skeletal",-0.41324782531894
+52,"Spleen",-0.0807538305228555
+52,"Brain - Anterior cingulate cortex (BA24)",-0.182341255903735
+52,"Nerve - Tibial",-0.816008097021002
+52,"Cells - Cultured fibroblasts",-0.525767252357562
+52,"Colon - Sigmoid",-1.07820909869364
+52,"Lung",-1.55453026742366
+52,"Esophagus - Muscularis",-0.908274973559005
+52,"Pituitary",-0.970997587317374
+52,"Brain - Spinal cord (cervical c-1)",-0.12531215895877
+52,"Heart - Atrial Appendage",0.567061808884419
+52,"Brain - Hypothalamus",-0.0438232866506521
+52,"Testis",0.125104599979308
+52,"Minor Salivary Gland",0.0499112552302588
+52,"Thyroid",0.417666741804374
+52,"Adipose - Subcutaneous",0.617559565779321
+52,"Adrenal Gland",1.04607619735586
+52,"Small Intestine - Terminal Ileum",0.623064452641766
+52,"Brain - Cortex",0.797730863743087
+52,"Liver",0.417878580542169
+52,"Brain - Hippocampus",1.0870769905299
+52,"Breast - Mammary Tissue",1.06920421091099
+52,"Esophagus - Mucosa",0.129392627923606
+52,"Brain - Amygdala",1.01725092793037
+52,"Pancreas",0.738327679598745
+52,"Prostate",1.58807498880411
+52,"Artery - Coronary",0.846565481699842
+52,"Colon - Transverse",1.25954766992914
+52,"Artery - Aorta",0.948034426125009
+52,"Brain - Putamen (basal ganglia)",-0.0283326534460559
+52,"Brain - Cerebellar Hemisphere",-0.471293186589105
+52,"Brain - Cerebellum",-0.457887134518739
+52,"Kidney - Cortex",-0.31057534164991
+52,"Skin - Sun Exposed (Lower leg)",-1.16203479940807
+52,"Stomach",-1.2224207561862
+52,"Vagina",-0.85719079890921
+52,"Adipose - Visceral (Omentum)",0.106525119567169
+52,"Ovary",0.510198226558421
+52,"Uterus",-0.486467370288105
+53,"Heart - Left Ventricle",0.348445079848973
+53,"Skin - Not Sun Exposed (Suprapubic)",-0.586700525101076
+53,"Brain - Substantia nigra",-0.23099772778744
+53,"Brain - Nucleus accumbens (basal ganglia)",-0.974071054226394
+53,"Brain - Frontal Cortex (BA9)",-0.928830410058119
+53,"Artery - Tibial",-0.903751586996105
+53,"Esophagus - Gastroesophageal Junction",-1.10812824696782
+53,"Brain - Caudate (basal ganglia)",-1.15467979465662
+53,"Muscle - Skeletal",-0.488236854792717
+53,"Spleen",-0.0578607362996752
+53,"Brain - Anterior cingulate cortex (BA24)",-0.191197226568375
+53,"Nerve - Tibial",-0.799630721915196
+53,"Cells - Cultured fibroblasts",-0.702811745115511
+53,"Colon - Sigmoid",-1.65103582429929
+53,"Lung",-1.61190582123277
+53,"Esophagus - Muscularis",-1.00083925780988
+53,"Pituitary",-1.2197914993305
+53,"Brain - Spinal cord (cervical c-1)",-0.210068707398283
+53,"Heart - Atrial Appendage",0.665504317816988
+53,"Brain - Hypothalamus",-0.273719261124157
+53,"Testis",-0.0731521044063601
+53,"Minor Salivary Gland",0.0785806518059496
+53,"Thyroid",0.289841481850238
+53,"Adipose - Subcutaneous",0.5934713060521
+53,"Adrenal Gland",1.145719245369
+53,"Small Intestine - Terminal Ileum",0.742853313149043
+53,"Brain - Cortex",0.912681103434395
+53,"Liver",0.563101048385743
+53,"Brain - Hippocampus",1.29376679116753
+53,"Breast - Mammary Tissue",1.0267106813645
+53,"Esophagus - Mucosa",0.249885211268654
+53,"Brain - Amygdala",0.967440508127604
+53,"Pancreas",0.775570125370517
+53,"Prostate",1.89209367422715
+53,"Artery - Coronary",1.06489093157539
+53,"Colon - Transverse",1.38915096038572
+53,"Artery - Aorta",1.22576314154884
+53,"Brain - Putamen (basal ganglia)",0.357941536903478
+53,"Brain - Cerebellar Hemisphere",-0.333448555778267
+53,"Brain - Cerebellum",-0.191032639712126
+53,"Kidney - Cortex",-0.131543625180812
+53,"Skin - Sun Exposed (Lower leg)",-0.760751574085658
+53,"Stomach",-0.783082900056225
+53,"Vagina",-0.614800802293713
+53,"Adipose - Visceral (Omentum)",0.395417808922346
+53,"Ovary",0.593865305678691
+53,"Uterus",-0.368424764690295
+54,"Heart - Left Ventricle",0.32196924500841
+54,"Skin - Not Sun Exposed (Suprapubic)",-0.714985074895466
+54,"Brain - Substantia nigra",-0.108872132133268
+54,"Brain - Nucleus accumbens (basal ganglia)",-0.872667535137875
+54,"Brain - Frontal Cortex (BA9)",-1.08659160478439
+54,"Artery - Tibial",-0.863881988521553
+54,"Esophagus - Gastroesophageal Junction",-1.01885710651927
+54,"Brain - Caudate (basal ganglia)",-1.00442205054492
+54,"Muscle - Skeletal",-0.552829118050733
+54,"Spleen",-0.0283661154217499
+54,"Brain - Anterior cingulate cortex (BA24)",-0.226118786965153
+54,"Nerve - Tibial",-0.758094915787022
+54,"Cells - Cultured fibroblasts",-0.866341654070087
+54,"Colon - Sigmoid",-2.05680029827537
+54,"Lung",-1.60150559808595
+54,"Esophagus - Muscularis",-1.03388020089563
+54,"Pituitary",-1.46654102432894
+54,"Brain - Spinal cord (cervical c-1)",-0.278935726386326
+54,"Heart - Atrial Appendage",0.694397376644519
+54,"Brain - Hypothalamus",-0.468315475976747
+54,"Testis",-0.260162112851511
+54,"Minor Salivary Gland",0.0694685500808902
+54,"Thyroid",0.16031324731587
+54,"Adipose - Subcutaneous",0.562888651137045
+54,"Adrenal Gland",1.14358514254376
+54,"Small Intestine - Terminal Ileum",0.850175706414552
+54,"Brain - Cortex",1.00542653812367
+54,"Liver",0.898952648587875
+54,"Brain - Hippocampus",1.43863074267672
+54,"Breast - Mammary Tissue",0.965706783778285
+54,"Esophagus - Mucosa",0.37190854537077
+54,"Brain - Amygdala",0.842128773349867
+54,"Pancreas",0.807285112566822
+54,"Prostate",2.01147294619821
+54,"Artery - Coronary",1.33420258712504
+54,"Colon - Transverse",1.49533881638602
+54,"Artery - Aorta",1.40896002250222
+54,"Brain - Putamen (basal ganglia)",0.732024342631167
+54,"Brain - Cerebellar Hemisphere",-0.17276816261282
+54,"Brain - Cerebellum",0.141029915625709
+54,"Kidney - Cortex",0.0477243440925809
+54,"Skin - Sun Exposed (Lower leg)",-0.329112931930953
+54,"Stomach",-0.301062992352412
+54,"Vagina",-0.34266790235293
+54,"Adipose - Visceral (Omentum)",0.591812066562724
+54,"Ovary",0.657783367516356
+54,"Uterus",-0.161482430322551
+55,"Heart - Left Ventricle",0.200979517885268
+55,"Skin - Not Sun Exposed (Suprapubic)",-0.815074858781687
+55,"Brain - Substantia nigra",-0.0107801729379789
+55,"Brain - Nucleus accumbens (basal ganglia)",-0.719583825157932
+55,"Brain - Frontal Cortex (BA9)",-1.21003555569174
+55,"Artery - Tibial",-0.823184401919442
+55,"Esophagus - Gastroesophageal Junction",-0.818066499834331
+55,"Brain - Caudate (basal ganglia)",-0.781736371822443
+55,"Muscle - Skeletal",-0.586868605956
+55,"Spleen",0.051073812685803
+55,"Brain - Anterior cingulate cortex (BA24)",-0.291145290777189
+55,"Nerve - Tibial",-0.689998058196133
+55,"Cells - Cultured fibroblasts",-1.00747247700356
+55,"Colon - Sigmoid",-2.18797474027299
+55,"Lung",-1.53737493536886
+55,"Esophagus - Muscularis",-1.04136932768032
+55,"Pituitary",-1.72705774538659
+55,"Brain - Spinal cord (cervical c-1)",-0.30895648062845
+55,"Heart - Atrial Appendage",0.51345307013317
+55,"Brain - Hypothalamus",-0.601415163626488
+55,"Testis",-0.409193888674258
+55,"Minor Salivary Gland",0.031684672418437
+55,"Thyroid",0.0829816092963608
+55,"Adipose - Subcutaneous",0.549462238569001
+55,"Adrenal Gland",1.05890590789867
+55,"Small Intestine - Terminal Ileum",0.923859961214799
+55,"Brain - Cortex",1.08545479735891
+55,"Liver",1.13425154359731
+55,"Brain - Hippocampus",1.45097122639042
+55,"Breast - Mammary Tissue",0.817235730190185
+55,"Esophagus - Mucosa",0.489240959199448
+55,"Brain - Amygdala",0.636061504802828
+55,"Pancreas",0.833009430138243
+55,"Prostate",2.01253343606997
+55,"Artery - Coronary",1.54148251722782
+55,"Colon - Transverse",1.5752235183719
+55,"Artery - Aorta",1.40653494139952
+55,"Brain - Putamen (basal ganglia)",1.05530585407878
+55,"Brain - Cerebellar Hemisphere",0.00394157397840116
+55,"Brain - Cerebellum",0.50768967981988
+55,"Kidney - Cortex",0.271543167730114
+55,"Skin - Sun Exposed (Lower leg)",0.00563309283510078
+55,"Stomach",0.0249878821944353
+55,"Vagina",-0.116247975135535
+55,"Adipose - Visceral (Omentum)",0.600657034210612
+55,"Ovary",0.723831858033595
+55,"Uterus",0.117339565684315
+56,"Heart - Left Ventricle",0.0473879706118351
+56,"Skin - Not Sun Exposed (Suprapubic)",-0.939564041045272
+56,"Brain - Substantia nigra",0.194934712715989
+56,"Brain - Nucleus accumbens (basal ganglia)",-0.568594644875697
+56,"Brain - Frontal Cortex (BA9)",-1.23380694785449
+56,"Artery - Tibial",-0.751280369468038
+56,"Esophagus - Gastroesophageal Junction",-0.673234871633182
+56,"Brain - Caudate (basal ganglia)",-0.530203866459549
+56,"Muscle - Skeletal",-0.576342091519277
+56,"Spleen",0.171206915056131
+56,"Brain - Anterior cingulate cortex (BA24)",-0.375486256621687
+56,"Nerve - Tibial",-0.520636244789082
+56,"Cells - Cultured fibroblasts",-1.11834266086926
+56,"Colon - Sigmoid",-2.11723403761586
+56,"Lung",-1.43355917046715
+56,"Esophagus - Muscularis",-1.057278163028
+56,"Pituitary",-1.94073576622608
+56,"Brain - Spinal cord (cervical c-1)",-0.308086124262579
+56,"Heart - Atrial Appendage",0.175664233509076
+56,"Brain - Hypothalamus",-0.675406283341833
+56,"Testis",-0.509092866729747
+56,"Minor Salivary Gland",0.0237678992633068
+56,"Thyroid",0.0534024453132113
+56,"Adipose - Subcutaneous",0.553394558100293
+56,"Adrenal Gland",0.937459636024632
+56,"Small Intestine - Terminal Ileum",0.962156158845856
+56,"Brain - Cortex",1.15533869849588
+56,"Liver",1.16978184666792
+56,"Brain - Hippocampus",1.35202791734728
+56,"Breast - Mammary Tissue",0.574932187875965
+56,"Esophagus - Mucosa",0.621004051303925
+56,"Brain - Amygdala",0.412413573344338
+56,"Pancreas",0.874876140670686
+56,"Prostate",1.93080017368017
+56,"Artery - Coronary",1.65285891137013
+56,"Colon - Transverse",1.62591734678519
+56,"Artery - Aorta",1.24467500824629
+56,"Brain - Putamen (basal ganglia)",1.49549265709729
+56,"Brain - Cerebellar Hemisphere",0.173030189607711
+56,"Brain - Cerebellum",0.83306899636232
+56,"Kidney - Cortex",0.550851072644935
+56,"Skin - Sun Exposed (Lower leg)",0.251547013606262
+56,"Stomach",0.135016123995624
+56,"Vagina",0.0599496306046285
+56,"Adipose - Visceral (Omentum)",0.492019682588998
+56,"Ovary",0.783808804553409
+56,"Uterus",0.40472497827425
+57,"Heart - Left Ventricle",-0.292824975454562
+57,"Skin - Not Sun Exposed (Suprapubic)",-1.11849700165742
+57,"Brain - Substantia nigra",0.532683995623727
+57,"Brain - Nucleus accumbens (basal ganglia)",-0.473474714880286
+57,"Brain - Frontal Cortex (BA9)",-1.17014686802223
+57,"Artery - Tibial",-0.686623209595483
+57,"Esophagus - Gastroesophageal Junction",-0.591402068684329
+57,"Brain - Caudate (basal ganglia)",-0.293405642426632
+57,"Muscle - Skeletal",-0.538082452241689
+57,"Spleen",0.283313052965054
+57,"Brain - Anterior cingulate cortex (BA24)",-0.46835120311588
+57,"Nerve - Tibial",-0.251358068927897
+57,"Cells - Cultured fibroblasts",-1.21228835952645
+57,"Colon - Sigmoid",-1.92462169149359
+57,"Lung",-1.19185393639259
+57,"Esophagus - Muscularis",-1.09020605732496
+57,"Pituitary",-2.04696919057003
+57,"Brain - Spinal cord (cervical c-1)",-0.299418032564666
+57,"Heart - Atrial Appendage",-0.111283191425632
+57,"Brain - Hypothalamus",-0.708404016224191
+57,"Testis",-0.580925231336394
+57,"Minor Salivary Gland",0.0544074488350698
+57,"Thyroid",0.0407976875155705
+57,"Adipose - Subcutaneous",0.560817159768007
+57,"Adrenal Gland",0.825024421512545
+57,"Small Intestine - Terminal Ileum",0.983353859188216
+57,"Brain - Cortex",1.21765105889038
+57,"Liver",1.12203528298301
+57,"Brain - Hippocampus",1.25007878029257
+57,"Breast - Mammary Tissue",0.333216320732203
+57,"Esophagus - Mucosa",0.786319420233419
+57,"Brain - Amygdala",0.234359849832237
+57,"Pancreas",0.93279426597301
+57,"Prostate",1.80179818886657
+57,"Artery - Coronary",1.71769247944989
+57,"Colon - Transverse",1.64683103631653
+57,"Artery - Aorta",1.02904658034057
+57,"Brain - Putamen (basal ganglia)",1.92712884617143
+57,"Brain - Cerebellar Hemisphere",0.31084721988739
+57,"Brain - Cerebellum",1.04129020874496
+57,"Kidney - Cortex",0.834038002945308
+57,"Skin - Sun Exposed (Lower leg)",0.483926703914739
+57,"Stomach",0.154786258659273
+57,"Vagina",0.231376875572812
+57,"Adipose - Visceral (Omentum)",0.359403991284753
+57,"Ovary",0.824023986068372
+57,"Uterus",0.637357562391196
+58,"Heart - Left Ventricle",-0.862131275964368
+58,"Skin - Not Sun Exposed (Suprapubic)",-1.28653934876048
+58,"Brain - Substantia nigra",0.825506875441823
+58,"Brain - Nucleus accumbens (basal ganglia)",-0.445802285208404
+58,"Brain - Frontal Cortex (BA9)",-1.12072008704343
+58,"Artery - Tibial",-0.667666240729891
+58,"Esophagus - Gastroesophageal Junction",-0.489352394623475
+58,"Brain - Caudate (basal ganglia)",-0.0123341570800565
+58,"Muscle - Skeletal",-0.498202835721802
+58,"Spleen",0.338672087688397
+58,"Brain - Anterior cingulate cortex (BA24)",-0.558949648876982
+58,"Nerve - Tibial",0.00516034325451022
+58,"Cells - Cultured fibroblasts",-1.30264572683438
+58,"Colon - Sigmoid",-1.69018120309577
+58,"Lung",-0.826158319172305
+58,"Esophagus - Muscularis",-1.12315365370295
+58,"Pituitary",-2.03076314638818
+58,"Brain - Spinal cord (cervical c-1)",-0.282702801947233
+58,"Heart - Atrial Appendage",-0.456062767958685
+58,"Brain - Hypothalamus",-0.718523543374963
+58,"Testis",-0.646290570007126
+58,"Minor Salivary Gland",0.0976333038809927
+58,"Thyroid",0.0595659889399258
+58,"Adipose - Subcutaneous",0.574274271534146
+58,"Adrenal Gland",0.767378358953303
+58,"Small Intestine - Terminal Ileum",0.996340608895013
+58,"Brain - Cortex",1.26060640382283
+58,"Liver",1.02339143288558
+58,"Brain - Hippocampus",1.12783539175056
+58,"Breast - Mammary Tissue",0.18650829265547
+58,"Esophagus - Mucosa",1.07579194632948
+58,"Brain - Amygdala",0.165075205124368
+58,"Pancreas",0.972964533830187
+58,"Prostate",1.66105251146694
+58,"Artery - Coronary",1.7478140709635
+58,"Colon - Transverse",1.63862337572006
+58,"Artery - Aorta",0.865316014980371
+58,"Brain - Putamen (basal ganglia)",2.09522045909325
+58,"Brain - Cerebellar Hemisphere",0.393742200429679
+58,"Brain - Cerebellum",1.08249021355837
+58,"Kidney - Cortex",1.0694939027395
+58,"Skin - Sun Exposed (Lower leg)",0.676380169747186
+58,"Stomach",0.164374389249876
+58,"Vagina",0.397519847908997
+58,"Adipose - Visceral (Omentum)",0.296313939884728
+58,"Ovary",0.858124476045029
+58,"Uterus",0.823130425052646
+59,"Heart - Left Ventricle",-1.4312974242969
+59,"Skin - Not Sun Exposed (Suprapubic)",-1.37835669049682
+59,"Brain - Substantia nigra",0.896442551826857
+59,"Brain - Nucleus accumbens (basal ganglia)",-0.45688372086752
+59,"Brain - Frontal Cortex (BA9)",-1.10077985820724
+59,"Artery - Tibial",-0.701377155292042
+59,"Esophagus - Gastroesophageal Junction",-0.399180979471559
+59,"Brain - Caudate (basal ganglia)",0.319043064242878
+59,"Muscle - Skeletal",-0.482816389558163
+59,"Spleen",0.355165512620529
+59,"Brain - Anterior cingulate cortex (BA24)",-0.587892083986364
+59,"Nerve - Tibial",0.13624286562525
+59,"Cells - Cultured fibroblasts",-1.41085478745612
+59,"Colon - Sigmoid",-1.49395607361204
+59,"Lung",-0.518672835714862
+59,"Esophagus - Muscularis",-1.15169441614391
+59,"Pituitary",-1.9298680776413
+59,"Brain - Spinal cord (cervical c-1)",-0.451749903713279
+59,"Heart - Atrial Appendage",-0.900314924311718
+59,"Brain - Hypothalamus",-0.683309243722879
+59,"Testis",-0.724572197836712
+59,"Minor Salivary Gland",0.159995491637374
+59,"Thyroid",0.124106002622808
+59,"Adipose - Subcutaneous",0.596310121360711
+59,"Adrenal Gland",0.761453731859773
+59,"Small Intestine - Terminal Ileum",1.01000395461938
+59,"Brain - Cortex",1.28054973001144
+59,"Liver",0.906229876718582
+59,"Brain - Hippocampus",0.998307760382591
+59,"Breast - Mammary Tissue",0.122079239721354
+59,"Esophagus - Mucosa",1.46281957209925
+59,"Brain - Amygdala",0.237673778969138
+59,"Pancreas",0.961587672027186
+59,"Prostate",1.46157412418623
+59,"Artery - Coronary",1.73566458640145
+59,"Colon - Transverse",1.60027872653298
+59,"Artery - Aorta",0.746351288697531
+59,"Brain - Putamen (basal ganglia)",2.08888928838216
+59,"Brain - Cerebellar Hemisphere",0.473090373724279
+59,"Brain - Cerebellum",1.02863360912398
+59,"Kidney - Cortex",1.33057458624381
+59,"Skin - Sun Exposed (Lower leg)",0.802515417090287
+59,"Stomach",0.243856618831905
+59,"Vagina",0.557864635753163
+59,"Adipose - Visceral (Omentum)",0.287175846694614
+59,"Ovary",0.899757347949926
+59,"Uterus",1.00838413862875
+60,"Heart - Left Ventricle",-1.77108991383153
+60,"Skin - Not Sun Exposed (Suprapubic)",-1.38704262250032
+60,"Brain - Substantia nigra",0.385580059344974
+60,"Brain - Nucleus accumbens (basal ganglia)",-0.500085914902922
+60,"Brain - Frontal Cortex (BA9)",-1.06823002164522
+60,"Artery - Tibial",-0.759873110729919
+60,"Esophagus - Gastroesophageal Junction",-0.35298295324952
+60,"Brain - Caudate (basal ganglia)",0.577682311600322
+60,"Muscle - Skeletal",-0.469386761978571
+60,"Spleen",0.365588197362812
+60,"Brain - Anterior cingulate cortex (BA24)",-0.590914244246843
+60,"Nerve - Tibial",0.156102483199929
+60,"Cells - Cultured fibroblasts",-1.51501448302201
+60,"Colon - Sigmoid",-1.27636787263355
+60,"Lung",-0.266628610640836
+60,"Esophagus - Muscularis",-1.17140180862992
+60,"Pituitary",-1.76279606203855
+60,"Brain - Spinal cord (cervical c-1)",-0.739426441490212
+60,"Heart - Atrial Appendage",-1.13580401608352
+60,"Brain - Hypothalamus",-0.600044888524532
+60,"Testis",-0.78382779264657
+60,"Minor Salivary Gland",0.248044039340491
+60,"Thyroid",0.290606179125071
+60,"Adipose - Subcutaneous",0.625488501130029
+60,"Adrenal Gland",0.766838270233839
+60,"Small Intestine - Terminal Ileum",1.02244352109775
+60,"Brain - Cortex",1.29224956196875
+60,"Liver",0.823152945299803
+60,"Brain - Hippocampus",1.12347842636509
+60,"Breast - Mammary Tissue",0.0732539457395503
+60,"Esophagus - Mucosa",1.79071348934036
+60,"Brain - Amygdala",0.360078533439362
+60,"Pancreas",0.90505588984892
+60,"Prostate",1.17759728930451
+60,"Artery - Coronary",1.66990514729823
+60,"Colon - Transverse",1.53078145029245
+60,"Artery - Aorta",0.61178456045572
+60,"Brain - Putamen (basal ganglia)",1.94595531942182
+60,"Brain - Cerebellar Hemisphere",0.548935946449541
+60,"Brain - Cerebellum",0.986584291529908
+60,"Kidney - Cortex",1.62631905147631
+60,"Skin - Sun Exposed (Lower leg)",0.84564002780746
+60,"Stomach",0.377176229947147
+60,"Vagina",0.711897327245288
+60,"Adipose - Visceral (Omentum)",0.281489837790454
+60,"Ovary",0.962569675249606
+60,"Uterus",1.18747365609247
+61,"Heart - Left Ventricle",-1.84527158770454
+61,"Skin - Not Sun Exposed (Suprapubic)",-1.34605996354895
+61,"Brain - Substantia nigra",-0.299328939498084
+61,"Brain - Nucleus accumbens (basal ganglia)",-0.609990090376356
+61,"Brain - Frontal Cortex (BA9)",-1.03871122846949
+61,"Artery - Tibial",-0.829331623012512
+61,"Esophagus - Gastroesophageal Junction",-0.382853445978305
+61,"Brain - Caudate (basal ganglia)",0.773508880959505
+61,"Muscle - Skeletal",-0.441938872811459
+61,"Spleen",0.343590067501566
+61,"Brain - Anterior cingulate cortex (BA24)",-0.524798085029234
+61,"Nerve - Tibial",0.141135891433464
+61,"Cells - Cultured fibroblasts",-1.56344934284227
+61,"Colon - Sigmoid",-0.978547189191558
+61,"Lung",0.00538998388784096
+61,"Esophagus - Muscularis",-1.18233059168304
+61,"Pituitary",-1.38531036412402
+61,"Brain - Spinal cord (cervical c-1)",-1.04604716059522
+61,"Heart - Atrial Appendage",-1.0125657713992
+61,"Brain - Hypothalamus",-0.516454747373128
+61,"Testis",-0.81037380787947
+61,"Minor Salivary Gland",0.368328974226639
+61,"Thyroid",0.520824962766867
+61,"Adipose - Subcutaneous",0.660567328877764
+61,"Adrenal Gland",0.773293238399954
+61,"Small Intestine - Terminal Ileum",1.0266748159307
+61,"Brain - Cortex",1.38292535658537
+61,"Liver",0.777110174678169
+61,"Brain - Hippocampus",1.29027704543563
+61,"Breast - Mammary Tissue",0.0535330462078111
+61,"Esophagus - Mucosa",1.90278488985047
+61,"Brain - Amygdala",0.624446543307586
+61,"Pancreas",0.827391911337953
+61,"Prostate",0.876481956022232
+61,"Artery - Coronary",1.55669693471635
+61,"Colon - Transverse",1.42984337345767
+61,"Artery - Aorta",0.487428461200727
+61,"Brain - Putamen (basal ganglia)",1.37407374455029
+61,"Brain - Cerebellar Hemisphere",0.694483907524624
+61,"Brain - Cerebellum",1.06558160470399
+61,"Kidney - Cortex",1.80864201824788
+61,"Skin - Sun Exposed (Lower leg)",0.831663485582833
+61,"Stomach",0.506745013209907
+61,"Vagina",0.858860883704087
+61,"Adipose - Visceral (Omentum)",0.32037060441467
+61,"Ovary",1.03955913175102
+61,"Uterus",1.35475393041675
+62,"Heart - Left Ventricle",-1.81333913005086
+62,"Skin - Not Sun Exposed (Suprapubic)",-1.25062815650115
+62,"Brain - Substantia nigra",-0.720522854209701
+62,"Brain - Nucleus accumbens (basal ganglia)",-0.769933741938546
+62,"Brain - Frontal Cortex (BA9)",-1.03191284007131
+62,"Artery - Tibial",-0.895930208108791
+62,"Esophagus - Gastroesophageal Junction",-0.470678441743594
+62,"Brain - Caudate (basal ganglia)",0.936109191103437
+62,"Muscle - Skeletal",-0.436427777056267
+62,"Spleen",0.262821048623111
+62,"Brain - Anterior cingulate cortex (BA24)",-0.456164777144646
+62,"Nerve - Tibial",0.0719425298519385
+62,"Cells - Cultured fibroblasts",-1.50448389622711
+62,"Colon - Sigmoid",-0.681601053635707
+62,"Lung",0.224152559650597
+62,"Esophagus - Muscularis",-1.18647213854997
+62,"Pituitary",-0.848512471746547
+62,"Brain - Spinal cord (cervical c-1)",-0.0198727197761327
+62,"Heart - Atrial Appendage",-0.697014055092869
+62,"Brain - Hypothalamus",-0.377709402040973
+62,"Testis",-0.815479033671057
+62,"Minor Salivary Gland",0.521718500186176
+62,"Thyroid",0.687515997223777
+62,"Adipose - Subcutaneous",0.704382021795923
+62,"Adrenal Gland",0.777945043246656
+62,"Small Intestine - Terminal Ileum",1.02395921006765
+62,"Brain - Cortex",1.4372312508233
+62,"Liver",0.726001953043399
+62,"Brain - Hippocampus",1.08635520972384
+62,"Breast - Mammary Tissue",0.0764171766238755
+62,"Esophagus - Mucosa",1.83772316770499
+62,"Brain - Amygdala",0.995178151105289
+62,"Pancreas",0.721242236415758
+62,"Prostate",0.625588073539862
+62,"Artery - Coronary",1.40220112971826
+62,"Colon - Transverse",1.29620707297116
+62,"Artery - Aorta",0.399095621878338
+62,"Brain - Putamen (basal ganglia)",0.730937823743042
+62,"Brain - Cerebellar Hemisphere",0.814675142851262
+62,"Brain - Cerebellum",1.12269715462369
+62,"Kidney - Cortex",1.80548800300528
+62,"Skin - Sun Exposed (Lower leg)",0.798096649134078
+62,"Stomach",0.650341833793367
+62,"Vagina",0.999694020316612
+62,"Adipose - Visceral (Omentum)",0.444932837809708
+62,"Ovary",1.11696206607328
+62,"Uterus",1.50457991457455
+63,"Heart - Left Ventricle",-1.73965979574761
+63,"Skin - Not Sun Exposed (Suprapubic)",-1.09596664421536
+63,"Brain - Substantia nigra",-1.08880090773885
+63,"Brain - Nucleus accumbens (basal ganglia)",-0.896418170018215
+63,"Brain - Frontal Cortex (BA9)",-1.02513298183709
+63,"Artery - Tibial",-0.963642622887914
+63,"Esophagus - Gastroesophageal Junction",-0.583912193382257
+63,"Brain - Caudate (basal ganglia)",0.971931216314103
+63,"Muscle - Skeletal",-0.488808529712505
+63,"Spleen",0.0969310663137609
+63,"Brain - Anterior cingulate cortex (BA24)",-0.477134259221482
+63,"Nerve - Tibial",-0.0708781620185655
+63,"Cells - Cultured fibroblasts",-1.35344039100207
+63,"Colon - Sigmoid",-0.466636496315699
+63,"Lung",0.316428728426833
+63,"Esophagus - Muscularis",-1.18230483229965
+63,"Pituitary",-0.463921797572339
+63,"Brain - Spinal cord (cervical c-1)",1.25114163144921
+63,"Heart - Atrial Appendage",-0.355480427826878
+63,"Brain - Hypothalamus",-0.246592942770665
+63,"Testis",-0.792535495582888
+63,"Minor Salivary Gland",0.701410228687863
+63,"Thyroid",0.785472797386825
+63,"Adipose - Subcutaneous",0.756256646157514
+63,"Adrenal Gland",0.786002280791129
+63,"Small Intestine - Terminal Ileum",1.015558074458
+63,"Brain - Cortex",1.32380538144173
+63,"Liver",0.649971154400391
+63,"Brain - Hippocampus",0.808880109354526
+63,"Breast - Mammary Tissue",0.13562527272952
+63,"Esophagus - Mucosa",1.72128729874837
+63,"Brain - Amygdala",1.15602636281543
+63,"Pancreas",0.579253365003823
+63,"Prostate",0.404879213215051
+63,"Artery - Coronary",1.21257891336644
+63,"Colon - Transverse",1.12740303609504
+63,"Artery - Aorta",0.338822219681247
+63,"Brain - Putamen (basal ganglia)",0.436935056526152
+63,"Brain - Cerebellar Hemisphere",0.787495635363976
+63,"Brain - Cerebellum",1.05790869732773
+63,"Kidney - Cortex",1.69523980384838
+63,"Skin - Sun Exposed (Lower leg)",0.782450377178866
+63,"Stomach",0.825745556870737
+63,"Vagina",1.13642645602538
+63,"Adipose - Visceral (Omentum)",0.63400421107741
+63,"Ovary",1.19828356390118
+63,"Uterus",1.63130656153882
+64,"Heart - Left Ventricle",-1.62754002382197
+64,"Skin - Not Sun Exposed (Suprapubic)",-0.877731517587608
+64,"Brain - Substantia nigra",-1.40247117868197
+64,"Brain - Nucleus accumbens (basal ganglia)",-0.984538768496113
+64,"Brain - Frontal Cortex (BA9)",-0.983601705519283
+64,"Artery - Tibial",-1.04354440558469
+64,"Esophagus - Gastroesophageal Junction",-0.733002234042011
+64,"Brain - Caudate (basal ganglia)",0.915705876399702
+64,"Muscle - Skeletal",-0.587236099431723
+64,"Spleen",-0.180429953840166
+64,"Brain - Anterior cingulate cortex (BA24)",-0.534542724245022
+64,"Nerve - Tibial",-0.276779482032517
+64,"Cells - Cultured fibroblasts",-1.15985942061375
+64,"Colon - Sigmoid",-0.301381267498062
+64,"Lung",0.301742117556936
+64,"Esophagus - Muscularis",-1.16830705600105
+64,"Pituitary",-0.272930809389523
+64,"Brain - Spinal cord (cervical c-1)",1.96602567838867
+64,"Heart - Atrial Appendage",-0.154296450263556
+64,"Brain - Hypothalamus",-0.178854981039426
+64,"Testis",-0.747641158531185
+64,"Minor Salivary Gland",0.902448298335592
+64,"Thyroid",0.8866298132092
+64,"Adipose - Subcutaneous",0.814035629990849
+64,"Adrenal Gland",0.799349499050811
+64,"Small Intestine - Terminal Ileum",1.00273278005115
+64,"Brain - Cortex",1.14441098475323
+64,"Liver",0.560502913409483
+64,"Brain - Hippocampus",0.54062417290318
+64,"Breast - Mammary Tissue",0.220384859301735
+64,"Esophagus - Mucosa",1.52739284743174
+64,"Brain - Amygdala",1.04380271154245
+64,"Pancreas",0.394071797023617
+64,"Prostate",0.159607997083709
+64,"Artery - Coronary",0.99241402607349
+64,"Colon - Transverse",0.920961750091431
+64,"Artery - Aorta",0.286745110279394
+64,"Brain - Putamen (basal ganglia)",0.212104893699631
+64,"Brain - Cerebellar Hemisphere",0.682082802098485
+64,"Brain - Cerebellum",0.934917858420937
+64,"Kidney - Cortex",1.55546956306769
+64,"Skin - Sun Exposed (Lower leg)",0.776818228586956
+64,"Stomach",1.05073504761524
+64,"Vagina",1.2710879097729
+64,"Adipose - Visceral (Omentum)",0.845654159890992
+64,"Ovary",1.28702871091951
+64,"Uterus",1.7292888242825
+65,"Heart - Left Ventricle",-1.44253314283236
+65,"Skin - Not Sun Exposed (Suprapubic)",-0.60022175783342
+65,"Brain - Substantia nigra",-1.69017886494325
+65,"Brain - Nucleus accumbens (basal ganglia)",-1.05043230781938
+65,"Brain - Frontal Cortex (BA9)",-0.95590703342562
+65,"Artery - Tibial",-1.13246574421654
+65,"Esophagus - Gastroesophageal Junction",-0.928396096870577
+65,"Brain - Caudate (basal ganglia)",0.717846053420991
+65,"Muscle - Skeletal",-0.705059982225998
+65,"Spleen",-0.56102660473018
+65,"Brain - Anterior cingulate cortex (BA24)",-0.707120764110428
+65,"Nerve - Tibial",-0.533078050423011
+65,"Cells - Cultured fibroblasts",-0.923393032803964
+65,"Colon - Sigmoid",-0.129167298689481
+65,"Lung",0.231043627007937
+65,"Esophagus - Muscularis",-1.14295719272313
+65,"Pituitary",-0.153986038227343
+65,"Brain - Spinal cord (cervical c-1)",1.96317135102211
+65,"Heart - Atrial Appendage",-0.0635504567121523
+65,"Brain - Hypothalamus",-0.133169440889651
+65,"Testis",-0.681894568190329
+65,"Minor Salivary Gland",1.12511849199649
+65,"Thyroid",0.979452090959705
+65,"Adipose - Subcutaneous",0.87833493312089
+65,"Adrenal Gland",0.819871246043105
+65,"Small Intestine - Terminal Ileum",0.985077507754181
+65,"Brain - Cortex",0.959656254707536
+65,"Liver",0.462511009243555
+65,"Brain - Hippocampus",0.220692534711824
+65,"Breast - Mammary Tissue",0.337459455391117
+65,"Esophagus - Mucosa",1.22995537820622
+65,"Brain - Amygdala",0.798768662538188
+65,"Pancreas",0.158344032396612
+65,"Prostate",-0.0949320496363204
+65,"Artery - Coronary",0.740283810947189
+65,"Colon - Transverse",0.674413702222444
+65,"Artery - Aorta",0.250827942334442
+65,"Brain - Putamen (basal ganglia)",0.0188023490143091
+65,"Brain - Cerebellar Hemisphere",0.432120621575613
+65,"Brain - Cerebellum",0.727922731415102
+65,"Kidney - Cortex",1.39206137675778
+65,"Skin - Sun Exposed (Lower leg)",0.751033423606888
+65,"Stomach",1.32615239946639
+65,"Vagina",1.40570810050168
+65,"Adipose - Visceral (Omentum)",1.08986001934981
+65,"Ovary",1.38670259281306
+65,"Uterus",1.7996950620309
+66,"Heart - Left Ventricle",-1.19237674195274
+66,"Skin - Not Sun Exposed (Suprapubic)",-0.271621143290472
+66,"Brain - Substantia nigra",-1.91378940711759
+66,"Brain - Nucleus accumbens (basal ganglia)",-1.07805385444294
+66,"Brain - Frontal Cortex (BA9)",-1.01913971849374
+66,"Artery - Tibial",-1.2272368268009
+66,"Esophagus - Gastroesophageal Junction",-1.17168806893121
+66,"Brain - Caudate (basal ganglia)",0.311723296919408
+66,"Muscle - Skeletal",-0.856027024135536
+66,"Spleen",-1.01809406282725
+66,"Brain - Anterior cingulate cortex (BA24)",-0.996943776623314
+66,"Nerve - Tibial",-0.855969411231906
+66,"Cells - Cultured fibroblasts",-0.643693275314503
+66,"Colon - Sigmoid",0.00549210790019233
+66,"Lung",0.0782437774992319
+66,"Esophagus - Muscularis",-1.10474468993396
+66,"Pituitary",-0.124195608125458
+66,"Brain - Spinal cord (cervical c-1)",1.54971490995817
+66,"Heart - Atrial Appendage",0.0260052886559357
+66,"Brain - Hypothalamus",-0.188067323467685
+66,"Testis",-0.596394270234678
+66,"Minor Salivary Gland",1.37033777454371
+66,"Thyroid",1.05240467690714
+66,"Adipose - Subcutaneous",0.94977051537262
+66,"Adrenal Gland",0.849452069785458
+66,"Small Intestine - Terminal Ileum",0.961261615224785
+66,"Brain - Cortex",0.776974215636079
+66,"Liver",0.360909221075468
+66,"Brain - Hippocampus",0.139003936715547
+66,"Breast - Mammary Tissue",0.493612580048257
+66,"Esophagus - Mucosa",0.821485956693892
+66,"Brain - Amygdala",0.426497307184068
+66,"Pancreas",-0.127490796446972
+66,"Prostate",-0.343447401727197
+66,"Artery - Coronary",0.453339853092801
+66,"Colon - Transverse",0.389028290577985
+66,"Artery - Aorta",0.239034364508053
+66,"Brain - Putamen (basal ganglia)",-0.134718961051261
+66,"Brain - Cerebellar Hemisphere",0.0205352793333768
+66,"Brain - Cerebellum",0.428721341250626
+66,"Kidney - Cortex",1.1656473899215
+66,"Skin - Sun Exposed (Lower leg)",0.709216313024592
+66,"Stomach",1.6390041265661
+66,"Vagina",1.54231674715422
+66,"Adipose - Visceral (Omentum)",1.37659912455322
+66,"Ovary",1.49735363128237
+66,"Uterus",1.84791927907166
+67,"Heart - Left Ventricle",-0.879800103496723
+67,"Skin - Not Sun Exposed (Suprapubic)",0.104694126995126
+67,"Brain - Substantia nigra",-2.04653763603477
+67,"Brain - Nucleus accumbens (basal ganglia)",-1.08262752052312
+67,"Brain - Frontal Cortex (BA9)",-1.18088257814179
+67,"Artery - Tibial",-1.32667868374393
+67,"Esophagus - Gastroesophageal Junction",-1.45705035353458
+67,"Brain - Caudate (basal ganglia)",-0.234072236777498
+67,"Muscle - Skeletal",-1.04580822988681
+67,"Spleen",-1.55018827791424
+67,"Brain - Anterior cingulate cortex (BA24)",-1.36561571068675
+67,"Nerve - Tibial",-1.25158881566271
+67,"Cells - Cultured fibroblasts",-0.319187361768203
+67,"Colon - Sigmoid",0.0845446750817997
+67,"Lung",-0.164672344879755
+67,"Esophagus - Muscularis",-1.05390336802273
+67,"Pituitary",-0.167157653286653
+67,"Brain - Spinal cord (cervical c-1)",0.655274067798315
+67,"Heart - Atrial Appendage",0.0670433303851284
+67,"Brain - Hypothalamus",-0.347899896507725
+67,"Testis",-0.49200537871424
+67,"Minor Salivary Gland",1.6354361164355
+67,"Thyroid",1.10176545306247
+67,"Adipose - Subcutaneous",1.02873434038512
+67,"Adrenal Gland",0.889651874073862
+67,"Small Intestine - Terminal Ileum",0.931159238538243
+67,"Brain - Cortex",0.564581994600887
+67,"Liver",0.257038523303759
+67,"Brain - Hippocampus",0.307470191249878
+67,"Breast - Mammary Tissue",0.69138613509597
+67,"Esophagus - Mucosa",0.313791751562783
+67,"Brain - Amygdala",-0.069060916025859
+67,"Pancreas",-0.457254303105969
+67,"Prostate",-0.577514086827239
+67,"Artery - Coronary",0.129266129868735
+67,"Colon - Transverse",0.0679371576949285
+67,"Artery - Aorta",0.254277934011028
+67,"Brain - Putamen (basal ganglia)",-0.239886825482252
+67,"Brain - Cerebellar Hemisphere",-0.520343753441578
+67,"Brain - Cerebellum",0.0457661294938475
+67,"Kidney - Cortex",0.885921818211767
+67,"Skin - Sun Exposed (Lower leg)",0.653547631549134
+67,"Stomach",1.98631572514114
+67,"Vagina",1.6799820360546
+67,"Adipose - Visceral (Omentum)",1.7121531338128
+67,"Ovary",1.61624086721156
+67,"Uterus",1.87465489597129
+68,"Heart - Left Ventricle",-0.501956158006409
+68,"Skin - Not Sun Exposed (Suprapubic)",0.531210008609711
+68,"Brain - Substantia nigra",-2.0978529893924
+68,"Brain - Nucleus accumbens (basal ganglia)",-1.05912023989036
+68,"Brain - Frontal Cortex (BA9)",-1.39802573041702
+68,"Artery - Tibial",-1.43235709402154
+68,"Esophagus - Gastroesophageal Junction",-1.78379735819954
+68,"Brain - Caudate (basal ganglia)",-0.93674171982962
+68,"Muscle - Skeletal",-1.26997342685552
+68,"Spleen",-2.15586519977401
+68,"Brain - Anterior cingulate cortex (BA24)",-1.83115998484197
+68,"Nerve - Tibial",-1.71369600353279
+68,"Cells - Cultured fibroblasts",0.0519106671006904
+68,"Colon - Sigmoid",0.124439676896123
+68,"Lung",-0.486772866706659
+68,"Esophagus - Muscularis",-0.991528169439831
+68,"Pituitary",-0.299707696483426
+68,"Brain - Spinal cord (cervical c-1)",-0.690134690577073
+68,"Heart - Atrial Appendage",0.0353474053318277
+68,"Brain - Hypothalamus",-0.579927003465473
+68,"Testis",-0.368447793533528
+68,"Minor Salivary Gland",1.92127965242985
+68,"Thyroid",1.13261017551663
+68,"Adipose - Subcutaneous",1.11515389634558
+68,"Adrenal Gland",0.939809751310608
+68,"Small Intestine - Terminal Ileum",0.894644513769853
+68,"Brain - Cortex",0.324263939647591
+68,"Liver",0.148005176210338
+68,"Brain - Hippocampus",0.62150586090942
+68,"Breast - Mammary Tissue",0.927297452302036
+68,"Esophagus - Mucosa",-0.290267518166983
+68,"Brain - Amygdala",-0.701412082218682
+68,"Pancreas",-0.829691106702496
+68,"Prostate",-0.803257256966792
+68,"Artery - Coronary",-0.232373061491822
+68,"Colon - Transverse",-0.288535842494046
+68,"Artery - Aorta",0.292466620994138
+68,"Brain - Putamen (basal ganglia)",-0.333868338723486
+68,"Brain - Cerebellar Hemisphere",-1.19055468562665
+68,"Brain - Cerebellum",-0.421763185404602
+68,"Kidney - Cortex",0.551814734395424
+68,"Skin - Sun Exposed (Lower leg)",0.583309858959436
+68,"Stomach",2.36511269141828
+68,"Vagina",1.81616298003401
+68,"Adipose - Visceral (Omentum)",2.09477469273675
+68,"Ovary",1.74268531506074
+68,"Uterus",1.88059533329629
+69,"Heart - Left Ventricle",-0.0582179669985002
+69,"Skin - Not Sun Exposed (Suprapubic)",1.00853595516429
+69,"Brain - Substantia nigra",-2.05717513948951
+69,"Brain - Nucleus accumbens (basal ganglia)",-1.00522567873089
+69,"Brain - Frontal Cortex (BA9)",-1.67564154743649
+69,"Artery - Tibial",-1.54521936850574
+69,"Esophagus - Gastroesophageal Junction",-2.15124349044495
+69,"Brain - Caudate (basal ganglia)",-1.81065638572377
+69,"Muscle - Skeletal",-1.52711769505571
+69,"Spleen",-2.83368077818942
+69,"Brain - Anterior cingulate cortex (BA24)",-2.40247235155612
+69,"Nerve - Tibial",-2.23992325180486
+69,"Cells - Cultured fibroblasts",0.470268522883241
+69,"Colon - Sigmoid",0.132416137978207
+69,"Lung",-0.885727086262685
+69,"Esophagus - Muscularis",-0.918714036635846
+69,"Pituitary",-0.5297299887066
+69,"Brain - Spinal cord (cervical c-1)",-2.5781896356622
+69,"Heart - Atrial Appendage",-0.0524381172349055
+69,"Brain - Hypothalamus",-0.898779199206796
+69,"Testis",-0.225102239148667
+69,"Minor Salivary Gland",2.22916354058921
+69,"Thyroid",1.14660070165846
+69,"Adipose - Subcutaneous",1.2089484299011
+69,"Adrenal Gland",0.998479032422548
+69,"Small Intestine - Terminal Ileum",0.851591576994898
+69,"Brain - Cortex",0.0584809310757221
+69,"Liver",0.0323708877931182
+69,"Brain - Hippocampus",1.14195197757534
+69,"Breast - Mammary Tissue",1.1990731956345
+69,"Esophagus - Mucosa",-0.987832133475312
+69,"Brain - Amygdala",-1.48180518287914
+69,"Pancreas",-1.24354582635862
+69,"Prostate",-1.02720707351602
+69,"Artery - Coronary",-0.631605656071442
+69,"Colon - Transverse",-0.680066856056287
+69,"Artery - Aorta",0.351055693529009
+69,"Brain - Putamen (basal ganglia)",-0.438446406789034
+69,"Brain - Cerebellar Hemisphere",-1.98093445554238
+69,"Brain - Cerebellum",-0.970045958427246
+69,"Kidney - Cortex",0.17578681422753
+69,"Skin - Sun Exposed (Lower leg)",0.498275963646229
+69,"Stomach",2.7724205216243
+69,"Vagina",1.95047553779567
+69,"Adipose - Visceral (Omentum)",2.52239761736952
+69,"Ovary",1.87600798929003
+69,"Uterus",1.86643401161317
+70,"Heart - Left Ventricle",0.452041408010296
+70,"Skin - Not Sun Exposed (Suprapubic)",1.53728142026987
+70,"Brain - Substantia nigra",-1.93106601923947
+70,"Brain - Nucleus accumbens (basal ganglia)",-0.923505251675906
+70,"Brain - Frontal Cortex (BA9)",-2.01678481075326
+70,"Artery - Tibial",-1.66621281806852
+70,"Esophagus - Gastroesophageal Junction",-2.55870315778964
+70,"Brain - Caudate (basal ganglia)",-2.84970110747583
+70,"Muscle - Skeletal",-1.81583611450141
+70,"Spleen",-3.58219096294334
+70,"Brain - Anterior cingulate cortex (BA24)",-3.07113599261054
+70,"Nerve - Tibial",-2.82790283744163
+70,"Cells - Cultured fibroblasts",0.936553917170513
+70,"Colon - Sigmoid",0.11571308296308
+70,"Lung",-1.35920430182906
+70,"Esophagus - Muscularis",-0.836555912061291
+70,"Pituitary",-0.847229063547627
+70,"Brain - Spinal cord (cervical c-1)",-4.95626105714742
+70,"Heart - Atrial Appendage",-0.182349744151658
+70,"Brain - Hypothalamus",-1.29897397574853
+70,"Testis",-0.0613494400158011
+70,"Minor Salivary Gland",2.56038293897605
+70,"Thyroid",1.14539888887667
+70,"Adipose - Subcutaneous",1.31003718769877
+70,"Adrenal Gland",1.06421304833656
+70,"Small Intestine - Terminal Ileum",0.801874564288675
+70,"Brain - Cortex",-0.233133486058861
+70,"Liver",-0.0913026339499705
+70,"Brain - Hippocampus",1.83690250896525
+70,"Breast - Mammary Tissue",1.50444002906139
+70,"Esophagus - Mucosa",-1.77604237534208
+70,"Brain - Amygdala",-2.40628021500097
+70,"Pancreas",-1.69756308119646
+70,"Prostate",-1.25589369784512
+70,"Artery - Coronary",-1.06845958895272
+70,"Colon - Transverse",-1.10633202905912
+70,"Artery - Aorta",0.427500419687262
+70,"Brain - Putamen (basal ganglia)",-0.536446976387362
+70,"Brain - Cerebellar Hemisphere",-2.8967865203322
+70,"Brain - Cerebellum",-1.5962722344502
+70,"Kidney - Cortex",-0.245825673287541
+70,"Skin - Sun Exposed (Lower leg)",0.398218914000257
+70,"Stomach",3.205264711986
+70,"Vagina",2.08253566804282
+70,"Adipose - Visceral (Omentum)",2.99295572375555
+70,"Ovary",2.01552990435955
+70,"Uterus",1.83286435148842
