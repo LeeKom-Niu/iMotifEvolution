@@ -1,42 +1,65 @@
+# ==================================================================
+# Ancestral state reconstruction · Final (PNG+PDF + net increase analysis for three major evolutionary nodes)
+# Strategy: use outgroup nodes instead of ancestral nodes
+# ==================================================================
 
 library(ape)
 library(phytools)
+
+# ---------- 1. Read data ----------
 tree <- read.tree("species_tree.nwk")
 dat  <- read.delim("species_taxid_sampled_final_400.tsv", header = TRUE, 
                    sep = "\t", stringsAsFactors = FALSE)
+
+# ---------- 2. Name cleaning and matching ----------
 tree$tip.label <- gsub(":.*", "", tree$tip.label)
 rownames(dat) <- dat$organism_name_asm_name
+
 common <- intersect(tree$tip.label, rownames(dat))
-cat("树中叶节点:", length(tree$tip.label), " 表格中物种:", nrow(dat),
-    " 共有:", length(common), "\n")
+cat("Tips in tree:", length(tree$tip.label), " Species in table:", nrow(dat),
+    " Common:", length(common), "\n")
+
 missing <- setdiff(tree$tip.label, rownames(dat))
 if (length(missing) > 0) {
-  cat("移除树中缺失物种:", length(missing), "\n")
+  cat("Removing missing species from tree:", length(missing), "\n")
   tree <- drop.tip(tree, missing)
 }
 dat <- dat[tree$tip.label, ]
+
+# ---------- 3. Rooting ----------
 tree <- midpoint.root(tree)
-cat("树已定根，总节点数:", tree$Nnode + Ntip(tree), "\n")
+cat("Tree rooted, total nodes:", tree$Nnode + Ntip(tree), "\n")
+
+# ---------- 4. Build trait vector ----------
 trait <- setNames(as.numeric(dat[tree$tip.label, "robust_z_score"]), tree$tip.label)
 if (any(is.na(trait))) {
   na_tips <- names(trait)[is.na(trait)]
-  cat("移除", length(na_tips), "个 NA 值物种\n")
+  cat("Removing", length(na_tips), "species with NA values\n")
   tree <- drop.tip(tree, na_tips)
   trait <- trait[!is.na(trait)]
 }
+
+# ---------- 5. Ancestral state reconstruction ----------
 fit <- fastAnc(tree, trait, vars = TRUE, CI = TRUE)
 ace     <- fit$ace
 ace_CI95 <- fit$CI95
-cat("祖先状态重建完成\n")
+cat("Ancestral state reconstruction completed\n")
+
+# ---------- 6. Visualization ----------
 obj <- contMap(tree, trait, plot = FALSE)
 obj <- setMap(obj, colors = colorRampPalette(c("blue", "white", "red"))(100))
+
 pdf("ancestral_state_reconstruction.pdf", width = 18, height = 30)
 plot(obj, fsize = 0.2, lwd = 1.5, outline = FALSE)
 dev.off()
+
 png("ancestral_state_reconstruction.png", width = 18, height = 30, units = "in", res = 300)
 plot(obj, fsize = 0.2, lwd = 1.5, outline = FALSE)
 dev.off()
-cat("图形已保存 PDF 和 PNG\n")
+cat("Figures saved as PDF and PNG\n")
+
+# ---------- 7. Helper functions ----------
+# Get MRCA node number and ancestral value for a specified group
 get_node_val <- function(groups, label) {
   tips <- tree$tip.label[dat$group %in% groups]
   if (length(tips) < 2) return(NULL)
@@ -47,6 +70,8 @@ get_node_val <- function(groups, label) {
        ci_low = ace_CI95[node_idx, 1],
        ci_up  = ace_CI95[node_idx, 2])
 }
+
+# Calculate net increase and confidence interval between two nodes
 calc_delta <- function(target, reference) {
   if (is.null(target) || is.null(reference)) return(NULL)
   dz <- target$z - reference$z
@@ -54,17 +79,33 @@ calc_delta <- function(target, reference) {
   d_up  <- target$ci_up - reference$ci_low
   c(dz, d_low, d_up)
 }
+
+# ---------- 8. Define nodes ----------
+# 1) Eukaryotic crown group (all eukaryotes)
 euk_node <- get_node_val(c("Fungi","Plant","Invertebrate","Vertebrate Other",
                            "Mammalian","Protozoa"), "Eukaryota_crown")
+# Prokaryotic crown group
 prok_node <- get_node_val(c("Archaea","Bacteria"), "Prokaryota_crown")
+
+# 2) Animal crown group (Metazoa)
 metazoa_node <- get_node_val(c("Invertebrate","Vertebrate Other","Mammalian"),
                              "Metazoa_crown")
+# Non-animal eukaryotes (all eukaryotes except animals: Fungi + Plant + Protozoa, simplified; adjust if needed)
 non_metazoa_euk_node <- get_node_val(c("Fungi","Plant","Protozoa"),
                                      "NonMetazoa_Eukaryota_crown")
+
+# 3) Vertebrate crown group
 vert_node <- get_node_val(c("Vertebrate Other","Mammalian"),
                           "Vertebrata_crown")
+# Non-vertebrate deuterostomes/invertebrates (as outgroup)
+# The tree has Invertebrate group; select Invertebrate + other non-vertebrates
 non_vert_node <- get_node_val(c("Invertebrate"), "Invertebrate_crown")
+
+# If no independent Invertebrate node exists, use the ancestral node of non-vertebrate + vertebrate. Here Invertebrate is available.
+
+# ---------- 9. Calculate net increase ----------
 res <- list()
+
 calc_and_add <- function(target, ref, target_label, ref_label) {
   delta <- calc_delta(target, ref)
   if (!is.null(delta)) {
@@ -79,27 +120,32 @@ calc_and_add <- function(target, ref, target_label, ref_label) {
     )
   }
 }
+
 calc_and_add(euk_node, prok_node, "Eukaryota", "Prokaryota")
 calc_and_add(metazoa_node, non_metazoa_euk_node, "Metazoa", "NonMetazoa_Euk")
 calc_and_add(vert_node, non_vert_node, "Vertebrata", "Invertebrate")
+
 key_df <- do.call(rbind, res)
 write.csv(key_df, "key_nodes_ancestral_Z.csv", row.names = FALSE)
-cat("\n===== 三大演化过渡净增量分析 =====\n")
+
+# ---------- 10. Output conclusions ----------
+cat("\n===== Net increase analysis for three major evolutionary transitions =====\n")
 print(key_df, row.names = FALSE)
-cat("\n===== 演化结论 =====\n")
+
+cat("\n===== Evolutionary Conclusions =====\n")
 for (i in 1:nrow(key_df)) {
   trans <- key_df$Transition[i]
   dz <- key_df$Delta_Z[i]
   dl <- key_df$Delta_Lower[i]
   du <- key_df$Delta_Upper[i]
   if (is.na(dz)) {
-    cat(trans, ": 数据不足\n")
+    cat(trans, ": Insufficient data\n")
   } else if (dl > 0) {
-    cat(sprintf("%s: ΔZ = %.2f [%.2f, %.2f] → 净增加显著，支持独立增强\n", trans, dz, dl, du))
+    cat(sprintf("%s: ΔZ = %.2f [%.2f, %.2f] → Significant net increase, supports independent enrichment\n", trans, dz, dl, du))
   } else if (du < 0) {
-    cat(sprintf("%s: ΔZ = %.2f [%.2f, %.2f] → 净减少显著\n", trans, dz, dl, du))
+    cat(sprintf("%s: ΔZ = %.2f [%.2f, %.2f] → Significant net decrease\n", trans, dz, dl, du))
   } else {
-    cat(sprintf("%s: ΔZ = %.2f [%.2f, %.2f] → 置信区间包含0，未显著偏离继承\n", trans, dz, dl, du))
+    cat(sprintf("%s: ΔZ = %.2f [%.2f, %.2f] → Confidence interval contains 0, no significant deviation from inheritance\n", trans, dz, dl, du))
   }
 }
-cat("若ΔZ的95%置信区间完全大于0，表明该演化过渡是一次独立的i-Motif富集事件，而非单纯继承。\n")
+cat("If the 95% CI of ΔZ is entirely above 0, the evolutionary transition represents an independent i-Motif enrichment event, not mere inheritance.\n")

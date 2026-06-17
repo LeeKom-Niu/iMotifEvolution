@@ -1,7 +1,18 @@
+# ==============================================
+# Final version - 7 plots - vertical + no grid lines + tissue titles + compact age labels + increased legend spacing
+# - No cell borders (border_color = NA)
+# - Plot width 10 inches, height 18/14 inches
+# - Y-axis shows only gene names, tissue names indicated in legend
+# - Individual tissue heatmaps show tissue name at top
+# - X-axis age labels show only 21,30,40,50,60,70
+# - Legend-to-heatmap spacing increased by 1.5 cm
+# ==============================================
 library(tidyverse)
 library(pheatmap)
 library(RColorBrewer)
+
 dir.create("plots_7figs_FINAL", showWarnings = FALSE)
+
 gene_list <- c(
   "AKT1", "CACNA1A", "CPT1B", "CREB3L1", "GFPT1", "HK2",
   "INSR", "IRS2", "MAPK9", "MLX", "MLXIPL", "PDPK1",
@@ -9,11 +20,13 @@ gene_list <- c(
   "PRKCD", "PRKCZ", "PTEN", "PTPN11", "PYGB", "RPS6KA2",
   "SOCS2", "STAT3"
 )
+
 tissue1 <- "Small Intestine - Terminal Ileum"
 tissue2 <- "Colon - Transverse"
 age_min <- 21
 age_max <- 70
 target_ages <- c(21, 30, 40, 50, 60, 70)
+
 read_gene <- function(gene) {
   f <- paste0("aging_expression/", gene, "_acrossTissues.csv")
   df <- read.csv(f, na.strings = c("", NA), stringsAsFactors = F, fileEncoding = "UTF-8-BOM")
@@ -24,9 +37,11 @@ read_gene <- function(gene) {
     mutate(Age = as.integer(Age), 
            RowLabel = paste0(gene, " | ", Tissue))
 }
-cat("📥 读取 26 个基因表达...\n")
+
+cat("Reading 26 gene expression profiles...\n")
 df_list <- lapply(gene_list, read_gene)
 data <- bind_rows(df_list)
+
 mat <- data %>%
   select(RowLabel, Age, Zscore) %>%
   pivot_wider(names_from = Age, values_from = Zscore) %>%
@@ -34,6 +49,7 @@ mat <- data %>%
   as.matrix()
 mat[mat > 2] <- 2
 mat[mat < -2] <- -2
+
 calc_cor <- function(row_vals) {
   ages <- as.integer(colnames(mat))
   keep <- !is.na(row_vals)
@@ -41,10 +57,12 @@ calc_cor <- function(row_vals) {
   cor(ages[keep], row_vals[keep], method = "pearson")
 }
 cor_vals <- apply(mat, 1, calc_cor)
+
 mat_intestine <- mat[grepl(tissue1, rownames(mat)), , drop = FALSE]
 mat_colon     <- mat[grepl(tissue2, rownames(mat)), , drop = FALSE]
 cor_intestine <- cor_vals[rownames(mat_intestine)]
 cor_colon     <- cor_vals[rownames(mat_colon)]
+
 fixed_order <- c()
 for (g in gene_list) {
   gi <- paste0(g, " | ", tissue1)
@@ -56,12 +74,16 @@ mat_fixed <- mat[fixed_order, , drop = FALSE]
 mat_all_sorted <- mat_fixed[order(cor_vals[fixed_order], decreasing = TRUE), , drop = FALSE]
 mat_int_sorted <- mat_intestine[order(cor_intestine, decreasing = TRUE), , drop = FALSE]
 mat_col_sorted <- mat_colon[order(cor_colon, decreasing = TRUE), , drop = FALSE]
+
 get_heatmap_colors <- function() colorRampPalette(rev(brewer.pal(11, "RdBu")))(100)
 legend_breaks <- seq(-2, 2, by = 1)
+
 make_age_labels <- function(mat) {
   ages <- as.integer(colnames(mat))
   ifelse(ages %in% target_ages, as.character(ages), "")
 }
+
+# ===================== Plotting function (added legend_spacing parameter) =====================
 plot_no_cluster_oup <- function(mat, name, height_inch, width_inch = 10, title = NA) {
   mat_display <- mat
   rownames(mat_display) <- gsub(paste0(" \\| ", tissue1, "|", tissue2), "", rownames(mat_display))
@@ -81,7 +103,7 @@ plot_no_cluster_oup <- function(mat, name, height_inch, width_inch = 10, title =
     border_color = NA, na_col = "white",
     legend = TRUE, legend_title = "Z-score",
     legend_breaks = legend_breaks, legend_labels = as.character(legend_breaks),
-    legend_spacing = 1.5,
+    legend_spacing = 1.5,          # Increase legend-to-plot spacing (unit: cm)
     main = title)
   dev.off()
   
@@ -101,6 +123,7 @@ plot_no_cluster_oup <- function(mat, name, height_inch, width_inch = 10, title =
     main = title)
   dev.off()
 }
+
 plot_cluster_oup <- function(mat, name, height_inch, width_inch = 10, tree_height = 50, title = NA) {
   mat_display <- mat
   rownames(mat_display) <- gsub(paste0(" \\| ", tissue1, "|", tissue2), "", rownames(mat_display))
@@ -140,18 +163,27 @@ plot_cluster_oup <- function(mat, name, height_inch, width_inch = 10, tree_heigh
     main = title)
   dev.off()
 }
-cat("1/7 总图 不排序（无聚类）\n")
+
+# ------------------- Generate 7 plots -------------------
+cat("1/7 Combined plot unsorted (no clustering)\n")
 plot_no_cluster_oup(mat_fixed,      "1_ALL_fixed_NOclust",         18, title = NA)
-cat("2/7 总图 排序（无聚类）\n")
+
+cat("2/7 Combined plot sorted (no clustering)\n")
 plot_no_cluster_oup(mat_all_sorted, "2_ALL_sorted_NOclust",        18, title = NA)
-cat("3/7 小肠 排序（无聚类）\n")
+
+cat("3/7 Intestine sorted (no clustering)\n")
 plot_no_cluster_oup(mat_int_sorted, "3_Intestine_sorted_NOclust",  14, title = "Small Intestine")
-cat("4/7 结肠 排序（无聚类）\n")
+
+cat("4/7 Colon sorted (no clustering)\n")
 plot_no_cluster_oup(mat_col_sorted, "4_Colon_sorted_NOclust",      14, title = "Colon")
-cat("5/7 总图 固定顺序（聚类）\n")
+
+cat("5/7 Combined plot fixed order (clustering)\n")
 plot_cluster_oup(mat_fixed,         "5_ALL_fixed_CLUST",           18, tree_height = 60, title = NA)
-cat("6/7 小肠 排序（聚类）\n")
+
+cat("6/7 Intestine sorted (clustering)\n")
 plot_cluster_oup(mat_int_sorted,    "6_Intestine_sorted_CLUST",    14, tree_height = 50, title = "Small Intestine")
-cat("7/7 结肠 排序（聚类）\n")
+
+cat("7/7 Colon sorted (clustering)\n")
 plot_cluster_oup(mat_col_sorted,    "7_Colon_sorted_CLUST",        14, tree_height = 50, title = "Colon")
-cat("\n🎉 完成！图例与热图主体间距已增大（legend_spacing = 1.5 cm）。\n")
+
+cat("\nComplete! Legend-to-heatmap spacing increased (legend_spacing = 1.5 cm).\n")
