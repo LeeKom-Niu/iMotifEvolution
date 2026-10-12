@@ -56,11 +56,11 @@ counts$source <- "iMotif"
 p <- ggplot(counts, aes(x = source, y = percentage, fill = group)) +
   geom_bar(stat = "identity", width = 0.4,
            color = "black", linewidth = 0.3) +
-  # 标签居中显示
+  # Center labels
   geom_text(aes(label = sprintf("%.1f%%", percentage)),
             position = position_stack(vjust = 0.5),
             color = "white",
-            size = 3,  # 约 8pt
+            size = 3,  # about 8pt
             family = "Arial") +
   scale_fill_manual(values = c("C1" = "#D62728",
                                "C2" = "#1F77B4",
@@ -70,14 +70,14 @@ p <- ggplot(counts, aes(x = source, y = percentage, fill = group)) +
   labs(x = NULL, y = "Percentage (%)") +
   theme_oup() +
   theme(
-    axis.text.x = element_text(size = 10),  # 约 10pt
-    axis.text.y = element_text(size = 8),   # 约 8pt
+    axis.text.x = element_text(size = 10),  # about 10pt
+    axis.text.y = element_text(size = 8),   # about 8pt
     legend.position = "right"
   )
 
 # 6. Save as AI-editable PDF
 ggsave("imotif_category_proportion.pdf", p,
-       width = 4, height = 4,   # 调整为正方形，更适合单组
+       width = 4, height = 4,   # adjusted to square, better suited for a single group
        device = cairo_pdf, dpi = 300)
 
 # 7. Save as TIFF for printing

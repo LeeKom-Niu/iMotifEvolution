@@ -1,6 +1,6 @@
 library(tidyverse)
 
-# 读取物种列表
+# Read species list
 species_list <- readLines("sp240_nonhuman.txt")
 
 # Initialize an empty data frame, row names are iMotif names

@@ -10,10 +10,16 @@ This repository contains the reproducible analysis code and processed small-scal
 - **03_Great_Ape_Comparative**: Great ape genome comparison, chromosome-level density heatmap (Figure 3)
 - **04_Functional_Enrichment**: UpSet plot, promoter enrichment, and functional/diabetes pathway analysis (Figure 4)
 - **05_TSS_Expression**: Strand-specific TSS profiling and gene expression (TPM) analysis (Figure 5)
+- **06_Selection_Analysis**: HKA test and PhyloFit branch-length analysis of i-Motif stems and loops (Supplementary Figures S13–S14)
+- **07_Functional_Validation**: ATAC-seq overlap and expression validation of iM-associated genes (Supplementary Figures S21–S22)
+- **08_CD_Spectroscopy**: Circular dichroism spectra of representative iM-forming sequences
 
 ## Software Versions
 - R 4.5.2
 - Python 3.11.10
+
+## Configuration
+All scripts resolve their input and output paths relative to the `IMOTIF_BASE` environment variable, which should point to the project root directory (defaults to the current directory).
 
 ## Data Availability
 The core i-Motif coordinates, classification annotations, and enrichment results generated in this study are available in this repository.

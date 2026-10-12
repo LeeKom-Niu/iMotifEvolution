@@ -10,11 +10,19 @@
 #SBATCH --output=logs/makeEdges_%j.out
 #SBATCH --error=logs/makeEdges_%j.err
 
+# Original server paths (this code was developed on an HPC cluster):
+#   /datapool/life-zhanghk/niulk/my_project/18_mammalian/03_upset
+
+# Root directory for input/output files.
+# On the original cluster: export IMOTIF_BASE=/datapool/life-zhanghk/niulk/my_project
+# For local use: set IMOTIF_BASE to your own data directory.
+BASE_DIR="${IMOTIF_BASE:-.}"
+
 # Parameters
-# $1 = 染色体编号 (如: 1, 2, ..., 22, X, Y)
+# $1 = chromosome number (e.g.: 1, 2, ..., 22, X, Y)
 
 CHROM=$1
-PROJECT_DIR="/datapool/life-zhanghk/niulk/my_project/18_mammalian/03_upset"
+PROJECT_DIR="${BASE_DIR}/18_mammalian/03_upset"
 ORGANIZED_DIR="${PROJECT_DIR}/organized_files/organized_consistent"
 OUTPUT_DIR="${PROJECT_DIR}/output"
 SCRIPT_DIR="${PROJECT_DIR}"
@@ -28,19 +36,19 @@ echo "Project directory: ${PROJECT_DIR}"
 echo "Input directory: ${ORGANIZED_DIR}/hsa${CHROM}"
 echo "Output directory: ${OUTPUT_DIR}/hsa${CHROM}"
 
-# 检查输入目录
+# Check input directory
 if [ ! -d "${ORGANIZED_DIR}/hsa${CHROM}" ]; then
-    echo "错误: 输入目录不存在: ${ORGANIZED_DIR}/hsa${CHROM}"
+    echo "Error: input directory not found: ${ORGANIZED_DIR}/hsa${CHROM}"
     exit 1
 fi
 
-# 检查 makeEdges.py 脚本
+# Check the makeEdges.py script
 if [ ! -f "${SCRIPT_DIR}/makeEdges.py" ]; then
     echo "Error: Cannot find makeEdges.py script: ${SCRIPT_DIR}/makeEdges.py"
     exit 1
 fi
 
-# 创建输出目录
+# Create output directory
 mkdir -p "${OUTPUT_DIR}/hsa${CHROM}"
 
 echo "Cleaning old output files..."
@@ -52,7 +60,7 @@ if [ -f "${OUTPUT_DIR}/hsa${CHROM}/hsa${CHROM}_alignedUnique.nds" ]; then
     rm -f "${OUTPUT_DIR}/hsa${CHROM}/hsa${CHROM}_alignedUnique.nds"
 fi
 
-# 获取文件列表
+# Get file list
 files=($(ls "${ORGANIZED_DIR}/hsa${CHROM}"/*.rmredundant.df 2>/dev/null))
 file_count=${#files[@]}
 
@@ -73,7 +81,7 @@ for file in "${files[@]}"; do
         filename=$(basename "$file")
         echo "  Processing: ${filename}"
         
-        # 使用 Python 处理文件
+        # Process files with Python
         python3 "${SCRIPT_DIR}/makeEdges.py" \
             "$file" \
             "${OUTPUT_DIR}/hsa${CHROM}/hsa${CHROM}_alignedUnique.nds" \
@@ -88,7 +96,7 @@ for file in "${files[@]}"; do
     fi
 done
 
-# 排序去重 alignedUnique.nds 文件
+# Sort and deduplicate the alignedUnique.nds file
 if [ -f "${OUTPUT_DIR}/hsa${CHROM}/hsa${CHROM}_alignedUnique.nds" ]; then
     echo "Sorting and deduplicating alignedUnique.nds file..."
     mv "${OUTPUT_DIR}/hsa${CHROM}/hsa${CHROM}_alignedUnique.nds" \
@@ -100,7 +108,7 @@ if [ -f "${OUTPUT_DIR}/hsa${CHROM}/hsa${CHROM}_alignedUnique.nds" ]; then
     rm -f "${OUTPUT_DIR}/hsa${CHROM}/hsa${CHROM}_alignedUnique.nds.bak"
 fi
 
-# 统计结果
+# Count results
 edges=0
 nodes=0
 
@@ -118,11 +126,11 @@ echo "Time: $(date)"
 echo "Processed files: ${processed}/${file_count} (failed: ${failed})"
 echo "Edges generated: ${edges}"
 echo "Alignment-unique nodes: ${nodes}"
-echo "输出文件:"
+echo "Output files:"
 echo "  ${OUTPUT_DIR}/hsa${CHROM}/hsa${CHROM}.egs"
 echo "  ${OUTPUT_DIR}/hsa${CHROM}/hsa${CHROM}_alignedUnique.nds"
 
-# 保存统计信息
+# Save counts
 echo "${CHROM},${file_count},${processed},${failed},${edges},${nodes},$(date)" \
     >> "${PROJECT_DIR}/makeEdges_stats_test.csv"
 

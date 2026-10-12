@@ -8,23 +8,32 @@ from pathlib import Path
 import glob
 import numpy as np
 from datetime import datetime
+import os
+
+# Original server paths (this code was developed on an HPC cluster):
+#   /datapool/home/2023200496/niulk/my_project/1555_simulation_study_extended_GC
+
+# Root directory for input/output files.
+# On the original cluster: export IMOTIF_BASE=/datapool/home/2023200496/niulk/my_project
+# For local use: set IMOTIF_BASE to your own data directory.
+BASE_DIR = os.environ.get("IMOTIF_BASE", ".")
 
 def combine_all_results():
-    base_dir = "/datapool/home/2023200496/niulk/my_project/1555_simulation_study_extended_GC"
+    base_dir = os.path.join(BASE_DIR, "1555_simulation_study_extended_GC")
     results_dir = Path(base_dir) / "results"
     
-    # 硬编码配置
+    # Hardcoded configuration
     GC_LEVELS = [0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90]
     REPLICATES = 30
     GENOME_SIZE = 10000000
     
     print(f"=== Combining all GC content simulation results ===")
-    print(f"开始时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Start time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"GC content gradients: {len(GC_LEVELS)} levels (10% - 90%)")
     print(f"Replicates per gradient: {REPLICATES}")
     print(f"Expected total simulations: {len(GC_LEVELS) * REPLICATES}")
     
-    # 查找所有单个GC含量的结果文件
+    # Find all result files for individual GC levels
     result_files = glob.glob(str(results_dir / "simulation_GC*_detailed.csv"))
     
     print(f"\nFound {len(result_files)} result files")
@@ -66,7 +75,7 @@ def combine_all_results():
         print(f"Completion rate: {completion_rate:.1f}% ({total_simulations}/{expected_total})")
         print(f"Saved to: {combined_file}")
         
-        # 计算汇总统计
+        # Calculate summary statistics
         summary = combined_df.groupby('GC_content').agg({
             'Density_IM_per_Mb': ['mean', 'std', 'count', 'min', 'max', 'sem'],
             'iMotif_count': ['mean', 'sum'],
@@ -119,7 +128,7 @@ def combine_all_results():
             print(f"GC{gc_percent}%: {mean_density:.2f} ± {1.96*se:.2f} IM/Mb "
                   f"[{ci_lower:.2f}, {ci_upper:.2f}] (n={n})")
             
-            # 提取对应分组的数据计算相关性
+            # Extract data of the corresponding group to compute correlation
             group_data = combined_df[combined_df['GC_content'] == gc_content]
             corr_c = group_data['Actual_C_content'].corr(group_data['Density_IM_per_Mb']) if len(group_data) > 1 else np.nan
             
@@ -171,7 +180,7 @@ def combine_all_results():
         with open(key_findings, 'w') as f:
             f.write("=== GC Content Simulation Key Findings ===\n\n")
             f.write(f"Experiment completed at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-            f.write(f"总模拟次数: {total_simulations}/{expected_total}\n")
+            f.write(f"Total simulations: {total_simulations}/{expected_total}\n")
             f.write(f"Completion rate: {completion_rate:.1f}%\n\n")
 
             # Find highest and lowest density

@@ -4,7 +4,17 @@ import pandas as pd
 import random
 import os
 
-dataDir = "/datapool/life-zhanghk/niulk/my_project/18_mammalian/03_upset/output"
+# Original server paths (this code was developed on an HPC cluster):
+#   /datapool/life-zhanghk/niulk/my_project/18_mammalian/03_upset/output
+#   /datapool/life-zhanghk/niulk/my_project/18_mammalian/03_upset/GreatApeT2T-G4s-main/datasets/pG4s
+#   /datapool/life-zhanghk/niulk/my_project/18_mammalian/03_upset/GreatApeT2T-G4s-main/datasets/dataForAnalysis/maps/align.hsa.map
+
+# Root directory for input/output files.
+# On the original cluster: export IMOTIF_BASE=/datapool/life-zhanghk/niulk/my_project
+# For local use: set IMOTIF_BASE to your own data directory.
+BASE_DIR = os.environ.get("IMOTIF_BASE", ".")
+
+dataDir = os.path.join(BASE_DIR, "18_mammalian/03_upset/output")
 os.makedirs(f"{dataDir}/datasets", exist_ok=True)
 
 #function to convert a value to int or float
@@ -122,7 +132,7 @@ bedValues = set()
 
 for nos, species in enumerate(speciesSName):
     print(f"  Processing species {species}...")
-    paths = glob.glob(f"/datapool/life-zhanghk/niulk/my_project/18_mammalian/03_upset/GreatApeT2T-G4s-main/datasets/pG4s/{species}/chr*.pqsfinder.filtered.bed")
+    paths = glob.glob(os.path.join(BASE_DIR, "18_mammalian/03_upset/GreatApeT2T-G4s-main/datasets/pG4s", species, "chr*.pqsfinder.filtered.bed"))
     speciesBED = []
 
     for file in paths:
@@ -155,7 +165,7 @@ print("Generated set of Unique G4s")
 speciesmap = dict({"Homo_sapiens": "hs1", "Pan_troglodytes": "pan", "Pan_paniscus": "pan",
                    "Gorilla_gorilla": "gor", "Pongo_pygmaeus": "pon", "Pongo_abelii": "pon"})
 
-hsamap = pd.read_csv("/datapool/life-zhanghk/niulk/my_project/18_mammalian/03_upset/GreatApeT2T-G4s-main/datasets/dataForAnalysis/maps/align.hsa.map", sep="\t", header=0, index_col=0)
+hsamap = pd.read_csv(os.path.join(BASE_DIR, "18_mammalian/03_upset/GreatApeT2T-G4s-main/datasets/dataForAnalysis/maps/align.hsa.map"), sep="\t", header=0, index_col=0)
 
 uniqueValues = pd.read_csv(f"{dataDir}/datasets/uniquehsaG.egs", header=None, names=["MARKER"])
 uniqueValues[["SPECIES","CHR","START","STRAND","LENGTH","SCORE"]] = uniqueValues["MARKER"].str.split("|", expand=True)

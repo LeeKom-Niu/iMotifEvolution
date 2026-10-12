@@ -40,7 +40,7 @@ for(ar_file in ar_files) {
     }
 }
 
-# 合并矩阵
+# Merge matrix
 ar_matrix <- Reduce(function(x, y) merge(x, y, by = "id", all = TRUE), ar_list)
 colnames(ar_matrix) <- c("id", names(ar_list))
 ar_matrix[is.na(ar_matrix)] <- 0
@@ -103,7 +103,7 @@ p1 <- ggplot(result, aes(x = N2, y = N1)) +
 
 ggsave("plots/N1N2_density.png", p1, width = 8, height = 7, dpi = 300)
 
-# 绘制分组柱状图
+# Plot group bar chart
 p2 <- ggplot(stats, aes(x = group, y = percentage, fill = group)) +
     geom_col(width = 0.6, color = "black") +
     geom_text(aes(label = sprintf("%.1f%%", percentage)), vjust = -0.5) +

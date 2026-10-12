@@ -19,6 +19,15 @@ from pathlib import Path
 import warnings
 warnings.filterwarnings('ignore')
 import json
+import os
+
+# Original server paths (this code was developed on an HPC cluster):
+#   /datapool/home/2023200496/niulk/my_project/1555_simulation_study_extended_GC
+
+# Root directory for input/output files.
+# On the original cluster: export IMOTIF_BASE=/datapool/home/2023200496/niulk/my_project
+# For local use: set IMOTIF_BASE to your own data directory.
+BASE_DIR = os.environ.get("IMOTIF_BASE", ".")
 
 # Set clean style
 def set_clean_style():
@@ -512,7 +521,7 @@ def main():
     set_clean_style()
 
     # File paths
-    base_dir = "/datapool/home/2023200496/niulk/my_project/1555_simulation_study_extended_GC"
+    base_dir = os.path.join(BASE_DIR, "1555_simulation_study_extended_GC")
     simulation_file = Path(base_dir) / "results" / "simulation_results_GC_combined.csv"
     real_genome_file = Path(base_dir) / "all_species_with_GCcontent_and_density.txt"
 

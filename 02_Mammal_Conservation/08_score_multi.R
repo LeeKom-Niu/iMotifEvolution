@@ -29,56 +29,56 @@ colors <- c("C1" = "#D62728",
 theme_oup <- function(base_size = 8, base_family = "Arial") {
   theme_bw(base_size = base_size, base_family = base_family) %+replace%
     theme(
-      # 轴线粗细
+      # Axis line widths
       axis.line = element_line(linewidth = 0.5, color = "black"),
       axis.ticks = element_line(linewidth = 0.5),
       axis.ticks.length = unit(0.1, "cm"),
-      # 刻度标签大小
+      # Tick label size
       axis.text = element_text(size = rel(1), color = "black"),
       axis.text.x = element_text(angle = 0, hjust = 0.5, size = rel(1)),
       axis.title = element_text(size = rel(1.2), face = "plain"),
-      # 图例
+      # Legend
       legend.position = "none",
-      # 网格线（使用细虚线）
+      # Grid lines (use thin dotted lines)
       panel.grid.major.x = element_blank(),
       panel.grid.major.y = element_line(linewidth = 0.3, linetype = "dotted", color = "#CCCCCC"),
       panel.grid.minor = element_blank(),
-      # 面板边框
+      # Panel border
       panel.border = element_rect(linewidth = 0.5, fill = NA),
-      # 图形边距
+      # Plot margin
       plot.margin = margin(25, 25, 25, 25),
-      # 确保所有文本元素使用相同字体
+      # Ensure all text elements use the same font
       text = element_text(family = base_family)
     )
 }
 
-# 1. 读取稳定性分数文件
+# 1. Read stability score file
 stability <- read.table(input_bed, header = FALSE,
                         col.names = c("chr", "start", "end", "name", "score", "strand"),
                         stringsAsFactors = FALSE)
 stability <- stability[, c("name", "score")]
 
-# 2. 读取分组信息
+# 2. Read group information
 group_df <- read.table(input_group, header = TRUE, stringsAsFactors = FALSE)
 
-# 3. 合并数据
+# 3. Merge data
 combined <- left_join(group_df, stability, by = c("iMotif" = "name"))
 if (any(is.na(combined$score))) {
   warning("Some iMotifs not found in stability file; these rows will be filtered.")
   combined <- combined %>% filter(!is.na(score))
 }
 
-# 4. 设置分组顺序
+# 4. Set group order
 combined$group <- factor(combined$group, levels = c("C1", "C2", "C3", "Other"))
 
-# 5. 计算y轴最大值用于显著性标记位置（原始脚本样式：所有比较组共用同一高度）
+# 5. Calculate y-axis max for significance marker position (original script style: all comparison groups share the same height)
 y_max <- max(combined$score, na.rm = TRUE)
 y_pos <- y_max * 1.1
 
-# 6. 定义比较组
+# 6. Define comparison groups
 comparisons <- list(c("C1", "C2"), c("C1", "C3"), c("C2", "C3"))
 
-# 7. 绘制箱线图 + 显著性标记（原始样式）
+# 7. Plot boxplot + significance markers (original style)
 p_box <- ggplot(combined, aes(x = group, y = score, fill = group)) +
   geom_boxplot(outlier.shape = NA, linewidth = 0.4) +
   scale_fill_manual(values = colors) +
@@ -91,7 +91,7 @@ p_box <- ggplot(combined, aes(x = group, y = score, fill = group)) +
               textsize = 3.5,
               linewidth = 0.3)
 
-# 8. 绘制小提琴图 + 箱线图 + 显著性标记（原始样式）
+# 8. Plot violin plot + boxplot + significance markers (original style)
 p_violin <- ggplot(combined, aes(x = group, y = score, fill = group)) +
   geom_violin(alpha = 0.5, scale = "width", linewidth = 0.4) +
   geom_boxplot(width = 0.2, outlier.shape = NA, 
@@ -107,7 +107,7 @@ p_violin <- ggplot(combined, aes(x = group, y = score, fill = group)) +
               textsize = 3.5,
               linewidth = 0.3)
 
-# 9. 绘制箱线图 + 抖动散点图 + 显著性标记（原始样式，散点透明度提高避免遮盖）
+# 9. Plot boxplot + jitter scatter + significance markers (original style, higher point transparency to avoid occlusion)
 p_box_jitter <- ggplot(combined, aes(x = group, y = score, fill = group)) +
   geom_boxplot(outlier.shape = NA, linewidth = 0.4, alpha = 0.8) +
   geom_jitter(aes(color = group), width = 0.2, size = 0.6, alpha = 0.3, show.legend = FALSE) +
@@ -122,7 +122,7 @@ p_box_jitter <- ggplot(combined, aes(x = group, y = score, fill = group)) +
               textsize = 3.5,
               linewidth = 0.3)
 
-# 10. 保存为AI可编辑的PDF
+# 10. Save as AI-editable PDF
 ggsave(output_boxplot_pdf, p_box, width = 5, height = 4, 
        device = cairo_pdf, dpi = 300)
 ggsave(output_violin_pdf, p_violin, width = 5, height = 4, 
@@ -130,7 +130,7 @@ ggsave(output_violin_pdf, p_violin, width = 5, height = 4,
 ggsave(output_boxplot_jitter_pdf, p_box_jitter, width = 5, height = 4, 
        device = cairo_pdf, dpi = 300)
 
-# 保存为TIFF用于印刷
+# Save as TIFF for printing
 ggsave(output_boxplot_tiff, p_box, width = 5, height = 4, 
        device = "tiff", dpi = 600, compression = "lzw")
 ggsave(output_violin_tiff, p_violin, width = 5, height = 4, 
@@ -138,7 +138,7 @@ ggsave(output_violin_tiff, p_violin, width = 5, height = 4,
 ggsave(output_boxplot_jitter_tiff, p_box_jitter, width = 5, height = 4, 
        device = "tiff", dpi = 600, compression = "lzw")
 
-# 11. 输出统计摘要
+# 11. Output statistical summary
 summary_stats <- combined %>%
   group_by(group) %>%
   summarise(

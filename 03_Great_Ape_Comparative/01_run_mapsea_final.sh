@@ -1,10 +1,21 @@
 #!/bin/bash
 # MAP-SEA parallel execution script (output file names match example)
 
-cd /datapool/home/2023200496/niulk/my_project/18_mammalian/03_map_sea/scripts
+# Original server paths (this code was developed on an HPC cluster):
+#   /datapool/home/2023200496/niulk/my_project/18_mammalian/03_map_sea
+#   /datapool/home/2023200496/miniconda3/etc/profile.d/conda.sh (conda init; already portable as ~/miniconda3/...)
+
+# Root directory for input/output files.
+# On the original cluster: export IMOTIF_BASE=/datapool/home/2023200496/niulk/my_project
+# For local use: set IMOTIF_BASE to your own data directory.
+IMOTIF_ROOT="${IMOTIF_BASE:-.}"
+
+cd "${IMOTIF_ROOT}/18_mammalian/03_map_sea/scripts"
 
 # Path settings
-BASE_DIR="/datapool/home/2023200496/niulk/my_project/18_mammalian/03_map_sea"
+# In this script BASE_DIR means the MAP-SEA working directory (a subdirectory of
+# the project root); keep that original meaning intact for all downstream uses.
+BASE_DIR="${IMOTIF_ROOT}/18_mammalian/03_map_sea"
 BED_FOLDER="${BASE_DIR}/bedfiles"
 SPECIES_DICT="${BASE_DIR}/species_dict.json"
 OUTPUT_DIR="${BASE_DIR}/results"
@@ -82,7 +93,7 @@ for MAF_FILE in "$MAF_DIR"/chr*_human_vs_*.maf.gz; do
     fi
 done
 
-echo "任务数: $TASK_COUNT"
+echo "Task count: $TASK_COUNT"
 
 if [ $TASK_COUNT -eq 0 ]; then
     echo "Error: No tasks found"
@@ -107,10 +118,15 @@ cat > "$TASK_SCRIPT" << 'TASK_EOF'
 
 TASK_ID=${SLURM_ARRAY_TASK_ID}
 
-cd /datapool/home/2023200496/niulk/my_project/18_mammalian/03_map_sea
+# Root directory for input/output files.
+# On the original cluster: export IMOTIF_BASE=/datapool/home/2023200496/niulk/my_project
+# For local use: set IMOTIF_BASE to your own data directory.
+IMOTIF_ROOT="${IMOTIF_BASE:-.}"
+
+cd "${IMOTIF_ROOT}/18_mammalian/03_map_sea"
 
 # Paths
-BASE_DIR="/datapool/home/2023200496/niulk/my_project/18_mammalian/03_map_sea"
+BASE_DIR="${IMOTIF_ROOT}/18_mammalian/03_map_sea"
 BED_FOLDER="${BASE_DIR}/bedfiles"
 SPECIES_DICT="${BASE_DIR}/species_dict.json"
 OUTPUT_DIR="${BASE_DIR}/results"
@@ -297,19 +313,25 @@ if [ -n "$JOB_ID" ]; then
     echo "Output file format: chr{N}_{species1}_vs_chr{N}_{species2}.{dat|rmredundant.df}"
 fi
 
-# 创建检查脚本
+# Create check script
 cat > "${BASE_DIR}/scripts/check_final.sh" << 'CHECK_EOF'
 #!/bin/bash
-cd /datapool/home/2023200496/niulk/my_project/18_mammalian/03_map_sea
+
+# Root directory for input/output files.
+# On the original cluster: export IMOTIF_BASE=/datapool/home/2023200496/niulk/my_project
+# For local use: set IMOTIF_BASE to your own data directory.
+IMOTIF_ROOT="${IMOTIF_BASE:-.}"
+
+cd "${IMOTIF_ROOT}/18_mammalian/03_map_sea"
 COMPLETED=$(find results -name "*.rmredundant.df" 2>/dev/null | wc -l)
 TOTAL=$(cat results/tasks.txt 2>/dev/null | wc -l)
 if [ $TOTAL -ge 2 ]; then
     TOTAL=$((TOTAL - 2))
-    echo "完成: $COMPLETED/$TOTAL"
-    echo -e "\n最近完成的任务:"
+    echo "Done: $COMPLETED/$TOTAL"
+    echo -e "\nRecently completed tasks:"
     find results -name "*.rmredundant.df" -type f -exec ls -lt {} \; 2>/dev/null | head -5 | awk '{print $6" "$7" "$8" "$9}'
 else
-    echo "完成: $COMPLETED/0 (任务文件不存在)"
+    echo "Done: $COMPLETED/0 (task file does not exist)"
 fi
 CHECK_EOF
 

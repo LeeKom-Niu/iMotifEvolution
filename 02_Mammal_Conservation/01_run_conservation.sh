@@ -10,7 +10,7 @@
 
 echo "========================================="
 echo "Start time: $(date)"
-echo "工作目录: $(pwd)"
+echo "Working directory: $(pwd)"
 echo "========================================="
 
 # Activate environment

@@ -102,13 +102,13 @@ comparisons <- list(c("C1", "C2"), c("C1", "C3"), c("C2", "C3"))
 
 # 9. Plot boxplot with OUP theme
 p <- ggplot(avg_long, aes(x = group, y = Coverage, fill = group)) +
-  geom_boxplot(outlier.shape = NA, linewidth = 0.4) +  # 箱线边框粗细0.4pt
+  geom_boxplot(outlier.shape = NA, linewidth = 0.4) +  # box border width 0.4pt
   facet_wrap(~Category, scales = "free_y", ncol = 3) +
   scale_fill_manual(values = fill_colors) +
   labs(x = NULL, y = "Average coverage") +
   theme_oup()
 
-# 为每个facet手动添加显著性标记
+# Manually add significance markers for each facet
 for (cat in levels(avg_long$Category)) {
   y_pos_val <- y_max$y_pos[y_max$Category == cat]
   p <- p + geom_signif(
@@ -118,8 +118,8 @@ for (cat in levels(avg_long$Category)) {
     map_signif_level = TRUE,
     y_position = rep(y_pos_val, length(comparisons)),
     tip_length = 0.01,
-    textsize = 3.5,  # 约9.3pt，符合≥7pt要求
-    linewidth = 0.3,  # 显著性标记线粗细
+    textsize = 3.5,  # about 9.3pt, meets the >=7pt requirement
+    linewidth = 0.3,  # significance marker line width
     inherit.aes = FALSE
   )
 }

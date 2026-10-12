@@ -29,30 +29,30 @@ colors <- c("C1" = "#D62728",
 theme_oup <- function(base_size = 8, base_family = "Arial") {
   theme_bw(base_size = base_size, base_family = base_family) %+replace%
     theme(
-      # 轴线粗细
+      # Axis line widths
       axis.line = element_line(linewidth = 0.5, color = "black"),
       axis.ticks = element_line(linewidth = 0.5),
       axis.ticks.length = unit(0.1, "cm"),
-      # 刻度标签大小
+      # Tick label size
       axis.text = element_text(size = rel(1), color = "black"),
       axis.text.x = element_text(angle = 0, hjust = 0.5, size = rel(1)),
       axis.title = element_text(size = rel(1.2), face = "plain"),
-      # 图例
+      # Legend
       legend.position = "none",
-      # 网格线（使用细虚线）
+      # Grid lines (use thin dotted lines)
       panel.grid.major.x = element_blank(),
       panel.grid.major.y = element_line(linewidth = 0.3, linetype = "dotted", color = "#CCCCCC"),
       panel.grid.minor = element_blank(),
-      # 面板边框
+      # Panel border
       panel.border = element_rect(linewidth = 0.5, fill = NA),
-      # 图形边距
+      # Plot margin
       plot.margin = margin(25, 25, 25, 25),
-      # 确保所有文本元素使用相同字体
+      # Ensure all text elements use the same font
       text = element_text(family = base_family)
     )
 }
 
-# 1. 检查bigWig文件是否存在
+# 1. Check if the bigWig file exists
 if (!file.exists(bigwig_file)) {
   stop("Error: PhastCons bigWig file not found. Please download first: ",
        "wget http://hgdownload.cse.ucsc.edu/goldenpath/hg38/phastCons470way/hg38.phastCons470way.bw")
@@ -63,12 +63,12 @@ cat("Extracting PhastCons scores with bigWigAverageOverBed...\n")
 cmd <- paste("bigWigAverageOverBed", bigwig_file, imotif_bed_file, output_scores)
 system(cmd)
 
-# 3. 读取分数文件
+# 3. Read score file
 scores <- read.table(output_scores, header = FALSE,
                      col.names = c("name", "size", "covered", "sum", "mean0", "mean"),
                      stringsAsFactors = FALSE)
 
-# 4. 读取分组信息并合并
+# 4. Read group info and merge
 group_df <- read.table(group_file, header = TRUE, stringsAsFactors = FALSE)
 combined <- left_join(group_df, scores, by = c("iMotif" = "name"))
 if (any(is.na(combined$mean))) {
@@ -76,19 +76,19 @@ if (any(is.na(combined$mean))) {
   combined <- combined %>% filter(!is.na(mean))
 }
 
-# 5. 设置分组顺序
+# 5. Set group order
 combined$group <- factor(combined$group, levels = c("C1", "C2", "C3", "Other"))
 
-# 6. 计算y轴最大值用于显著性标记位置
+# 6. Calculate y-axis max for significance marker position
 y_max <- max(combined$mean, na.rm = TRUE)
 y_pos <- y_max * 1.1
 
-# 7. 定义比较组
+# 7. Define comparison groups
 comparisons <- list(c("C1", "C2"), c("C1", "C3"), c("C2", "C3"))
 
-# 8. 绘制箱线图 + 显著性标记
+# 8. Plot boxplot + significance markers
 p_box <- ggplot(combined, aes(x = group, y = mean, fill = group)) +
-  geom_boxplot(outlier.shape = NA, linewidth = 0.4) +   # 箱线边框粗细0.4pt
+  geom_boxplot(outlier.shape = NA, linewidth = 0.4) +   # box border width 0.4pt
   scale_fill_manual(values = colors) +
   labs(x = NULL, y = "PhastCons score") +
   theme_oup() +
@@ -96,10 +96,10 @@ p_box <- ggplot(combined, aes(x = group, y = mean, fill = group)) +
               map_signif_level = TRUE,
               y_position = rep(y_pos, length(comparisons)),
               tip_length = 0.01,
-              textsize = 3.5,  # 约9.3pt
+              textsize = 3.5,  # about 9.3pt
               linewidth = 0.3)
 
-# 9. 绘制小提琴图 + 箱线图 + 显著性标记
+# 9. Plot violin plot + boxplot + significance markers
 p_violin <- ggplot(combined, aes(x = group, y = mean, fill = group)) +
   geom_violin(alpha = 0.5, scale = "width", linewidth = 0.4) +
   geom_boxplot(width = 0.2, outlier.shape = NA, 
@@ -115,19 +115,19 @@ p_violin <- ggplot(combined, aes(x = group, y = mean, fill = group)) +
               textsize = 3.5,
               linewidth = 0.3)
 
-# 10. 保存为AI可编辑的PDF
+# 10. Save as AI-editable PDF
 ggsave(output_boxplot_pdf, p_box, width = 5, height = 4, 
        device = cairo_pdf, dpi = 300)
 ggsave(output_violin_pdf, p_violin, width = 5, height = 4, 
        device = cairo_pdf, dpi = 300)
 
-# 保存为TIFF用于印刷
+# Save as TIFF for printing
 ggsave(output_boxplot_tiff, p_box, width = 5, height = 4, 
        device = "tiff", dpi = 600, compression = "lzw")
 ggsave(output_violin_tiff, p_violin, width = 5, height = 4, 
        device = "tiff", dpi = 600, compression = "lzw")
 
-# 11. 输出统计摘要
+# 11. Output statistical summary
 stats <- combined %>%
   group_by(group) %>%
   summarise(

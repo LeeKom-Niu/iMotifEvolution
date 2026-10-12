@@ -11,8 +11,15 @@
 rm(list = ls())
 gc()
 
+# Original server paths (this code was developed on an HPC cluster):
+#   D:/R/data/kegg_human
+
 # Set working directory (modify according to actual path)
-setwd("D:/R/data/kegg_human")
+# Working directory for input/output files.
+# On the original machine: setwd("D:/R/data/kegg_human")
+# For local use: set IMOTIF_KEGG_DIR to your own working directory.
+KEGG_DIR <- Sys.getenv("IMOTIF_KEGG_DIR", unset = ".")
+setwd(KEGG_DIR)
 cat("Working directory set to:", getwd(), "\n")
 
 # Input file directory (gene list storage location)

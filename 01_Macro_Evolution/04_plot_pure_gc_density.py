@@ -9,6 +9,15 @@ import matplotlib.pyplot as plt
 import numpy as np
 from pathlib import Path
 import seaborn as sns
+import os
+
+# Original server paths (this code was developed on an HPC cluster):
+#   /datapool/home/2023200496/niulk/my_project/1555_simulation_study_extended_GC
+
+# Root directory for input/output files.
+# On the original cluster: export IMOTIF_BASE=/datapool/home/2023200496/niulk/my_project
+# For local use: set IMOTIF_BASE to your own data directory.
+BASE_DIR = os.environ.get("IMOTIF_BASE", ".")
 
 # Set Nature journal pure style
 def set_nature_pure_style():
@@ -41,7 +50,7 @@ def set_nature_pure_style():
 
 def load_data():
     """Load data"""
-    base_dir = "/datapool/home/2023200496/niulk/my_project/1555_simulation_study_extended_GC"
+    base_dir = os.path.join(BASE_DIR, "1555_simulation_study_extended_GC")
     combined_file = Path(base_dir) / "results" / "simulation_results_GC_combined.csv"
 
     if not combined_file.exists():
@@ -329,7 +338,7 @@ def main():
         include_corr = False
 
     # Save figures
-    base_dir = "/datapool/home/2023200496/niulk/my_project/1555_simulation_study_extended_GC"
+    base_dir = os.path.join(BASE_DIR, "1555_simulation_study_extended_GC")
     figures = {
         'gc_density_confidence_interval': fig_ci,
         'gc_density_fitted_curve': fig_fit,

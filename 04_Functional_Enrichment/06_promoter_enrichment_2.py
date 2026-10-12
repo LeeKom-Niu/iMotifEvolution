@@ -54,7 +54,13 @@ def set_oup_style():
 set_oup_style()
 
 # ===== Configuration parameters =====
-BASE_DIR = "/datapool/life-zhanghk/niulk/my_project/18_mammalian/03_upset"
+# Original server paths (this code was developed on an HPC cluster):
+#   /datapool/life-zhanghk/niulk/my_project/18_mammalian/03_upset
+
+# Root directory for input/output files (IMOTIF_BASE env var).
+# On the original cluster: export IMOTIF_BASE=/datapool/life-zhanghk/niulk/my_project
+# For local use: set IMOTIF_BASE to your own data directory.
+BASE_DIR = os.path.join(os.environ.get("IMOTIF_BASE", "."), "18_mammalian/03_upset")
 INPUT_DIR = os.path.join(BASE_DIR, "functionalOutputs/Homo_sapiens")
 OUTPUT_DIR = os.path.join(BASE_DIR, "enrichment_plots_oup")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -83,7 +89,7 @@ GENOME_LENGTH = 3117275501
 
 def calculate_promoter_length():
     """Calculate total promoter region length"""
-    promoter_file = "/datapool/life-zhanghk/niulk/my_project/18_mammalian/03_upset/GreatApeT2T-G4s-main/datasets/functionalOutputs/Homo_sapiens/promoter_regions.bed.gz"
+    promoter_file = os.path.join(BASE_DIR, "GreatApeT2T-G4s-main/datasets/functionalOutputs/Homo_sapiens/promoter_regions.bed.gz")
 
     if not os.path.exists(promoter_file):
         print(f"Warning: Promoter file does not exist {promoter_file}")

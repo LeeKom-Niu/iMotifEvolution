@@ -1,31 +1,42 @@
 #!/bin/bash
 # master_simulation_GC.sh - Master script for GC content background simulation
 
-BASE_DIR="/datapool/home/2023200496/niulk/my_project/1555_simulation_study_extended_GC"
+# Original server paths (this code was developed on an HPC cluster):
+#   /datapool/home/2023200496/niulk/my_project/1555_simulation_study_extended_GC
+#   /datapool/home/2023200496/miniconda3/etc/profile.d/conda.sh
+
+# Root directory for input/output files.
+# On the original cluster: export IMOTIF_BASE=/datapool/home/2023200496/niulk/my_project
+# For local use: set IMOTIF_BASE to your own data directory.
+BASE_DIR="${IMOTIF_BASE:-.}"
+
+# In this script BASE_DIR means the simulation study directory (a subdirectory of
+# the project root); keep that original meaning intact for all downstream uses.
+BASE_DIR="${BASE_DIR}/1555_simulation_study_extended_GC"
 
 echo "=== GC Content Background Simulation ==="
-echo "开始时间: $(date)"
-echo "工作目录: $BASE_DIR"
-echo "当前节点: $(hostname)"
+echo "Start time: $(date)"
+echo "Working directory: $BASE_DIR"
+echo "Current node: $(hostname)"
 
-# 直接设置参数
+# Set parameters directly
 GENOME_SIZE=10000000  # 10Mb
 REPLICATES=30
 GC_LEVELS=("0.10" "0.20" "0.30" "0.40" "0.50" "0.60" "0.70" "0.80" "0.90")
 
-echo "基因组大小: $GENOME_SIZE bp"
-echo "重复次数: $REPLICATES"
-echo "GC含量梯度数量: ${#GC_LEVELS[@]}"
-echo "GC含量梯度: ${GC_LEVELS[@]}"
+echo "Genome size: $GENOME_SIZE bp"
+echo "Number of replicates: $REPLICATES"
+echo "GC level count: ${#GC_LEVELS[@]}"
+echo "GC levels: ${GC_LEVELS[@]}"
 
-# 创建目录结构
+# Create directory structure
 mkdir -p $BASE_DIR/scripts
 mkdir -p $BASE_DIR/sequences
 mkdir -p $BASE_DIR/results
 mkdir -p $BASE_DIR/logs
 mkdir -p $BASE_DIR/figures
 
-# 为每个GC含量梯度提交作业
+# Submit a job for each GC level
 for i in "${!GC_LEVELS[@]}"; do
     gc_level="${GC_LEVELS[$i]}"
     gc_percent=$(python3 -c "print(int(float('$gc_level') * 100))")
@@ -42,15 +53,15 @@ for i in "${!GC_LEVELS[@]}"; do
 #SBATCH --output=$BASE_DIR/logs/GC${gc_percent}_%j.out
 #SBATCH --error=$BASE_DIR/logs/GC${gc_percent}_%j.err
 
-source /datapool/home/2023200496/miniconda3/etc/profile.d/conda.sh
+source $HOME/miniconda3/etc/profile.d/conda.sh
 conda activate im-seeker
 
 cd $BASE_DIR
 echo "=== Starting processing GC content ${gc_level} ==="
-echo "运行节点: \$(hostname)"
-echo "开始时间: \$(date)"
-echo "重复次数: $REPLICATES"
-echo "基因组大小: $GENOME_SIZE bp"
+echo "Run node: \$(hostname)"
+echo "Start time: \$(date)"
+echo "Number of replicates: $REPLICATES"
+echo "Genome size: $GENOME_SIZE bp"
 
 python3 $BASE_DIR/scripts/parallel_simulation_GC.py $gc_level $REPLICATES $GENOME_SIZE
 
@@ -60,5 +71,5 @@ EOF
 done
 
 echo "All gradient jobs submitted to SLURM queue!"
-echo "使用 'squeue -u \$USER' 查看作业状态"
-echo "结束时间: $(date)"
+echo "Use 'squeue -u \$USER' to check job status"
+echo "End time: $(date)"

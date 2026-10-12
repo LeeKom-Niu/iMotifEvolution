@@ -15,13 +15,22 @@ import random
 import json
 from datetime import datetime
 
+# Original server paths (this code was developed on an HPC cluster):
+#   /datapool/home/2023200496/niulk/my_project/1555_simulation_study_extended_GC
+#   /datapool/home/2023200496/niulk/my_project/genome/iM_Seeker_model
+
+# Root directory for input/output files.
+# On the original cluster: export IMOTIF_BASE=/datapool/home/2023200496/niulk/my_project
+# For local use: set IMOTIF_BASE to your own data directory.
+BASE_DIR = os.environ.get("IMOTIF_BASE", ".")
+
 # Hardcoded configuration parameters
 CONFIG = {
     'simulation': {
         'at_ratio': 1.0,  # A and T ratio (A:T = 1:1)
         'gc_equal': True,  # Whether G and C are equally distributed
         'im_seeker': {
-            'model_dir': "/datapool/home/2023200496/niulk/my_project/genome/iM_Seeker_model"
+            'model_dir': os.path.join(BASE_DIR, "genome", "iM_Seeker_model")
         }
     }
 }
@@ -323,7 +332,7 @@ def main():
     gc_level = float(sys.argv[1])
     replicates = int(sys.argv[2])
     genome_size = int(sys.argv[3])
-    base_dir = "/datapool/home/2023200496/niulk/my_project/1555_simulation_study_extended_GC"
+    base_dir = os.path.join(BASE_DIR, "1555_simulation_study_extended_GC")
 
     # Load config
     config = load_config()

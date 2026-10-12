@@ -2,7 +2,15 @@
 
 # Batch submit makeEdges tasks for all chromosomes
 
-PROJECT_DIR="/datapool/life-zhanghk/niulk/my_project/18_mammalian/03_upset"
+# Original server paths (this code was developed on an HPC cluster):
+#   /datapool/life-zhanghk/niulk/my_project/18_mammalian/03_upset
+
+# Root directory for input/output files.
+# On the original cluster: export IMOTIF_BASE=/datapool/life-zhanghk/niulk/my_project
+# For local use: set IMOTIF_BASE to your own data directory.
+BASE_DIR="${IMOTIF_BASE:-.}"
+
+PROJECT_DIR="${BASE_DIR}/18_mammalian/03_upset"
 SCRIPT_DIR="${PROJECT_DIR}/scripts/makeEdges"
 LOG_DIR="${PROJECT_DIR}/logs"
 
@@ -16,18 +24,18 @@ echo "=== Starting batch submission of makeEdges tasks ==="
 echo "Time: $(date)"
 echo ""
 
-# 提交所有染色体的任务
+# Submit jobs for all chromosomes
 job_ids=""
 
 for chrom in {1..22} X Y; do
-    # 检查是否有对应的输入文件
+    # Check whether the corresponding input files exist
     if [ -d "${PROJECT_DIR}/organized_files/organized_consistent/hsa${chrom}" ]; then
         file_count=$(ls "${PROJECT_DIR}/organized_files/organized_consistent/hsa${chrom}"/*.rmredundant.df 2>/dev/null | wc -l)
         
         if [ $file_count -gt 0 ]; then
             echo "Submitting chromosome hsa${chrom} (${file_count} files)..."
             
-            # 提交作业
+            # Submit job
             job_id=$(sbatch \
                 --job-name="makeEdges_hsa${chrom}" \
                 --nodes=1 \
@@ -60,24 +68,24 @@ echo "Time: $(date)"
 echo "Submitted job IDs: ${job_ids}"
 echo ""
 
-# 创建监控脚本
+# Create monitor script
 cat > ${PROJECT_DIR}/monitor_makeEdges.sh << MONITOR_EOF
 #!/bin/bash
-echo "=== makeEdges 作业监控 ==="
-echo "时间: \$(date)"
+echo "=== makeEdges job monitor ==="
+echo "Time: \$(date)"
 echo ""
-echo "正在运行的作业:"
+echo "Running jobs:"
 squeue -u \$USER -o "%.18i %.9P %.35j %.8u %.8T %.10M %.9l %.6D %R" | grep makeEdges
 echo ""
-echo "已完成作业统计:"
+echo "Completed job count:"
 if [ -f "${PROJECT_DIR}/makeEdges_stats.csv" ]; then
     tail -n +2 "${PROJECT_DIR}/makeEdges_stats.csv" | while IFS=',' read -r chrom total processed failed edges nodes timestamp; do
-        echo "hsa\${chrom}: 处理 \${processed}/\${total}, 边: \${edges}, 节点: \${nodes}"
+        echo "hsa\${chrom}: processed \${processed}/\${total}, edges: \${edges}, nodes: \${nodes}"
     done
 fi
 MONITOR_EOF
 
 chmod +x ${PROJECT_DIR}/monitor_makeEdges.sh
 
-echo "监控脚本已创建: ${PROJECT_DIR}/monitor_makeEdges.sh"
-echo "运行: ./monitor_makeEdges.sh 查看进度"
+echo "Monitor script created: ${PROJECT_DIR}/monitor_makeEdges.sh"
+echo "Run: ./monitor_makeEdges.sh to view progress"

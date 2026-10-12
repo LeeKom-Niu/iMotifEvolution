@@ -1,10 +1,22 @@
 #!/bin/bash
 # Process ape_vs_ape directory parallel script (output file names match example)
 
-cd /datapool/home/2023200496/niulk/my_project/18_mammalian/03_map_sea_ape/scripts
+# Original server paths (this code was developed on an HPC cluster):
+#   /datapool/home/2023200496/niulk/my_project/18_mammalian/03_map_sea_ape
+#   /datapool/home/2023200496/miniconda3/etc/profile.d/conda.sh (conda init; already portable as ~/miniconda3/...)
+
+# Root directory for input/output files.
+# On the original cluster: export IMOTIF_BASE=/datapool/home/2023200496/niulk/my_project
+# For local use: set IMOTIF_BASE to your own data directory.
+IMOTIF_ROOT="${IMOTIF_BASE:-.}"
+
+cd "${IMOTIF_ROOT}/18_mammalian/03_map_sea_ape/scripts"
 
 # Path settings
-BASE_DIR="/datapool/home/2023200496/niulk/my_project/18_mammalian/03_map_sea_ape"
+# In this script BASE_DIR means the ape_vs_ape MAP-SEA working directory (a
+# subdirectory of the project root); keep that original meaning intact for all
+# downstream uses.
+BASE_DIR="${IMOTIF_ROOT}/18_mammalian/03_map_sea_ape"
 BED_FOLDER="${BASE_DIR}/bedfiles"
 SPECIES_DICT="${BASE_DIR}/species_dict.json"
 OUTPUT_DIR="${BASE_DIR}/results_ape_vs_ape"
@@ -107,10 +119,15 @@ cat > "$TASK_SCRIPT" << 'TASK_EOF'
 
 TASK_ID=${SLURM_ARRAY_TASK_ID}
 
-cd /datapool/home/2023200496/niulk/my_project/18_mammalian/03_map_sea_ape
+# Root directory for input/output files.
+# On the original cluster: export IMOTIF_BASE=/datapool/home/2023200496/niulk/my_project
+# For local use: set IMOTIF_BASE to your own data directory.
+IMOTIF_ROOT="${IMOTIF_BASE:-.}"
+
+cd "${IMOTIF_ROOT}/18_mammalian/03_map_sea_ape"
 
 # Paths
-BASE_DIR="/datapool/home/2023200496/niulk/my_project/18_mammalian/03_map_sea_ape"
+BASE_DIR="${IMOTIF_ROOT}/18_mammalian/03_map_sea_ape"
 BED_FOLDER="${BASE_DIR}/bedfiles"
 SPECIES_DICT="${BASE_DIR}/species_dict.json"
 OUTPUT_DIR="${BASE_DIR}/results_ape_vs_ape"
@@ -302,7 +319,13 @@ fi
 # Create check script
 cat > "${BASE_DIR}/scripts/check_ape_final.sh" << 'CHECK_EOF'
 #!/bin/bash
-cd /datapool/home/2023200496/niulk/my_project/18_mammalian/03_map_sea_ape
+
+# Root directory for input/output files.
+# On the original cluster: export IMOTIF_BASE=/datapool/home/2023200496/niulk/my_project
+# For local use: set IMOTIF_BASE to your own data directory.
+IMOTIF_ROOT="${IMOTIF_BASE:-.}"
+
+cd "${IMOTIF_ROOT}/18_mammalian/03_map_sea_ape"
 COMPLETED=$(find results_ape_vs_ape -name "*.rmredundant.df" 2>/dev/null | wc -l)
 TOTAL=$(cat results_ape_vs_ape/tasks.txt 2>/dev/null | wc -l)
 if [ $TOTAL -ge 2 ]; then

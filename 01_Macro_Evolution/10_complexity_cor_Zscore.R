@@ -33,7 +33,7 @@ if (nrow(df_clean) == 0) stop("No rows left after cleaning! Check column names."
 
 df_clean$log_genome_size <- log10(df_clean$Genome_size_Mb)
 
-# ---- 统计分析 ----
+# ---- Statistical analysis ----
 cat("\n========== Z-score Analysis Results ==========\n")
 
 cor_simple <- cor.test(df_clean$robust_z_score, df_clean$complexity,
@@ -65,17 +65,17 @@ lm1 <- lm(robust_z_score ~ complexity, data = df_clean)
 lm2 <- lm(robust_z_score ~ complexity + log_genome_size + Gene_density_per_Mb, data = df_clean)
 lm3 <- lm(robust_z_score ~ complexity + log_genome_size + Gene_density_per_Mb + GC_content, data = df_clean)
 
-cat(sprintf("模型1 R² = %.4f, complexity P = %s\n",
+cat(sprintf("Model 1 R² = %.4f, complexity P = %s\n",
            summary(lm1)$r.squared,
            format.pval(coef(summary(lm1))[2,4], digits = 3, eps = 1e-300)))
-cat(sprintf("模型2 R² = %.4f, complexity P = %s\n",
+cat(sprintf("Model 2 R² = %.4f, complexity P = %s\n",
            summary(lm2)$r.squared,
            format.pval(coef(summary(lm2))[2,4], digits = 3, eps = 1e-300)))
-cat(sprintf("模型3 R² = %.4f, complexity P = %s\n",
+cat(sprintf("Model 3 R² = %.4f, complexity P = %s\n",
            summary(lm3)$r.squared,
            format.pval(coef(summary(lm3))[2,4], digits = 3, eps = 1e-300)))
 
-# ---- 可视化准备 ----
+# ---- Visualization preparation ----
 class_colors <- c(
   "Archaea" = "#E41A1C",
   "Bacteria" = "#377EB8",
@@ -93,7 +93,7 @@ df_clean$Classification_ordered <- factor(df_clean$Classification_9cat,
 df_clean$complexity_label <- factor(df_clean$complexity, levels = 1:8,
   labels = names(class_colors))
 
-# 计算残差
+# Compute residuals
 df_clean$residual_Z_partial <- resid(
   lm(robust_z_score ~ log_genome_size + Gene_density_per_Mb, data = df_clean))
 df_clean$residual_complexity_partial <- resid(
@@ -154,7 +154,7 @@ p1 <- ggplot(df_clean, aes(x = complexity, y = robust_z_score)) +
 save_plot(p1, "Figure_Raw_Correlation", width=8, height=7)
 cat("Figure 1 (no control) saved as PDF + PNG\n")
 
-# ---- 图2：双控制散点图 ----
+# ---- Figure 2: Dual control scatter plot ----
 subtitle_partial <- paste0(
   "Partial Spearman rho = ", round(cor_partial$estimate, 3),
   ", ", fmt_p(cor_partial$p.value),
@@ -175,7 +175,7 @@ p2 <- ggplot(df_clean, aes(x = residual_complexity_partial, y = residual_Z_parti
 save_plot(p2, "Figure_PartialCorrelation_Double", width=8, height=7)
 cat("Figure 2 (dual control) saved as PDF + PNG\n")
 
-# ---- 图3：三控制散点图 ----
+# ---- Figure 3: Triple control scatter plot ----
 subtitle_strict <- paste0(
   "Partial Spearman rho = ", round(cor_partial_strict$estimate, 3),
   ", ", fmt_p(cor_partial_strict$p.value),
@@ -196,7 +196,7 @@ p3 <- ggplot(df_clean, aes(x = residual_complexity_strict, y = residual_Z_strict
 save_plot(p3, "Figure_PartialCorrelation_Triple", width=8, height=7)
 cat("Figure 3 (triple control) saved as PDF + PNG\n")
 
-# ---- 图4：箱线图 ----
+# ---- Figure 4: Boxplot ----
 p4 <- ggplot(df_clean, aes(x = complexity_label, y = robust_z_score, fill = complexity_label)) +
   geom_boxplot(outlier.size = 0.8, outlier.alpha = 0.3, width = 0.6) +
   geom_jitter(width = 0.15, size = 0.3, alpha = 0.1, color = "grey30") +
@@ -212,7 +212,7 @@ p4 <- ggplot(df_clean, aes(x = complexity_label, y = robust_z_score, fill = comp
 save_plot(p4, "Figure_Zscore_by_Complexity", width=12, height=6)
 cat("Figure 4 (boxplot) saved as PDF + PNG\n")
 
-# ---- 图5：分面回归图 ----
+# ---- Figure 5: Faceted regression plot ----
 p5 <- ggplot(df_clean, aes(x = log_genome_size, y = robust_z_score)) +
   geom_point(aes(color = complexity_label), size = 1.5, alpha = 0.5) +
   geom_smooth(method = "lm", se = TRUE, color = "black", linewidth = 1) +

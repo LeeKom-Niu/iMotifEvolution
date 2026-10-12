@@ -13,7 +13,16 @@ from scipy.interpolate import interp1d
 from scipy.ndimage import gaussian_filter1d
 from pathlib import Path
 import warnings
+import os
 warnings.filterwarnings('ignore')
+
+# Original server paths (this code was developed on an HPC cluster):
+#   /datapool/home/2023200496/niulk/my_project/1555_simulation_study_extended_GC
+
+# Root directory for input/output files.
+# On the original cluster: export IMOTIF_BASE=/datapool/home/2023200496/niulk/my_project
+# For local use: set IMOTIF_BASE to your own data directory.
+BASE_DIR = os.environ.get("IMOTIF_BASE", ".")
 
 # Set font - use available fonts on Linux
 def set_font_settings():
@@ -850,7 +859,7 @@ def main():
     set_font_settings()
 
     # File paths
-    base_dir = "/datapool/home/2023200496/niulk/my_project/1555_simulation_study_extended_GC"
+    base_dir = os.path.join(BASE_DIR, "1555_simulation_study_extended_GC")
     simulation_file = Path(base_dir) / "results" / "simulation_results_GC_combined.csv"
     real_genome_file = Path(base_dir) / "all_species_with_GCcontent_and_density.txt"
 

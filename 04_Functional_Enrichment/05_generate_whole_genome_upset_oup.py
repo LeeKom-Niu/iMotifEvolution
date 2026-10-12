@@ -29,8 +29,14 @@ matplotlib.rcParams['ps.fonttype'] = 42  # Also set PostScript
 warnings.simplefilter("ignore", category=FutureWarning)
 warnings.simplefilter("ignore", category=UserWarning)
 
+# Original server paths (this code was developed on an HPC cluster):
+#   /datapool/life-zhanghk/niulk/my_project/18_mammalian/03_upset
+
 # Set project root directory
-BASE_DIR = "/datapool/life-zhanghk/niulk/my_project/18_mammalian/03_upset"
+# Root directory for input/output files (IMOTIF_BASE env var).
+# On the original cluster: export IMOTIF_BASE=/datapool/life-zhanghk/niulk/my_project
+# For local use: set IMOTIF_BASE to your own data directory.
+BASE_DIR = os.path.join(os.environ.get("IMOTIF_BASE", "."), "18_mammalian/03_upset")
 
 # Set matplotlib parameters
 plt.rcParams['font.family'] = 'DejaVu Sans'

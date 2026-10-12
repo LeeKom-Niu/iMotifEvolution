@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.R text eol=lf
+*.slurm text eol=lf
+*.tsv text eol=lf
+*.bed text eol=lf

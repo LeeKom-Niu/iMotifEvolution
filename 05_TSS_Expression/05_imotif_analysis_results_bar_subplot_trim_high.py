@@ -18,6 +18,11 @@ import matplotlib
 from scipy import stats
 from matplotlib import rcParams
 
+# Original server paths (this code was developed on an HPC cluster):
+#   /datapool/home/2023200496/envs/bedtools/bin/bedtools (bedtools from a conda env; not under the project root)
+# Input/output data directories in this script are already relative to the working
+# directory (BASE_DIR = os.getcwd()), so no project-root path is hardcoded here.
+
 # ==================== Configuration ====================
 BASE_DIR = os.getcwd()
 GENE_BED_DIR = os.path.join(BASE_DIR, "gene_bed_files")
@@ -25,7 +30,8 @@ IMOTIF_BED_DIR = os.path.join(BASE_DIR, "imotif_bed")
 TPM_DIR = os.path.join(BASE_DIR, "TPM_matrices")
 BASE_OUTPUT_DIR = os.path.join(BASE_DIR, "imotif_analysis_results_barplot_raw_trim_high")
 
-BEDTOOLS = "/datapool/home/2023200496/envs/bedtools/bin/bedtools"
+# Tool path: conda environments live under $HOME on the original cluster (now portable via ~)
+BEDTOOLS = os.path.expanduser("~/envs/bedtools/bin/bedtools")
 
 SPECIES = ["sumatran", "gorilla", "human", "chimp", "bonobo"]
 # Plotting order (can be modified as needed)

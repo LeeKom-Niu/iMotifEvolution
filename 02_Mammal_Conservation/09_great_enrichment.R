@@ -19,7 +19,7 @@ group_df <- read.table("imotif_group.tsv", header = TRUE, stringsAsFactors = FAL
 imotif_bed <- imotif_bed %>%
   left_join(group_df[, c("iMotif", "group")], by = c("name" = "iMotif"))
 
-# 检查是否有缺失group的情况
+# Check whether any group info is missing
 if (any(is.na(imotif_bed$group))) {
   warning("Some iMotifs lack group info; these will be excluded from group enrichment, but background includes all iMotifs.")
 }
@@ -72,7 +72,7 @@ write.table(tb_C1, "great_C1_results.tsv", sep = "\t", quote = FALSE, row.names 
 write.table(tb_C2, "great_C2_results.tsv", sep = "\t", quote = FALSE, row.names = FALSE)
 write.table(tb_C3, "great_C3_results.tsv", sep = "\t", quote = FALSE, row.names = FALSE)
 
-# 打印统计信息
+# Print statistics
 cat("GO terms enriched in C1 group:", nrow(tb_C1), "\n")
 cat("GO terms enriched in C2 group:", nrow(tb_C2), "\n")
 cat("GO terms enriched in C3 group:", nrow(tb_C3), "\n")
